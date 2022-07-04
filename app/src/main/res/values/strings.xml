@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">AndroidPractice</string>
+    <string name="app_name">Food Wikipedia</string>
+    <string name="version_code">1.0</string>
+    <string name="about">About</string>
+    <string name="launch_category">Discover</string>
+    <string name="pick_category">Pick Category</string>
+    <string name="settings">Settings</string>
+
+    <string name="about_app_name">Application name: %s</string>
+    <string name="about_version_code">Version code: %s</string>
+    <string name="github_link">Project link: <a href="https://github.com/ughsxl/FoodWikipedia">https://github.com/ughsxl/FoodWikipedia</a></string>
+    <string name="send_feedback">Send feedback</string>
+
 </resources>
