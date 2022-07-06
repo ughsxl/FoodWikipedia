@@ -1,14 +1,39 @@
 <resources>
+    <!-- App data strings -->
     <string name="app_name">Food Wikipedia</string>
     <string name="version_code">1.0</string>
-    <string name="about">About</string>
+    <string name="gmail">krupkoilla4@gmail.com</string>
+
+    <!-- Label strings -->
+    <string name="about_label">About</string>
+    <string name="settings_label">Settings</string>
+
+    <!-- Header screen's button's strings -->
     <string name="launch_category">Discover</string>
     <string name="pick_category">Pick Category</string>
-    <string name="settings">Settings</string>
 
+    <!-- About screen's strings -->
     <string name="about_app_name">Application name: %s</string>
     <string name="about_version_code">Version code: %s</string>
     <string name="github_link">Project link: <a href="https://github.com/ughsxl/FoodWikipedia">https://github.com/ughsxl/FoodWikipedia</a></string>
     <string name="send_feedback">Send feedback</string>
+
+    <!-- Settings screen's strings -->
+    <string name="music_label">Music</string>
+    <string name="theme_label">Theme</string>
+    <string name="language_label">Language</string>
+    <string name="thanks_to_label">Thanks to</string>
+
+
+
+
+
+
+
+
+
+
+    <!-- Core strings -->
+    <string name="confirm_button_label">Confirm</string>
 
 </resources>

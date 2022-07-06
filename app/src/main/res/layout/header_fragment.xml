@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    android:id="@+id/destination_header"
+    android:id="@+id/header"
     tools:context=".Header"
     tools:ignore="contentDescription">
 
@@ -15,7 +15,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:textColor="@color/black"
         android:textSize="54sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,15 +28,15 @@
         android:id="@+id/settingsImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="33dp"
         android:background="@color/background_color"
-        android:contentDescription="@string/settings"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
-        android:src="@drawable/ic_baseline_settings_24"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:contentDescription="@string/settings_label"
+        android:src="@drawable/ic_baseline_settings_light_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/aboutButton" />
 
     <Button
         android:id="@+id/launchCategoryButton"
@@ -62,8 +61,8 @@
         android:id="@+id/aboutButton"
         android:layout_width="125dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="@string/about"
+        android:layout_marginBottom="33dp"
+        android:text="@string/about_label"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -72,12 +71,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="250dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="68dp"
         android:src="@drawable/basket"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pickCategoryButton" />
 

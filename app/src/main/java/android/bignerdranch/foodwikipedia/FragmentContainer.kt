@@ -1,29 +1,32 @@
-package android.bignerdranch.androidpractice
+package android.bignerdranch.foodwikipedia
 
-import android.bignerdranch.androidpractice.databinding.FragmentContainerBinding
-import android.bignerdranch.androidpractice.extensions.Contract
-import android.bignerdranch.androidpractice.extensions.showToast
+import android.bignerdranch.foodwikipedia.databinding.FragmentContainerBinding
+import android.bignerdranch.foodwikipedia.extensions.Contract
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.view.KeyEvent
 import android.view.MenuItem
-import androidx.annotation.StringRes
+import android.view.View
+import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import java.security.Key
 
 class FragmentContainer: AppCompatActivity(), Contract {
     private lateinit var binding: FragmentContainerBinding
-
     private lateinit var mediaPlayer: MediaPlayer
+
+    private val mFLAG_TRANSLUCENT_NAVIGATION = WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = FragmentContainerBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setupUI()
 
         mediaPlayer = MediaPlayer.create(this, R.raw.background_music)
 
@@ -43,6 +46,20 @@ class FragmentContainer: AppCompatActivity(), Contract {
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragmentContainer, Header.newInstance())
             .commit()
+    }
+
+
+    private fun setupUI() {
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        window.setFlags(mFLAG_TRANSLUCENT_NAVIGATION, mFLAG_TRANSLUCENT_NAVIGATION)
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        onBackPressed(); return true
     }
 
 

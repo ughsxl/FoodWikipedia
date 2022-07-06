@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "android.bignerdranch.androidpractice",
+  "applicationId": "android.bignerdranch.foodwikipedia",
   "variantName": "release",
   "elements": [
     {

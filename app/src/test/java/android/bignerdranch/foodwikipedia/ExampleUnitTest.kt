@@ -1,4 +1,4 @@
-package android.bignerdranch.androidpractice
+package android.bignerdranch.foodwikipedia
 
 import org.junit.Test
 

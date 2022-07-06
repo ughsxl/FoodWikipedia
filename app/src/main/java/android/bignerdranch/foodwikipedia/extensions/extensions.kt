@@ -1,8 +1,6 @@
-package android.bignerdranch.androidpractice.extensions
+package android.bignerdranch.foodwikipedia.extensions
 
-import android.app.Activity
 import android.content.Context
-import android.os.Message
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.res.ResourcesCompat

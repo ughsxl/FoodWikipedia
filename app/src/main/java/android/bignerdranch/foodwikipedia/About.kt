@@ -1,19 +1,12 @@
-package android.bignerdranch.androidpractice
+package android.bignerdranch.foodwikipedia
 
-import android.bignerdranch.androidpractice.databinding.AboutFragmentBinding
-import android.bignerdranch.androidpractice.extensions.setToolbarTitle
+import android.bignerdranch.foodwikipedia.databinding.AboutFragmentBinding
+import android.bignerdranch.foodwikipedia.extensions.setToolbarTitle
 import android.content.Intent
-import android.media.MediaPlayer
-import android.net.Uri
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import androidx.annotation.StringRes
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.whenCreated
-import androidx.lifecycle.whenResumed
 
 class About: Fragment(R.layout.about_fragment) {
     private lateinit var binding: AboutFragmentBinding
@@ -22,7 +15,9 @@ class About: Fragment(R.layout.about_fragment) {
         binding = AboutFragmentBinding.bind(view)
 
         setupAboutStrings()
-        setToolbarTitle(activity!!, getString(R.string.about))
+
+        setToolbarTitle(activity!!, getString(R.string.about_label))
+        (activity as? AppCompatActivity)?.supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_light_24)
 
         binding.sendFeedbackButton.setOnClickListener { sendFeedback() }
     }
@@ -34,9 +29,9 @@ class About: Fragment(R.layout.about_fragment) {
     }
 
     private fun sendFeedback() {
-        val sendIntent = Intent(Intent.ACTION_SEND).also {
+        Intent(Intent.ACTION_SEND).also {
             it.type = "text/plain"
-            it.putExtra(Intent.EXTRA_EMAIL, arrayOf("krupkoilla4@gmail.com"))
+            it.putExtra(Intent.EXTRA_EMAIL, arrayOf(getString(R.string.gmail)))
             it.putExtra(Intent.EXTRA_SUBJECT, "Feedback")
             startActivity(it)
         }

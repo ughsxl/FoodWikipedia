@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "android.bignerdranch.androidpractice"
+        applicationId "android.bignerdranch.foodwikipedia"
         minSdk 21
         targetSdk 32
         versionCode 1
