@@ -9,17 +9,21 @@
     android:orientation="vertical"
     tools:context=".Settings">
 
+    <include layout="@layout/actionbar_light_theme"
+        android:id="@+id/includedActionBar"/>
+
     <TextView
         android:id="@+id/musicState"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
         android:text="@string/music_label"
         android:textSize="36sp"
-        android:layout_marginBottom="12dp"
         app:layout_constraintBottom_toTopOf="@+id/themeState"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.085"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
 
 
     <androidx.appcompat.widget.SwitchCompat
@@ -27,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        android:layout_marginTop="162dp"
+        android:layout_marginTop="140dp"
         android:thumb="@drawable/thumb"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.8"
@@ -45,7 +49,47 @@
         app:layout_constraintBottom_toTopOf="@+id/languageState"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <RadioGroup
+        android:id="@+id/themeRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@id/musicOnOfSwitch"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="90dp"
+        app:layout_constraintStart_toEndOf="@+id/themeState"
+        app:layout_constraintTop_toBottomOf="@+id/musicOnOfSwitch">
+
+        <RadioButton
+            android:id="@+id/lightThemeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/custom_radio_group"
+            android:button="@drawable/null_radio_button"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:paddingHorizontal="16dp"
+            android:text="@string/light_theme_radio_button"
+            android:textColor="@drawable/radio_text"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/darkThemeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_radio_group"
+            android:button="@drawable/null_radio_button"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:paddingHorizontal="16dp"
+            android:text="@string/dark_theme_radio_button"
+            android:textColor="@drawable/radio_text"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
 
     <TextView
         android:id="@+id/languageState"
@@ -57,7 +101,19 @@
         app:layout_constraintBottom_toTopOf="@+id/confirmSettingsButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.11"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="@+id/themeRadioGroup"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toEndOf="@+id/languageState"
+        app:layout_constraintTop_toTopOf="@id/themeRadioGroup" />
 
     <Button
         android:id="@+id/confirmSettingsButton"
@@ -69,18 +125,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
-    <TextView
-        android:id="@+id/thanksToView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"
-        android:text="@string/thanks_to_label"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

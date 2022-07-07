@@ -1,6 +1,8 @@
 package android.bignerdranch.foodwikipedia.extensions
 
+import android.bignerdranch.foodwikipedia.databinding.ActionbarLightThemeBinding
 import android.content.Context
+import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.res.ResourcesCompat
@@ -15,8 +17,6 @@ interface Contract {
     fun launchFragment(manager: FragmentManager, fragment: Fragment)
 }
 
-
-
 fun loadFont(context: Context, font: Int, textView: TextView) {
     val typeface = ResourcesCompat.getFont(context, font)
     textView.typeface = typeface
@@ -26,6 +26,7 @@ fun showToast(context: Context, message: String) {
     Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
 }
 
-fun setToolbarTitle(activity: FragmentActivity, label: String) {
-    activity.title = label
+fun Fragment.setActionBarTitle(label: String, view: View) {
+    val binding = ActionbarLightThemeBinding.bind(view)
+    binding.screenLabel.text = label
 }

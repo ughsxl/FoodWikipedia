@@ -1,11 +1,11 @@
 package android.bignerdranch.foodwikipedia
 
 import android.bignerdranch.foodwikipedia.databinding.AboutFragmentBinding
-import android.bignerdranch.foodwikipedia.extensions.setToolbarTitle
+import android.bignerdranch.foodwikipedia.databinding.ActionbarLightThemeBinding
+import android.bignerdranch.foodwikipedia.extensions.setActionBarTitle
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 
 class About: Fragment(R.layout.about_fragment) {
@@ -16,16 +16,18 @@ class About: Fragment(R.layout.about_fragment) {
 
         setupAboutStrings()
 
-        setToolbarTitle(activity!!, getString(R.string.about_label))
-        (activity as? AppCompatActivity)?.supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_light_24)
-
         binding.sendFeedbackButton.setOnClickListener { sendFeedback() }
+
+        binding.includedActionBar.arrowBack.setOnClickListener { activity?.onBackPressed() }
+
     }
 
 
     private fun setupAboutStrings() {
-       binding.applicationName.text = getString(R.string.about_app_name, getString(R.string.app_name))
-       binding.versionCode.text = getString(R.string.about_version_code, getString(R.string.version_code))
+        binding.includedActionBar.screenLabel.text = getString(R.string.about_label)
+
+        binding.applicationName.text = getString(R.string.about_app_name, getString(R.string.app_name))
+        binding.versionCode.text = getString(R.string.about_version_code, getString(R.string.version_code))
     }
 
     private fun sendFeedback() {

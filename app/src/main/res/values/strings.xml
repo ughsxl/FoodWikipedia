@@ -2,6 +2,7 @@
     <!-- App data strings -->
     <string name="app_name">Food Wikipedia</string>
     <string name="version_code">1.0</string>
+
     <string name="gmail">krupkoilla4@gmail.com</string>
 
     <!-- Label strings -->
@@ -17,12 +18,20 @@
     <string name="about_version_code">Version code: %s</string>
     <string name="github_link">Project link: <a href="https://github.com/ughsxl/FoodWikipedia">https://github.com/ughsxl/FoodWikipedia</a></string>
     <string name="send_feedback">Send feedback</string>
+    <string name="thanks_to_label">Thanks to</string>
 
     <!-- Settings screen's strings -->
     <string name="music_label">Music</string>
+
     <string name="theme_label">Theme</string>
+    <string name="light_theme_radio_button">Light</string>
+    <string name="dark_theme_radio_button">Dark</string>
+
     <string name="language_label">Language</string>
-    <string name="thanks_to_label">Thanks to</string>
+    <string name="english_language">English</string>
+    <string name="russian_language">Russian</string>
+    <string name="ukrainian_language">Ukrainian</string>
+
 
 
 

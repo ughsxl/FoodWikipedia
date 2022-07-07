@@ -1,9 +1,10 @@
 package android.bignerdranch.foodwikipedia
 
+import android.bignerdranch.foodwikipedia.databinding.ActionbarLightThemeBinding
 import android.bignerdranch.foodwikipedia.databinding.HeaderFragmentBinding
 import android.bignerdranch.foodwikipedia.extensions.loadFont
 import android.bignerdranch.foodwikipedia.extensions.navigator
-import android.bignerdranch.foodwikipedia.extensions.setToolbarTitle
+import android.bignerdranch.foodwikipedia.extensions.setActionBarTitle
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -19,38 +20,26 @@ class Header: Fragment(R.layout.header_fragment) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         binding = HeaderFragmentBinding.bind(view)
 
-        setupUI()
-    }
-
-
-
-    private val universalOnClickListener = View.OnClickListener { button ->
-        when(button.id) {
-            R.id.aboutButton -> navigator().launchFragment(
-                parentFragmentManager, About.newInstance()
-            )
-            R.id.settingsImageButton -> navigator().launchFragment(
-                parentFragmentManager, Settings.newInstance()
-            )
-        }
-    }
-
-    private fun setupUI() {
         loadFont(requireContext(), R.font.plavea_font, binding.mainLabel)
 
-        setToolbarTitle(activity!!, getString(R.string.app_name))
-        (activity as? AppCompatActivity)?.supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_exit_to_app_light_24)
+        binding.includedActionBar.screenLabel.text = getString(R.string.app_name)
 
-        binding.root.forEach {
-            if (it is Button || it is ImageButton)
-                it.setOnClickListener(universalOnClickListener)
+        binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_exit_to_app_light_24)
+        binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_settings_light_24)
+
+        binding.includedActionBar.arrowBack.setOnClickListener { activity?.onBackPressed() }
+
+        binding.aboutButton.setOnClickListener {
+            navigator().launchFragment(parentFragmentManager, About.newInstance())
+        }
+
+        binding.includedActionBar.toSettingsImageButton.setOnClickListener {
+            navigator().launchFragment(parentFragmentManager, Settings.newInstance())
         }
     }
-
-
-
 
     companion object {
         fun newInstance() = Header()
