@@ -39,7 +39,6 @@ class Settings: Fragment(R.layout.settings_fragment) {
     }
 
 
-
     companion object {
         fun newInstance() = Settings()
     }

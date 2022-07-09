@@ -3,6 +3,7 @@ package android.bignerdranch.foodwikipedia.extensions
 import android.bignerdranch.foodwikipedia.databinding.ActionbarLightThemeBinding
 import android.content.Context
 import android.view.View
+import android.view.animation.Animation
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.res.ResourcesCompat
@@ -29,4 +30,18 @@ fun showToast(context: Context, message: String) {
 fun Fragment.setActionBarTitle(label: String, view: View) {
     val binding = ActionbarLightThemeBinding.bind(view)
     binding.screenLabel.text = label
+}
+
+fun View.startAnimation(animation: Animation, onEnd: () -> Unit) {
+    animation.setAnimationListener(object : Animation.AnimationListener {
+        override fun onAnimationStart(animation: Animation?) = Unit
+
+        override fun onAnimationEnd(animation: Animation?) {
+            onEnd()
+        }
+
+        override fun onAnimationRepeat(animation: Animation?) = Unit
+
+    })
+    this.startAnimation(animation)
 }

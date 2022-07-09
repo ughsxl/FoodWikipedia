@@ -13,8 +13,10 @@ import android.view.MenuItem
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.commit
 
 class FragmentContainer: AppCompatActivity(), Contract {
     private lateinit var binding: FragmentContainerBinding
@@ -25,6 +27,7 @@ class FragmentContainer: AppCompatActivity(), Contract {
 
         binding = FragmentContainerBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
 
         mediaPlayer = MediaPlayer.create(this, R.raw.background_music)
 
@@ -36,12 +39,19 @@ class FragmentContainer: AppCompatActivity(), Contract {
     override fun launchFragment(manager: FragmentManager, fragment: Fragment) {
         manager.beginTransaction()
             .addToBackStack(null)
+            .setCustomAnimations(
+                android.R.anim.fade_in,
+                android.R.anim.fade_out,
+                android.R.anim.slide_in_left,
+                android.R.anim.slide_out_right
+            )
             .replace(R.id.fragmentContainer, fragment)
             .commit()
     }
 
     private fun launchHeader() {
         supportFragmentManager.beginTransaction()
+            .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
             .replace(R.id.fragmentContainer, Header.newInstance())
             .commit()
     }

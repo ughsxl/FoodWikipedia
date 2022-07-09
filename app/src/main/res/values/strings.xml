@@ -32,17 +32,22 @@
     <string name="russian_language">Russian</string>
     <string name="ukrainian_language">Ukrainian</string>
 
-
-
-
-
-
-
-
-
-
-
     <!-- Core strings -->
     <string name="confirm_button_label">Confirm</string>
+
+
+    <!-- Food categories list -->
+    <string-array name="categories_list">
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Meat</item>
+        <item>Dairy</item>
+        <item>Grains</item>
+        <item>Legumes</item>
+        <item>Baked Goods</item>
+        <item>Seafood</item>
+        <item>Nuts and seeds</item>
+        <item>Herbs and Spices</item>
+    </string-array>
 
 </resources>
