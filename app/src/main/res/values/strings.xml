@@ -8,10 +8,11 @@
     <!-- Label strings -->
     <string name="about_label">About</string>
     <string name="settings_label">Settings</string>
+    <string name="category_label">Category</string>
 
     <!-- Header screen's button's strings -->
     <string name="launch_category">Discover</string>
-    <string name="pick_category">Pick Category</string>
+    <string name="pick_category">Pick category</string>
 
     <!-- About screen's strings -->
     <string name="about_app_name">Application name: %s</string>
@@ -31,9 +32,14 @@
     <string name="english_language">English</string>
     <string name="russian_language">Russian</string>
     <string name="ukrainian_language">Ukrainian</string>
+    
+    <!-- Category screen strings -->
+    <string name="main_representatives_label">Main Representatives</string>
+    <string name="pick_any_fruit_label">Pick any fruit</string>
 
     <!-- Core strings -->
     <string name="confirm_button_label">Confirm</string>
+    <string name="pick_label">Pick</string>
 
 
     <!-- Food categories list -->
@@ -46,7 +52,7 @@
         <item>Legumes</item>
         <item>Baked Goods</item>
         <item>Seafood</item>
-        <item>Nuts and seeds</item>
+        <item>Nuts</item>
         <item>Herbs and Spices</item>
     </string-array>
 

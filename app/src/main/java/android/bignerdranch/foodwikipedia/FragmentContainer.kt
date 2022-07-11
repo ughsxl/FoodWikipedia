@@ -1,22 +1,13 @@
 package android.bignerdranch.foodwikipedia
 
-import android.bignerdranch.foodwikipedia.databinding.ActionbarLightThemeBinding
 import android.bignerdranch.foodwikipedia.databinding.FragmentContainerBinding
 import android.bignerdranch.foodwikipedia.extensions.Contract
-import android.bignerdranch.foodwikipedia.extensions.navigator
-import android.bignerdranch.foodwikipedia.extensions.setActionBarTitle
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.view.MenuItem
-import android.view.View
-import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.commit
 
 class FragmentContainer: AppCompatActivity(), Contract {
     private lateinit var binding: FragmentContainerBinding
@@ -41,9 +32,7 @@ class FragmentContainer: AppCompatActivity(), Contract {
             .addToBackStack(null)
             .setCustomAnimations(
                 android.R.anim.fade_in,
-                android.R.anim.fade_out,
-                android.R.anim.slide_in_left,
-                android.R.anim.slide_out_right
+                android.R.anim.fade_out
             )
             .replace(R.id.fragmentContainer, fragment)
             .commit()
