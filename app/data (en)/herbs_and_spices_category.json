@@ -1,0 +1,114 @@
+{
+  "Herbs & Spices": {
+    "description": "Herbs and spices are food or drinking additives of mostly biological origin: herbs, fruits, and so on. It is used in nutritionally insignificant amounts, most often in powder form, for flavoring or coloring.",
+    "main representatives": "Basil, Caraway, Cardamom, Cilantro, Cloves.",
+
+
+    "representatives": [
+
+      {
+        "name": "Basil"
+      },
+
+      {
+        "name": "Bay Leaf"
+      },
+
+      {
+        "name": "Caraway"
+      },
+
+      {
+        "name": "Cardamom"
+      },
+
+      {
+        "name": "Chili Pepper"
+      },
+
+      {
+        "name": "Chives"
+      },
+
+      {
+        "name": "Cilantro"
+      },
+
+      {
+        "name": "Cinnamon"
+      },
+
+      {
+        "name": "Dill"
+      },
+
+      {
+        "name": "Garam Masala"
+      },
+
+      {
+        "name": "Garlic"
+      },
+
+      {
+        "name": "Ginger"
+      },
+
+      {
+        "name": "Mustard"
+      },
+
+      {
+        "name": "Paprika"
+      },
+
+      {
+        "name": "Parsley"
+      },
+
+      {
+        "name": "Pepper"
+      },
+
+      {
+        "name": "Poppy"
+      },
+
+      {
+        "name": "Rosemary"
+      },
+
+      {
+        "name": "Saffron"
+      },
+
+      {
+        "name": "Sage"
+      },
+
+      {
+        "name": "Sesame"
+      },
+
+      {
+        "name": "Tarragon"
+      },
+
+      {
+        "name": "Thyme"
+      },
+
+      {
+        "name": "Turmeric"
+      },
+
+      {
+        "name": "Vanilla"
+      },
+
+      {
+        "name": "Wasabi"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "meat & freshwater fish": {
+    "description": "Meat is animal flesh that is eaten as food. Humans have hunted, farmed, and scavenged animals & fish for meat since prehistoric times. Meat is mainly composed of water, protein, and fat. It is edible raw, but is normally eaten after it has been cooked and seasoned or processed in a variety of ways.",
+    "main representatives": "Chicken, Carp, Turkey, Goose, Perch, Pork.",
+
+    "representatives": [
+
+      {
+        "name": "Chicken"
+      },
+
+      {
+        "name": "Turkey"
+      },
+
+      {
+        "name": "Duck"
+      },
+
+      {
+        "name": "Goose"
+      },
+
+      {
+        "name": "Beef"
+      },
+
+      {
+        "name": "Pork"
+      },
+
+      {
+        "name": "Lamb"
+      },
+
+      {
+        "name": "Mutton"
+      },
+
+      {
+        "name": "Goat"
+      },
+
+      {
+        "name": "Venison"
+      },
+
+      {
+        "name": "Rabbit"
+      },
+
+      {
+        "name": "Bream"
+      },
+
+      {
+        "name": "Carp"
+      },
+
+      {
+        "name": "Catfish"
+      },
+
+      {
+        "name": "Pike"
+      },
+
+      {
+        "name": "Redfish"
+      },
+
+      {
+        "name": "Roach"
+      },
+
+      {
+        "name": "Silver carp"
+      },
+
+      {
+        "name": "Trout"
+      }
+    ]
+  }
+}

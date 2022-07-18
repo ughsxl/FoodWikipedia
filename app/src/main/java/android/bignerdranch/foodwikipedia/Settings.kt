@@ -1,7 +1,6 @@
 package android.bignerdranch.foodwikipedia
 
 import android.bignerdranch.foodwikipedia.databinding.SettingsFragmentBinding
-import android.bignerdranch.foodwikipedia.extensions.setActionBarTitle
 import android.bignerdranch.foodwikipedia.languages_spinner_components.LanguageAdapter
 import android.bignerdranch.foodwikipedia.languages_spinner_components.LanguageItem
 import android.os.Bundle

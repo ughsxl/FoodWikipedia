@@ -60,7 +60,7 @@
         android:id="@+id/imageView"
         android:layout_width="350dp"
         android:layout_height="300dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="62dp"
         android:src="@drawable/basket"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

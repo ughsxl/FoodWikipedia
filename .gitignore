@@ -13,3 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
+apk_key.jks

@@ -9,6 +9,8 @@
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/ic_baseline_arrow_back_light_24.xml" value="0.1" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/ic_baseline_exit_to_app_dark_24.xml" value="0.156" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/ic_baseline_exit_to_app_light_24.xml" value="0.1" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/ic_baseline_home_dark_24.xml" value="0.1425" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/ic_baseline_home_light24.xml" value="0.1425" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/ic_baseline_settings_dark_24.xml" value="0.1" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/ic_baseline_settings_light_24.xml" value="0.1" />
@@ -26,6 +28,7 @@
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/actionbar_light_theme.xml" value="0.21807967313585291" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/category_fragment.xml" value="0.22239583333333332" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/category_item_fragment.xml" value="0.264" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/custom_languages_spinner.xml" value="0.22135416666666666" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/fragment_blank.xml" value="0.22239583333333332" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/fragment_container.xml" value="0.22239583333333332" />

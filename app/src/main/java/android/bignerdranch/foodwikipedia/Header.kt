@@ -4,8 +4,8 @@ import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.category_data.CategoryIcons
 import android.bignerdranch.foodwikipedia.category_data.CategoryJsonStrings
 import android.bignerdranch.foodwikipedia.databinding.HeaderFragmentBinding
+import android.bignerdranch.foodwikipedia.extensions.launchFragment
 import android.bignerdranch.foodwikipedia.extensions.loadFont
-import android.bignerdranch.foodwikipedia.extensions.navigator
 import android.bignerdranch.foodwikipedia.extensions.showToast
 import android.os.Bundle
 import android.view.View
@@ -23,10 +23,11 @@ class Header: Fragment(R.layout.header_fragment) {
         selectedCategory = savedInstanceState?.getString("selected_category") ?: ""
     }
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         binding = HeaderFragmentBinding.bind(view)
+
         setupUI()
     }
 
@@ -42,37 +43,78 @@ class Header: Fragment(R.layout.header_fragment) {
         binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_exit_to_app_light_24)
         binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_settings_light_24)
 
-        binding.includedActionBar.arrowBack.setOnClickListener { activity?.onBackPressed() }
+        binding.includedActionBar.arrowBack.setOnClickListener { activity?.finish() }
 
-        binding.pickCategoryButton.setOnClickListener { createPickCategoryDialog() }
+        binding.pickCategoryButton.setOnClickListener { showPickCategoryDialog() }
         binding.launchCategoryButton.setOnClickListener { launchCategoryOnClickListener() }
 
         binding.aboutButton.setOnClickListener {
-            navigator().launchFragment(parentFragmentManager, About.newInstance())
+            launchFragment(parentFragmentManager, About.newInstance())
         }
 
         binding.includedActionBar.toSettingsImageButton.setOnClickListener {
-            navigator().launchFragment(parentFragmentManager, Settings.newInstance())
+            launchFragment(parentFragmentManager, Settings.newInstance())
         }
     }
+
 
     private fun launchCategoryOnClickListener() {
         if (binding.launchCategoryButton.text != getString(R.string.launch_category))
             when (selectedCategory) {
                 "Fruits" -> {
-                    navigator().launchFragment(parentFragmentManager,
-                    Category.newInstance(selectedCategory, CategoryIcons.fruitIcon, CategoryJsonStrings.fruitsJsonString))
+                    launchFragment(parentFragmentManager,
+                        Category.newInstance(selectedCategory, CategoryIcons.fruitIcon, CategoryJsonStrings.fruitsJsonString, "fruit"))
+                }
+                "Vegetables" -> {
+                    launchFragment(parentFragmentManager,
+                        Category.newInstance(selectedCategory, CategoryIcons.vegetableIcon, CategoryJsonStrings.vegetablesJsonString, "vegetable"))
+                }
+                "Meat & Freshwater Fish" -> {
+                    launchFragment(parentFragmentManager,
+                        Category.newInstance(selectedCategory, CategoryIcons.meatAndFishIcon, CategoryJsonStrings.meatAndFreshwaterFishJsonString, "meat or fish"))
+                }
+
+                "Dairy" -> {
+                    launchFragment(parentFragmentManager,
+                        Category.newInstance(selectedCategory, CategoryIcons.dairyIcon, CategoryJsonStrings.dairyJsonString, "dairy"))
+                }
+
+                "Grains" -> {
+                    launchFragment(parentFragmentManager,
+                        Category.newInstance(selectedCategory, CategoryIcons.grainsIcon, CategoryJsonStrings.grainsJsonString, "grain"))
+                }
+
+                "Legumes" -> {
+                    launchFragment(parentFragmentManager,
+                        Category.newInstance(selectedCategory, CategoryIcons.legumesIcon, CategoryJsonStrings.legumesJsonString, "legume"))
+                }
+
+                "Seafood" -> {
+                    launchFragment(parentFragmentManager,
+                        Category.newInstance(selectedCategory, CategoryIcons.seafoodIcon, CategoryJsonStrings.seafoodJsonString, "seafood"))
+                }
+
+                "Nuts" -> {
+                    launchFragment(parentFragmentManager,
+                        Category.newInstance(selectedCategory, CategoryIcons.nutsIcon, CategoryJsonStrings.nutsJsonString, "nuts"))
+                }
+
+                "Herbs & Spices" -> {
+                    launchFragment(parentFragmentManager,
+                        Category.newInstance(selectedCategory, CategoryIcons.herbsAndSpicesIcon, CategoryJsonStrings.herbsAndSpicesJsonString, "herb or spice"))
                 }
             }
         else showToast(requireContext(), "First pick a category")
     }
+
+
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putString("selected_category", selectedCategory)
     }
 
-    private fun createPickCategoryDialog() {
+    private fun showPickCategoryDialog() {
         val categories = activity?.resources?.getStringArray(R.array.categories_list)
 
         AlertDialog.Builder(requireContext())

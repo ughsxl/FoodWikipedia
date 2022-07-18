@@ -5,14 +5,17 @@
 
     <string name="gmail">krupkoilla4@gmail.com</string>
 
+
     <!-- Label strings -->
     <string name="about_label">About</string>
     <string name="settings_label">Settings</string>
     <string name="category_label">Category</string>
 
+
     <!-- Header screen's button's strings -->
     <string name="launch_category">Discover</string>
     <string name="pick_category">Pick category</string>
+
 
     <!-- About screen's strings -->
     <string name="about_app_name">Application name: %s</string>
@@ -20,6 +23,7 @@
     <string name="github_link">Project link: <a href="https://github.com/ughsxl/FoodWikipedia">https://github.com/ughsxl/FoodWikipedia</a></string>
     <string name="send_feedback">Send feedback</string>
     <string name="thanks_to_label">Thanks to</string>
+
 
     <!-- Settings screen's strings -->
     <string name="music_label">Music</string>
@@ -32,10 +36,43 @@
     <string name="english_language">English</string>
     <string name="russian_language">Russian</string>
     <string name="ukrainian_language">Ukrainian</string>
+
     
     <!-- Category screen strings -->
     <string name="main_representatives_label">Main Representatives</string>
-    <string name="pick_any_fruit_label">Pick any fruit</string>
+    <string name="pick_any_item_label">Pick any %s</string>
+
+
+    <!-- Category Item screen strings -->
+    <string name="nutrition_value">Nutrition value (100g)</string>
+
+    <string name="carbs_value">Carbs: %s</string>
+    <string name="protein_value">Protein: %s</string>
+    <string name="fats_value">Fats: %s</string>
+    <string name="calories_value">Calories: %s</string>
+    <string name="fiber_value">Fiber: %s</string>
+    <string name="sugar_value">Sugar: %s</string>
+
+    <string name="a_value">Vitamin A: %s</string>
+    <string name="b1_value">Vitamin B-1: %s</string>
+    <string name="b3_value">Vitamin B-3: %s</string>
+    <string name="b6_value">Vitamin B-6: %s</string>
+    <string name="b9_value">Vitamin B-9: %s</string>
+    <string name="b12_value">Vitamin B-12: %s</string>
+    <string name="c_value">Vitamin C: %s</string>
+    <string name="d_value">Vitamin D: %s</string>
+    <string name="e_value">Vitamin E: %s</string>
+
+    <string name="calcium_value">Calcium: %s</string>
+    <string name="iron_value">Iron: %s</string>
+    <string name="magnesium_value">Magnesium: %s</string>
+    <string name="omega3_value">Omega-3: %s</string>
+    <string name="phosphorus_value">Phosphorus: %s</string>
+    <string name="sodium_value">Sodium: %s</string>
+    <string name="zinc_value">Zinc: %s</string>
+
+
+
 
     <!-- Core strings -->
     <string name="confirm_button_label">Confirm</string>
@@ -46,14 +83,13 @@
     <string-array name="categories_list">
         <item>Vegetables</item>
         <item>Fruits</item>
-        <item>Meat</item>
+        <item>Meat &amp; Freshwater Fish</item>
         <item>Dairy</item>
         <item>Grains</item>
         <item>Legumes</item>
-        <item>Baked Goods</item>
         <item>Seafood</item>
         <item>Nuts</item>
-        <item>Herbs and Spices</item>
+        <item>Herbs &amp; Spices</item>
     </string-array>
 
 </resources>

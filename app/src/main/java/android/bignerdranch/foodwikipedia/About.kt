@@ -2,7 +2,6 @@ package android.bignerdranch.foodwikipedia
 
 import android.bignerdranch.foodwikipedia.databinding.AboutFragmentBinding
 import android.bignerdranch.foodwikipedia.databinding.ActionbarLightThemeBinding
-import android.bignerdranch.foodwikipedia.extensions.setActionBarTitle
 import android.content.Intent
 import android.os.Bundle
 import android.view.View

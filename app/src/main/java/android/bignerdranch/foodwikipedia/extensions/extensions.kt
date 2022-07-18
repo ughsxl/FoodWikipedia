@@ -1,5 +1,6 @@
 package android.bignerdranch.foodwikipedia.extensions
 
+import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.ActionbarLightThemeBinding
 import android.content.Context
 import android.view.View
@@ -12,10 +13,15 @@ import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 
 
-fun Fragment.navigator() = requireActivity() as Contract
-
-interface Contract {
-    fun launchFragment(manager: FragmentManager, fragment: Fragment)
+fun launchFragment(manager: FragmentManager, fragment: Fragment) {
+    manager.beginTransaction()
+        .addToBackStack(null)
+        .setCustomAnimations(
+            android.R.anim.fade_in,
+            android.R.anim.fade_out
+        )
+        .replace(R.id.fragmentContainer, fragment)
+        .commit()
 }
 
 fun loadFont(context: Context, font: Int, textView: TextView) {
@@ -25,23 +31,4 @@ fun loadFont(context: Context, font: Int, textView: TextView) {
 
 fun showToast(context: Context, message: String) {
     Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
-}
-
-fun Fragment.setActionBarTitle(label: String, view: View) {
-    val binding = ActionbarLightThemeBinding.bind(view)
-    binding.screenLabel.text = label
-}
-
-fun View.startAnimation(animation: Animation, onEnd: () -> Unit) {
-    animation.setAnimationListener(object : Animation.AnimationListener {
-        override fun onAnimationStart(animation: Animation?) = Unit
-
-        override fun onAnimationEnd(animation: Animation?) {
-            onEnd()
-        }
-
-        override fun onAnimationRepeat(animation: Animation?) = Unit
-
-    })
-    this.startAnimation(animation)
 }
