@@ -73,6 +73,7 @@
         app:layout_constraintTop_toBottomOf="@id/main_representations" />
 
     <Button
+        android:id="@+id/pickItemButton"
         android:layout_width="125dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="@+id/pickItemTextView"

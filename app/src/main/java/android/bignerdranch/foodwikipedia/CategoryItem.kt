@@ -10,18 +10,18 @@ class CategoryItem: Fragment(R.layout.category_item_fragment) {
     lateinit var binding: CategoryItemFragmentBinding
 
 
-//    private var item = ""
-//    private var category = ""
+    private var item = ""
+    private var category = ""
 
 
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//
-//        if (arguments != null) {
-//            item = arguments?.getString(KEY_ITEM) ?: ""
-//            category = arguments?.getString(KEY_CATEGORY) ?: "null"
-//        }
-//    }
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        if (arguments != null) {
+            item = arguments?.getString(KEY_ITEM) ?: ""
+            category = arguments?.getString(KEY_CATEGORY) ?: ""
+        }
+    }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -33,7 +33,9 @@ class CategoryItem: Fragment(R.layout.category_item_fragment) {
 
 
     private fun setupUI() {
-        binding.includedActionBar.screenLabel.text = "Fruits"
+        binding.includedActionBar.screenLabel.text = category
+        binding.itemName.text = item
+
         binding.includedActionBar.arrowBack.setOnClickListener { activity?.onBackPressed() }
         binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_home_light_24)
         binding.includedActionBar.toSettingsImageButton.setOnClickListener {

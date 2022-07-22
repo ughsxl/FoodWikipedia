@@ -5,92 +5,592 @@
 
     "representatives": [
         {
-          "name": "Artichoke"
+          "name": "Artichoke",
+          "description": "",
+
+          "calories": "74kcal",
+          "carbs": "11.57g",
+          "sugar": "0.96g",
+          "fiber": "5.5g",
+          "fat": "2.87g",
+          "protein": "2.81g",
+
+          "a": " -",
+          "b-1": "0.05mg",
+          "b-3": "1.075mg",
+          "b-6": "0.095mg",
+          "b-9": " 86mcg",
+          "b-12": " -",
+          "c": "7.2mg",
+          "d": " -",
+
+          "calcium": "21mg",
+          "iron": "0.59mg",
+          "magnesium": " 41mg",
+          "phosphorus": " 71mg",
+          "sodium": " 180mg",
+          "zinc": "0.4mg"
         },
 
         {
-          "name": "Basil"
+          "name": "Basil",
+          "description": "",
+
+          "calories": "22kcal",
+          "carbs": "2.65g",
+          "fiber": "1.6g",
+          "fat": "0.64g",
+          "protein": "3.15g",
+
+          "a": "264mcg",
+          "b-1": "0.034mg",
+          "b-3": "0.902mg",
+          "b-6": "0.155mg",
+          "b-9": "68mcg",
+          "b-12": " -",
+          "c": " 18.0mg",
+          "d": " -",
+          "e": "0.80mg",
+
+          "calcium": " 177mg",
+          "iron": " 3.17mg",
+          "magnesium": " 64mg",
+          "phosphorus": "56mg",
+          "sodium": "4mg",
+          "zinc": "0.81mg"
         },
 
         {
-          "name": "Beets"
+          "name": "Beets",
+          "description": "",
+
+          "calories": "43kcal",
+          "carbs": "9.56g",
+          "sugar": "6.76g",
+          "fiber": "2.8g",
+          "fat": "0.17g",
+          "protein": "1.61g",
+
+          "a": "2mcg",
+          "b-1": "0.031mg",
+          "b-3": "0.334mg",
+          "b-6": "0.067mg",
+          "b-9": "109mcg",
+          "b-12": " -",
+          "c": "4.9mg",
+          "d": " -",
+          "e": " -",
+
+          "calcium": "16mg",
+          "iron": "0.8mg",
+          "magnesium": " 23mg",
+          "omega-3": " -",
+          "phosphorus": "40",
+          "sodium": "78mg",
+          "zinc": "0.35mg"
         },
 
         {
-          "name": "Broccoli"
+          "name": "Broccoli",
+          "description": "",
+
+          "calories": "34kcal",
+          "carbs": "6.64g",
+          "sugar": "1.7g",
+          "fiber": "2.6g",
+          "fat": "0.37g",
+          "protein": "2.82g",
+
+          "a": "31mcg",
+          "b-1": "0.071mg",
+          "b-3": "0.639mg",
+          "b-6": "0.175mg",
+          "b-9": "63mcg",
+          "b-12": " -",
+          "c": "89.2mg",
+          "d": " -",
+          "e": "0.78mg",
+
+          "calcium": "47mg",
+          "iron": "0.73mg",
+          "magnesium": "21mg",
+          "omega-3": " -",
+          "phosphorus": "66mg",
+          "sodium": "33mg",
+          "zinc": "0.41mg"
         },
 
         {
-          "name": "Cabbage"
+          "name": "Cabbage",
+          "description": "",
+
+          "calories": "25kcal",
+          "carbs": "5.8g",
+          "sugar": "3.2g",
+          "fiber": "2.5g",
+          "fat": "0.1g",
+          "protein": "1.28g",
+
+          "a": " -",
+          "b-1": "0.061mg",
+          "b-3": "0.234mg",
+          "b-6": "0.124mg",
+          "b-9": "43mcg",
+          "b-12": " -",
+          "c": "36.6mg",
+          "d": " -",
+
+          "calcium": "40mg",
+          "iron": "0.47mg",
+          "magnesium": "12mg",
+          "omega-3": " -",
+          "phosphorus": "26mg",
+          "sodium": "18mg",
+          "zinc": "0.18mg"
         },
 
         {
-          "name": "Carrots"
+          "name": "Carrot",
+          "description": "",
+
+          "calories": "41kcal",
+          "carbs": "9.6g",
+          "sugar": "4.7g",
+          "fiber": "2.8g",
+          "fat": "0.24g",
+          "protein": "0.93g",
+
+          "a": "835mcg",
+          "b-1": "0.066mg",
+          "b-3": "0.983mg",
+          "b-6": "0.138mg",
+          "b-9": "19mcg",
+          "b-12": " -",
+          "c": "5.9mg",
+          "d": " -",
+          "e": "0.66mg",
+
+          "calcium": "33mg",
+          "iron": "0.3mg",
+          "magnesium": "12mg",
+          "omega-3": " -",
+          "phosphorus": "35mg",
+          "sodium": "69mg",
+          "zinc": "0.24mg"
         },
 
         {
-          "name": "Celery"
+          "name": "Celery",
+          "description": "",
+
+          "calories": "16kcal",
+          "carbs": "2.97g",
+          "fiber": "1.6g",
+          "fat": "0.17g",
+          "protein": "0.69g",
+
+          "a": "22mcg",
+          "b-1": "0.021mg",
+          "b-3": "0.320mg",
+          "b-6": "0.074mg",
+          "b-9": "36mcg",
+          "b-12": " -",
+          "c": "3.1mg",
+          "d": " -",
+          "e": "0.27mg",
+
+          "calcium": "40mg",
+          "iron": "0.20mg",
+          "magnesium": "11mg",
+          "omega-3": " -",
+          "phosphorus": "24mg",
+          "sodium": "80mg",
+          "zinc": "0.13mg"
         },
 
         {
-          "name": "Cherry"
+          "name": "Chile peppers",
+          "description": "",
+
+          "calories": "40kcal",
+          "carbs": "8.8g",
+          "sugar": "5.3g",
+          "fiber": "1.5g",
+          "fat": "0.4g",
+          "protein": "1.9g",
+
+          "a": "48mcg",
+          "b-1": " -",
+          "b-3": " -",
+          "b-6": "0.51mg",
+          "c": "144mg",
+          "d": " -",
+          "e": " -",
+
+          "calcium": " -",
+          "iron": "1mg",
+          "magnesium": "23mg",
+          "omega-3": " -",
+          "phosphorus": " -",
+          "sodium": " -",
+          "zinc": " -"
         },
 
         {
-          "name": "Chile peppers"
+          "name": "Corn",
+          "description": "",
+
+          "calories": "86kcal",
+          "carbs": "18.7g",
+          "sugar": "6.26g",
+          "fiber": "2g",
+          "fat": "1.35g",
+          "protein": "3.27g",
+
+          "a": "9mcg",
+          "b-1": "0.155mg",
+          "b-3": "1.77mg",
+          "b-6": "0.093mg",
+          "b-9": "42mcg",
+          "b-12": " -",
+          "c": "6.8mg",
+          "d": " -",
+          "e": " -",
+
+          "calcium": " -",
+          "iron": "0.52mg",
+          "magnesium": "37mg",
+          "omega-3": " -",
+          "phosphorus": "89mg",
+          "sodium": " -",
+          "zinc": "0.46mg"
         },
 
         {
-          "name": "Corn"
+          "name": "Cucumber",
+          "description": "",
+
+          "calories": "16kcal",
+          "carbs": "3.63g",
+          "sugar": "1.67",
+          "fiber": "0.5g",
+          "fat": "0.11g",
+          "protein": "0.65g",
+
+          "a": " -",
+          "b-1": "0.027mg",
+          "b-3": "0.098mg",
+          "b-6": "0.04mg",
+          "b-9": "7mcg",
+          "b-12": " -",
+          "c": "2.8mg",
+          "d": " -",
+
+          "calcium": "16mg",
+          "iron": "0.28mg",
+          "magnesium": "13mg",
+          "omega-3": " -",
+          "phosphorus": "24mg",
+          "sodium": "2mg",
+          "zinc": "0.2mg"
         },
 
         {
-          "name": "Cucumber"
+          "name": "Dill",
+          "description": "",
+
+          "calories": "43kcal",
+          "carbs": "7g",
+          "fiber": "2.1g",
+          "fat": "1.1g",
+          "protein": "3.5g",
+
+          "a": "7717UI",
+          "b-1": "0.1mg",
+          "b-3": "1.6mg",
+          "b-6": "0.2mg",
+          "b-9": "150mcg",
+          "b-12": " -",
+          "c": "85mg",
+          "d": " -",
+          "e": " -",
+
+
+          "calcium": "208mg",
+          "iron": "6.6mg",
+          "magnesium": "55mg",
+          "omega-3": " -",
+          "phosphorus": "66mg",
+          "sodium": "61mg",
+          "zinc": "0.9mg"
         },
 
         {
-          "name": "Dill"
+          "name": "Eggplant",
+          "description": "",
+
+          "calories": "25kcal",
+          "carbs": "5.88g",
+          "sugar": "3.53g",
+          "fiber": "3g",
+          "fat": "0.18g",
+          "protein": "0.98g",
+
+          "a": " -",
+          "b-1": "0.039mg",
+          "b-3": "0.649mg",
+          "b-6": "0.084mg",
+          "b-9": "22mcg",
+          "b-12": " -",
+          "c": "2.2mg",
+          "d": " -",
+          "e": "0.3mg",
+
+          "calcium": "9mg",
+          "iron": "0.23mg",
+          "magnesium": "14mg",
+          "omega-3": " -",
+          "phosphorus": "24mg",
+          "sodium": " -",
+          "zinc": "0.16mg"
         },
 
         {
-          "name": "Eggplant"
+          "name": "Lettuce",
+          "description": "",
+
+          "calories": "13kcal",
+          "carbs": "2.23g",
+          "sugar": "0.94",
+          "fiber": "1.1g",
+          "fat": "0.22g",
+          "protein": "1.35g",
+
+          "a": "166mcg",
+          "b-1": "0.057mg",
+          "b-3": " -",
+          "b-6": "0.082mg",
+          "b-9": "73mcg",
+          "b-12": " -",
+          "c": "3.7mg",
+          "d": " -",
+          "e": "0.18mg",
+
+          "calcium": "35mg",
+          "iron": "1.24mg",
+          "magnesium": "13mg",
+          "omega-3": " -",
+          "phosphorus": "33mg",
+          "sodium": "5mg",
+          "zinc": "0.2mg"
         },
 
         {
-          "name": "Lettuce"
+          "name": "Onion",
+          "description": "",
+
+          "calories": "40kcal",
+          "carbs": "9.34g",
+          "sugar": "4.24g",
+          "fat": "0.1g",
+          "protein": "1.1g",
+
+          "a": " -",
+          "b-1": "0.046mg",
+          "b-3": "0.116mg",
+          "b-6": "0.12mg",
+          "b-9": "19mcg",
+          "b-12": " -",
+          "c": "7.4mg",
+          "d": " -",
+          "e": " -",
+
+          "calcium": "23mg",
+          "iron": "0.21mg",
+          "magnesium": "10mg",
+          "omega-3": " -",
+          "phosphorus": "29mg",
+          "zinc": "0.17mg"
         },
 
         {
-          "name": "Onion"
+          "name": "Parsnip",
+          "description": "",
+
+          "calories": "75kcal",
+          "carbs": "18g",
+          "sugar": "4.8",
+          "fiber": "4.9g",
+          "fat": "0.2g",
+          "protein": "1.2g",
+
+          "a": " -",
+          "b-1": "0.09mg",
+          "b-3": "0.7mg",
+          "b-6": "0.09mg",
+          "b-9": "67mcg",
+          "b-12": " -",
+          "c": "17mg",
+          "d": " -",
+          "e": "1.49mg",
+
+          "calcium": "36mg",
+          "iron": "0.59mg",
+          "magnesium": "29mg",
+          "omega-3": " -",
+          "phosphorus": "71mg",
+          "sodium": "10mg",
+          "zinc": "0.59mg"
         },
 
         {
-          "name": "Parsnip"
+          "name": "Potato",
+          "description": "",
+
+          "carbs": "19.36g",
+          "protein": "1.66g",
+          "fat": "2.4g",
+          "calories": "104kcal",
+          "fiber": "1.7g",
+          "sugar": "0.82g",
+
+          "a": "24mcg",
+          "b-1": "0.1mg",
+          "b-3": "6.28mg",
+          "b-6": "0.27mg",
+          "b-9": "9mcg",
+          "b-12": " -",
+          "c": "7.1mg",
+          "d": " -",
+          "e": " -",
+
+          "calcium": "8mg",
+          "iron": "0.31mg",
+          "magnesium": "17.9mg",
+          "omega-3": " -",
+          "phosphorus": "40mg",
+          "sodium": "5mg",
+          "zinc": "1.4mg"
         },
 
         {
-          "name": "Peppers"
+          "name": "Spinach",
+          "description": "",
+
+          "calories": "23kcal",
+          "carbs": "3.6g",
+          "sugar": "0.4g",
+          "fiber": "2.2g",
+          "fat": "0.4g",
+          "protein": "2.9g",
+
+          "a": "9377UI",
+          "b-1": "0.078mg",
+          "b-3": "0.724mg",
+          "b-6": "0.195mg",
+          "b-9": "194mcg",
+          "b-12": " -",
+          "c": "28mg",
+          "d": " -",
+          "e": "2mg",
+
+          "calcium": "99mg",
+          "iron": "2.71mg",
+          "magnesium": "79mg",
+          "omega-3": " -",
+          "phosphorus": "49mg",
+          "sodium": "79mg",
+          "zinc": "0.53mg"
         },
 
         {
-          "name": "Potato"
+          "name": "Tomato",
+          "description": "",
+
+          "calories": "18kcal",
+          "carbs": "3.9g",
+          "sugar": "2.6g",
+          "fiber": "1.2g",
+          "fat": "0.2g",
+          "protein": "0.9g",
+
+          "a": "42mcg",
+          "b-1": "0.037mg",
+          "b-3": "0.594mg",
+          "b-6": "0.08mg",
+          "b-9": "15mcg",
+          "b-12": " -",
+          "c": "14mg",
+          "d": " -",
+          "e": "0.54mg",
+
+          "calcium": "10mg",
+          "iron": "0.27mg",
+          "magnesium": "11mg",
+          "omega-3": " -",
+          "phosphorus": "24mg",
+          "sodium": "5mg",
+          "zinc": "0.17mg"
         },
 
         {
-          "name": "Spinach"
+          "name": "Turnips",
+          "description": "",
+
+          "calories": "22kcal",
+          "carbs": "5.1g",
+          "sugar": "3.0",
+          "fiber": "2.0g",
+          "fat": "0.1g",
+          "protein": "0.7g",
+
+          "a": " -",
+          "b-1": "0.027mg",
+          "b-3": "0.299mg",
+          "b-6": "0.067mg",
+          "b-9": "9mcg",
+          "b-12": " -",
+          "c": "11.6mg",
+          "d": " -",
+
+          "calcium": "33mg",
+          "iron": "0.18mg",
+          "magnesium": "9mg",
+          "omega-3": " -",
+          "phosphorus": "26mg",
+          "sodium": "16mg",
+          "zinc": "0.12mg"
         },
 
         {
-          "name": "Tomato"
-        },
+          "name": "Zucchini",
+          "description": "",
 
-        {
-          "name": "Turnips"
-        },
+          "calories": "15kcal",
+          "carbs": "2.69g",
+          "sugar": "1.71g",
+          "fiber": "1g",
+          "fat": "0.36g",
+          "protein": "1.14g",
 
-        {
-          "name": "Zucchini"
+          "a": "56mcg",
+          "b-1": "0.035",
+          "b-3": "0.51mg",
+          "b-6": "0.08mg",
+          "b-9": "28mcg",
+          "b-12": " -",
+          "c": "12.9mg",
+          "d": " -",
+          "e": " -",
+
+          "calcium": "18mg",
+          "iron": "0.37mg",
+          "magnesium": "19mg",
+          "omega-3": " -",
+          "phosphorus": "37mg",
+          "sodium": "3mg",
+          "zinc": "0.33g"
         }
-      ]
+    ]
   }
 }

@@ -5,103 +5,843 @@
 
     "representatives": [
       {
-        "name": "Apple"
+        "name": "Apple",
+        "description": "An apple is an edible fruit produced by an apple tree. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Different cultivars are bred for various tastes and uses, including cooking, eating raw, and cider production.",
+
+        "carbs": "13.81g",
+        "protein": "0.26g",
+        "fat": "0.17g",
+        "calories": "52kcal",
+        "fiber": "2.4g",
+        "sugar": "10.39g",
+
+        "a": "3mcg",
+        "b-1": "0.017mg",
+        "b-3": "0.091mg",
+        "b-6": "0.041mg",
+        "b-9": "3mcg",
+        "b-12": " -",
+        "c": "4.6mg",
+        "d": " -",
+        "e": "0.18mg",
+
+        "calcium": "6mg",
+        "iron": "0.12mg",
+        "magnesium": "5mg",
+        "omega-3": " -",
+        "phosphorus": "11mg",
+        "sodium": "1mg",
+        "zinc": "0.04mg"
       },
 
       {
-        "name": "Avokado"
+        "name": "Avokado",
+        "description": "Avocados are an interesting fruit because they are very low in carbohydrate yet high in healthy fats. The fruit originated in South America, possibly in Mexico or Peru, and it was first referred to in English by the name of “crocodile pear”.",
+
+        "carbs": "8.53g",
+        "protein": "2g",
+        "fat": "14.66g",
+        "calories": "160kcal",
+        "fiber": "6.7g",
+        "sugar": "0.66g",
+
+        "a": "7mcg",
+        "b-1": "0.067mg",
+        "b-3": "1.738mg",
+        "b-6": "0.257mg",
+        "b-9": "81mcg",
+        "b-12": " -",
+        "c": "10mg",
+        "d": " -",
+        "e": "2.07mg",
+
+        "calcium": "12mg",
+        "iron": "0.55mg",
+        "magnesium": "29mg",
+        "omega-3": " -",
+        "phosphorus": "52mg",
+        "sodium": "7mg",
+        "zinc": "0.64mg"
       },
 
       {
-        "name": "Banana"
+        "name": "Banana",
+        "description": "The banana is a tropical fruit with a long body covered in a yellow skin. It's a very common fruit and—despite needing a hot climate—it's available in most countries. Since bananas have a very sweet taste, dessert recipes often use them.",
+
+        "carbs": "22.84g",
+        "protein": "1.09g",
+        "fat": "0.33g",
+        "calories": "89kcal",
+        "fiber": "2.6g",
+        "sugar": "12.23g",
+
+        "a": "3mcg",
+        "b-1": "0.031mg",
+        "b-3": "0.665mg",
+        "b-6": "0.4mg",
+        "b-9": "20mcg",
+        "b-12": " -",
+        "c": "8.7mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": " -",
+        "iron": "0.26mg",
+        "magnesium": "27mg",
+        "omega-3": " -",
+        "phosphorus": "22mg",
+        "sodium": "1mg",
+        "zinc": "0.15mg"
       },
 
       {
-        "name": "Blueberry"
+        "name": "Blueberry",
+        "description": "Blueberries are sweet, nutritious and wildly popular. Often labeled a superfood, they are low in calories and incredibly good for you. They are so tasty and convenient that many people consider them their favorite fruit.",
+
+        "carbs": "14.49g",
+        "protein": "0.74g",
+        "fat": "0.33g",
+        "calories": "57kcal",
+        "fiber": "2.4g",
+        "sugar": "9.96g",
+
+        "a": "54UI",
+        "b-1": "0.037mg",
+        "b-3": "0.418mg",
+        "b-6": "0.052mg",
+        "b-9": "6mcg",
+        "b-12": " -",
+        "c": "9.7mg",
+        "d": " -",
+        "e": "0.57mg",
+
+        "calcium": "6mg",
+        "iron": "0.28mg",
+        "magnesium": "6mg",
+        "omega-3": " -",
+        "phosphorus": "12mg",
+        "sodium": "1mg",
+        "zinc": "0.165mg"
       },
 
       {
-        "name": "Blackberry"
+        "name": "Blackberry",
+        "description": "Blackberries are one of the tastiest fruits around. They're a small edible fruit with a big taste, and botanically they're a kinda berry that grow on brambles. The fruit has a sweet and succulent taste despite being relatively low in fructose compared to most types of fruit.",
+
+        "carbs": "9.61g",
+        "protein": "1.39g",
+        "fat": "0.49g",
+        "calories": "43kcal",
+        "fiber": "5.3g",
+        "sugar": "4.88g",
+
+        "a": "214UI",
+        "b-1": "0.020mg",
+        "b-3": "0.646mg",
+        "b-6": "0.030mg",
+        "b-9": "25mcg",
+        "b-12": " -",
+        "c": "21mg",
+        "d": " -",
+        "e": "1.17mg",
+
+        "calcium": "29mg",
+        "iron": "0.62mg",
+        "magnesium": "20mg",
+        "omega-3": " -",
+        "phosphorus": "22mg",
+        "sodium": "1mg",
+        "zinc": "0.53mg"
       },
 
       {
-        "name": "Cantaloupe"
+        "name": "Cantaloupe",
+        "description": "Popular with children and adults, cantaloupe can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.This type of fruit also contains a variety of vitamins, minerals, and antioxidants.",
+
+        "carbs": "8.16g",
+        "protein": "0.84g",
+        "fat": "0.19g",
+        "calories": "34kcal",
+        "fiber": "0.9g",
+        "sugar": "7.86g",
+
+        "a": "169mcg",
+        "b-1": "0.041mg",
+        "b-3": "0.734mg",
+        "b-6": "0.072mg",
+        "b-9": "21mcg",
+        "b-12": " -",
+        "c": "36.7mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "9mg",
+        "iron": "0.21mg",
+        "magnesium": "12mg",
+        "omega-3": " -",
+        "phosphorus": "15mg",
+        "sodium": "16mg",
+        "zinc": "0.18mg"
       },
 
       {
-        "name": "Cranberry"
+        "name": "Sour Cherry",
+        "description": "Sour cherry also commonly called tart cherry, is a fruit. The Montmorency sour cherry is the most popular type grown in the U.S. Sour cherry fruit contains chemicals that might reduce swelling and act as antioxidants.",
+
+        "carbs": "16g",
+        "protein": "1.1g",
+        "fat": "0.2g",
+        "calories": "63kcal",
+        "fiber": "2.1g",
+        "sugar": "12.8g",
+
+        "a": "3mcg",
+        "b-1": "0.027mg",
+        "b-3": "0.154mg",
+        "b-6": "0.049mg",
+        "b-9": "4mcg",
+        "b-12": " -",
+        "c": "7mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "13mg",
+        "iron": "0.36mg",
+        "magnesium": "11mg",
+        "omega-3": " -",
+        "phosphorus": "21mg",
+        "sodium": "0.001mg",
+        "zinc": "0.07mg"
       },
 
       {
-        "name": "Cherry"
+        "name": "Sweet Cherry",
+        "description": "Nothing beats fresh summer produce, and sweet cherries, with their naturally delicious flavor and short season, top the list. Best eaten straight out of hand, you can enjoy this juicy fruit as a simple snack or as dessert.",
+
+        "carbs": "12.2g",
+        "protein": "1g",
+        "fat": "0.3g",
+        "calories": "50kcal",
+        "fiber": "1.6g",
+        "sugar": "8.5g",
+
+        "a": "64mcg",
+        "b-1": "0.03mg",
+        "b-3": "0.4mg",
+        "b-6": "0.044mg",
+        "b-9": "8mcg",
+        "b-12": " -",
+        "c": "10mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "16mg",
+        "iron": "0.32mg",
+        "magnesium": "9mg",
+        "omega-3": " -",
+        "phosphorus": "15mg",
+        "sodium": "3mg",
+        "zinc": "0.03mg"
       },
 
       {
-        "name": "Grapefruit"
+        "name": "Cranberry",
+        "description": "Cranberries are a small edible berry with a bright red color. Due to their sour nature, they are usually available in their dried form and contain added sugar. However, it is possible to find fresh berries, but they are very tart.",
+
+        "carbs": "12g",
+        "protein": "0.5g",
+        "fat": "0.1g",
+        "calories": "46kcal",
+        "fiber": "3.6g",
+        "sugar": "4.3g",
+
+        "a": " -",
+        "b-1": "0.012mg",
+        "b-3": "0.101mg",
+        "b-6": "0.057mg",
+        "b-9": "1mcg",
+        "b-12": " -",
+        "c": "14mg",
+        "d": " -",
+        "e": "1.3mg",
+
+        "calcium": "8mg",
+        "iron": "0.2mg",
+        "magnesium": "6mg",
+        "omega-3": " -",
+        "phosphorus": "11mg",
+        "sodium": "2mg",
+        "zinc": "0.1mg"
       },
 
       {
-        "name": "Grapes"
+        "name": "Grapefruit",
+        "description": "Grapefruit is a large citrus fruit believed to originate in Asia. It is actually a hybrid fruit, which means that it is not an original species; it was created by the natural crossing of an orange and a pomelo.",
+
+        "carbs": "8.41g",
+        "protein": "0.8g",
+        "fat": "0.10g",
+        "calories": "33kcal",
+        "fiber": "1.1g",
+        "sugar": "7.31g",
+
+        "a": " -",
+        "b-1": "0.037",
+        "b-3": "0.269mg",
+        "b-6": "0.043mg",
+        "b-9": "10mcg",
+        "b-12": " -",
+        "c": "33.3mg",
+        "d": " -",
+        "e": "0.13mg",
+
+        "calcium": "12mg",
+        "iron": "0.06mg",
+        "magnesium": "9mg",
+        "omega-3": " -",
+        "phosphorus": "8mg",
+        "sodium": " -",
+        "zinc": "0.07"
       },
 
       {
-        "name": "Kiwi"
+        "name": "Grapes",
+        "description": "Grapes are one of the most prevalent types of fruit, and we can find them almost everywhere. Grapes are very versatile too, and they form the basis of many different wines, juices, jams, and dessert products.",
+
+        "carbs": "18.1g",
+        "protein": "0.72g",
+        "fat": "0.16g",
+        "calories": "69kcal",
+        "fiber": "0.9g",
+        "sugar": "15.48g",
+
+        "a": " -",
+        "b-1": "0.069mg",
+        "b-3": "0.188mg",
+        "b-6": "0.086mg",
+        "b-9": "2mcg",
+        "b-12": " -",
+        "c": "3.2mg",
+        "d": " -",
+        "e": "0.19mg",
+
+        "calcium": "10mg",
+        "iron": "0.36mg",
+        "magnesium": "7mg",
+        "omega-3": " -",
+        "phosphorus": "20mg",
+        "sodium": "2mg",
+        "zinc": "0.07mg"
       },
 
       {
-        "name": "Lemon"
+        "name": "Kiwi",
+        "description": "Kiwifruit is a soft, green and juicy edible fruit. It has the alternate name of ‘Chinese gooseberry' and it is one of the most famous types of fruit in the world. The fruit is relatively easy to grow and it's easy to find in most developed countries.",
+
+        "carbs": "14.66g",
+        "protein": "1.14g",
+        "fat": "0.52g",
+        "calories": "61kcal",
+        "fiber": "3g",
+        "sugar": "8.99g",
+
+        "a": " -",
+        "b-1": "0.027mg",
+        "b-3": "0.341mg",
+        "b-6": "0.063mg",
+        "b-9": "25mcg",
+        "b-12": "0.08mcg",
+        "c": "92.7mg",
+        "d": " -",
+        "e": "1.46mg",
+
+        "calcium": "34mg",
+        "iron": "0.31mg",
+        "magnesium": "17mg",
+        "omega-3": " -",
+        "phosphorus": "34mg",
+        "sodium": "3mg",
+        "zinc": "0.14mg"
       },
 
       {
-        "name": "Lychee"
+        "name": "Lemon",
+        "description": "Lemons house a tart soft flesh behind a thick yellow skin, and they are a famous culinary fruit. For one thing, thousands of recipes call for a squeeze of fresh lemon juice. Lemons also hold value for cleaning uses. The reason for this is their high concentration of citric acid.",
+
+        "carbs": "9.32g",
+        "protein": "1.1g",
+        "fat": "0.3g",
+        "calories": "29kcal",
+        "fiber": "2.8g",
+        "sugar": "2.5g",
+
+        "a": " -",
+        "b-1": "0.04mg",
+        "b-3": "0.1mg",
+        "b-6": "0.08mg",
+        "b-9": "11mcg",
+        "b-12": " -",
+        "c": "53mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "26mg",
+        "iron": "0.6mg",
+        "magnesium": "8mg",
+        "omega-3": " -",
+        "phosphorus": "16mg",
+        "sodium": " -",
+        "zinc": "0.06mg"
       },
 
       {
-        "name": "Lime"
+        "name": "Lychee",
+        "description": "In Asia, the lychee fruit is prized for its greater proportion of flesh to peel and is most often eaten on its own. Also called a lychee nut, the fruit is comprised of three layers: the reddish husk, white flesh, and brown seed.",
+
+        "carbs": "16.53g",
+        "protein": "0.83g",
+        "fat": "0.44g",
+        "calories": "66kcal",
+        "fiber": "1.3g",
+        "sugar": "15.23g",
+
+        "a": " -",
+        "b-1": "0.011mg",
+        "b-3": "0.603mg",
+        "b-6": "0.1mg",
+        "b-9": "14mcg",
+        "b-12": " -",
+        "c": "71.5mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "5mg",
+        "iron": "0.13mg",
+        "magnesium": "10mg",
+        "omega-3": " -",
+        "phosphorus": "31mg",
+        "sodium": "1mg",
+        "zinc": "0.07mg"
       },
 
       {
-        "name": "Melon"
+        "name": "Lime",
+        "description": "Very close in nature to lemons, the lime is another sour citrus fruit. However, they both have a slight difference in flavor lemons are slightly more tart, while limes are bitter. The flesh of both fruits looks very similar except for the color, and their nutritional profile are fairly similar too.",
+
+        "carbs": "10.5g",
+        "protein": "0.7g",
+        "fat": "0.2g",
+        "calories": "30kcal",
+        "fiber": "2.8g",
+        "sugar": "1.7g",
+
+        "a": " -",
+        "b-1": "0.03mg",
+        "b-3": "0.2mg",
+        "b-6": "0.046mg",
+        "b-9": "8mcg",
+        "b-12": " -",
+        "c": "29.1mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "33mg",
+        "iron": "0.6mg",
+        "magnesium": "6mg",
+        "omega-3": " -",
+        "phosphorus": "18mg",
+        "sodium": "2mg",
+        "zinc": " -"
       },
 
       {
-        "name": "Nectarines"
+        "name": "Mango",
+        "description": "Sometimes referred to as the “king of fruits”, mango are a tropical fruit with extremely sweet and juicy flesh. Mango contain a stone surrounded by sweet yellow flesh; this taste is slightly sweet, soft, and tangy.",
+
+        "carbs": "15g",
+        "protein": "0.82g",
+        "fat": "0.38g",
+        "calories": "60kcal",
+        "fiber": "1.6g",
+        "sugar": "13.7g",
+
+        "a": "54mcg",
+        "b-1": "0.028mg",
+        "b-3": "0.669mg",
+        "b-6": "0.119mg",
+        "b-9": "43mcg",
+        "b-12": " -",
+        "c": "36.4mg",
+        "d": " -",
+        "e": "0.9mg",
+
+        "calcium": "11mg",
+        "iron": "0.16mg",
+        "magnesium": "10mg",
+        "omega-3": " -",
+        "phosphorus": "14mg",
+        "sodium": "1mg",
+        "zinc": "0.09mg"
       },
 
       {
-        "name": "Olive"
+        "name": "Olive",
+        "description": "Most people don't realize that olives are actually a fruit. This is likely because olives don't have that typical sweet flavor most fruits do, and they instead offer a source of healthy fats.",
+
+        "carbs": "3.84g",
+        "protein": "1.03g",
+        "fat": "15.32g",
+        "calories": "146kcal",
+        "fiber": "3.3g",
+        "sugar": "0.54g",
+
+        "a": "20mcg",
+        "b-1": "0.021mg",
+        "b-3": "0.237mg",
+        "b-6": "0.031mg",
+        "b-9": "3mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": "3.81mg",
+
+        "calcium": "52mg",
+        "iron": "0.49mg",
+        "magnesium": "11mg",
+        "omega-3": " -",
+        "phosphorus": "4mg",
+        "sodium": "1556mg",
+        "zinc": " -"
       },
 
       {
-        "name": "Orange"
+        "name": "Orange",
+        "description": "Oranges are among the most common fruit in the world. The orange is a citrus fruit and, surprisingly, it's a hybrid rather than an original species. If you didn't know about this point, then oranges are actually a hybrid of the pomelo and mandarin. Oranges are a relatively high-carbohydrate fruit and they provide a decent amount of vitamin C.",
+
+        "carbs": "11.75g",
+        "protein": "0.94g",
+        "fat": "0.12g",
+        "calories": "47kcal",
+        "fiber": "2.4g",
+        "sugar": "9.35g",
+
+        "a": "11mcg",
+        "b-1": "0.087mg",
+        "b-3": "0.282mg",
+        "b-6": "0.06mg",
+        "b-9": "30mcg",
+        "b-12": " -",
+        "c": "53.2mg",
+        "d": " -",
+        "e": "0.18mg",
+
+        "calcium": "40mg",
+        "iron": "0.1mg",
+        "magnesium": "10mg",
+        "omega-3": " -",
+        "phosphorus": "14mg",
+        "sodium": " -",
+        "zinc": "0.07mg"
       },
 
       {
-        "name": "Papaya"
+        "name": "Papaya",
+        "description": "A tropical fruit with an exotic name; the papaya. Papayas originate in Central America and grow in most countries with a tropical climate. Despite previously being thought of as “exotic” they are now easy to find in most countries due to the global fruit trade.",
+
+        "carbs": "10.82g",
+        "protein": "0.47g",
+        "fat": "0.26g",
+        "calories": "43kcal",
+        "fiber": "7.82g",
+        "sugar": "1.7g",
+
+        "a": "47mcg",
+        "b-1": "0.023mg",
+        "b-3": "0.357mg",
+        "b-6": " -",
+        "b-9": "38mcg",
+        "b-12": " -",
+        "c": "62mg",
+        "d": " -",
+        "e": "0.3mg",
+
+        "calcium": "20mg",
+        "iron": "0.25mg",
+        "magnesium": "21mg",
+        "omega-3": " -",
+        "phosphorus": "10mg",
+        "sodium": "8mg",
+        "zinc": "0.08mg"
       },
 
       {
-        "name": "Peach"
+        "name": "Peach",
+        "description": "Peaches — are small fruit with a fuzzy peel and a sweet white or yellow flesh. Peaches are related to plums, apricots, cherries, and almonds. They're considered drupes or stone fruit because their flesh surrounds a shell that houses an edible seed.",
+
+        "carbs": "9.54g",
+        "protein": "0.91g",
+        "fat": "0.25g",
+        "calories": "39kcal",
+        "fiber": "1.5g",
+        "sugar": "8.39g",
+
+        "a": "16mcg",
+        "b-1": "0.024mg",
+        "b-3": "0.806mg",
+        "b-6": "0.025mg",
+        "b-9": "4mcg",
+        "b-12": " -",
+        "c": "6.6mg",
+        "d": " -",
+        "e": "0.73mg",
+
+        "calcium": "6mg",
+        "iron": "0.25mg",
+        "magnesium": "9mg",
+        "omega-3": " -",
+        "phosphorus": "20mg",
+        "sodium": "0.002mg",
+        "zinc": "0.17mg"
       },
 
       {
-        "name": "Pineapple"
+        "name": "Pear",
+        "description": "Pears are a delicious, sweet, and juicy fruit. They grow naturally all around the world, but their origin, like many other fruits, lies in China.",
+
+        "carbs": "15.23g",
+        "protein": "0.36g",
+        "fat": "0.14g",
+        "calories": "57kcal",
+        "fiber": "3.1g",
+        "sugar": "9.75g",
+
+        "a": " -",
+        "b-1": "0.012mg",
+        "b-3": "0.161mg",
+        "b-6": "0.029mg",
+        "b-9": "7mcg",
+        "b-12": " -",
+        "c": "4.3mg",
+        "d": " -",
+        "e": "0.12mg",
+
+        "calcium": "9mg",
+        "iron": "0.18mg",
+        "magnesium": "7mg",
+        "omega-3": " -",
+        "phosphorus": "12mg",
+        "sodium": "1mg",
+        "zinc": "0.1mg"
       },
 
       {
-        "name": "Pomegranate"
+        "name": "Pineapple",
+        "description": "Pineapples are a sweet and slightly sour tropical fruit originating from South America. It is now very common in tropical regions of the world such as the Philippines and the Caribbean.",
+
+        "carbs": "13.12g",
+        "protein": "0.54g",
+        "fat": "0.12g",
+        "calories": "50kcal",
+        "fiber": "1.4g",
+        "sugar": "9.85g",
+
+        "a": " -",
+        "b-1": "0.079mg",
+        "b-3": "0.5mg",
+        "b-6": "0.112mg",
+        "b-9": "18mcg",
+        "b-12": " -",
+        "c": "47.8mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "13mg",
+        "iron": "0.29mg",
+        "magnesium": "12mg",
+        "omega-3": " -",
+        "phosphorus": "8mg",
+        "sodium": "1mg",
+        "zinc": "0.12mg"
       },
 
       {
-        "name": "Raspberry"
+        "name": "Plum",
+        "description": "Plums are small and round purple fruit that have origins in China. Appearance wise, a dark purple skin surrounds the juicy flesh, which can range from yellow-orange to reddish-purple in color. Plums can either be eaten fresh or in their dried state, which is called a \"prune\".",
+
+        "carbs": "11.42g",
+        "protein": "0.7g",
+        "fat": "0.28g",
+        "calories": "46kcal",
+        "fiber": "1.4g",
+        "sugar": "9.92g",
+
+        "a": "17mcg",
+        "b-1": "0.028mg",
+        "b-3": "0.026mg",
+        "b-6": "0.029mg",
+        "b-9": "5mcg",
+        "b-12": " -",
+        "c": "9.5mg",
+        "d": " -",
+        "e": "0.26mg",
+
+        "calcium": "6mg",
+        "iron": "0.17mg",
+        "magnesium": "7mg",
+        "omega-3": " -",
+        "phosphorus": "16mg",
+        "sodium": "0.001mg",
+        "zinc": "0.1mg"
       },
 
       {
-        "name": "Strawberry"
+        "name": "Pomegranate",
+        "description": "Pomegranates are unique in appearance and taste. Nowadays, pomegranate cultivation is prevalent throughout dry and hot regions in the world. This interesting variety of fruit has a thick and firm red skin.",
+
+        "carbs": "18.7g",
+        "protein": "1.67g",
+        "calories": "83kcal",
+        "fat": "1.17g",
+        "fiber": "4g",
+        "sugar": "13.67g",
+
+        "a": " -",
+        "b-1": "0.067mg",
+        "b-3": "0.293mg",
+        "b-6": "0.075g",
+        "b-9": "38mcg",
+        "b-12": " -",
+        "c": "10.2mg",
+        "d": " -",
+        "e": "0.6mg",
+
+        "calcium": "10mg",
+        "iron": "0.3mg",
+        "magnesium": "12mg",
+        "omega-3": " -",
+        "phosphorus": "36mg",
+        "sodium": "3mg",
+        "zinc": "0.35mg"
       },
 
       {
-        "name": "Tangerine"
+        "name": "Raspberry",
+        "description": "Raspberries are one of the most commonly cultivated fruits in the world and they grow in temperate regions. Raspberries grow on raspberry bushes and the fruit itself is composed of dozens of small drups. The raspberry has a soft flesh with a slightly sweet and juicy taste.",
+
+        "carbs": "11.94g",
+        "protein": "1.2g",
+        "fat": "0.65g",
+        "calories": "kcal",
+        "fiber": "6.5g",
+        "sugar": "4.42g",
+
+        "a": " -",
+        "b-1": "0.032mg",
+        "b-3": "0.598mg",
+        "b-6": "0.055mg",
+        "b-9": "21mcg",
+        "b-12": " -",
+        "c": "26.2mg",
+        "d": " -",
+        "e": "0.87mg",
+
+        "calcium": "25mg",
+        "iron": "0.69mg",
+        "magnesium": "22mg",
+        "omega-3": " -",
+        "phosphorus": "29mg",
+        "sodium": " -",
+        "zinc": "0.42mg"
+      },
+
+      {
+        "name": "Strawberry",
+        "description": "The strawberry is one of the most common (and beloved) fruits in the world. Strawberries are thought to be berries, but this is not botanically true, and they are an accessory fruit. Commonly eaten fresh, with cream, or in a range of desserts, strawberries are a soft and sweet-tasting fruit.",
+
+        "carbs": "7.68g",
+        "protein": "0.67g",
+        "fat": "0.3g",
+        "calories": "33kcal",
+        "fiber": "2g",
+        "sugar": "4.89g",
+
+        "a": " -",
+        "b-1": "0.024mg",
+        "b-3": "0.386mg",
+        "b-6": "0.047mg",
+        "b-9": "24mcg",
+        "b-12": " -",
+        "c": "58.8mg",
+        "d": " -",
+        "e": "0.29mg",
+
+        "calcium": "16mg",
+        "iron": "0.41mg",
+        "magnesium": "13mg",
+        "omega-3": " -",
+        "phosphorus": "24mg",
+        "sodium": "1mg",
+        "zinc": "0.14mg"
+      },
+
+      {
+        "name": "Tangerine",
+        "description": "While sharing a similar taste, tangerines are a smaller size than oranges, and they are less round (flatter) in shape. However, they have a bigger taste – tangerines are sweeter and more flavorful than regular oranges. The tangerine also has a softer skin which is easier to peel, and this makes them an easy snack for when you're out of the house.",
+
+        "carbs": "13.34g",
+        "protein": "0.81g",
+        "fat": "0.31g",
+        "calories": "53kcal",
+        "fiber": "1.8g",
+        "sugar": "10.58g",
+
+        "a": "34mcg",
+        "b-1": "0.058mg",
+        "b-3": "0.376mg",
+        "b-6": "0.078mg",
+        "b-9": "16mcg",
+        "b-12": " -",
+        "c": "26.7mg",
+        "d": " -",
+        "e": "0.2mg",
+
+        "calcium": "37mg",
+        "iron": "0.15mg",
+        "magnesium": "12mg",
+        "omega-3": " -",
+        "phosphorus": "20mg",
+        "sodium": "2mg",
+        "zinc": "0.07mg"
+      },
+
+      {
+        "name": "Watermelon",
+        "description": "The origin of watermelons is Southern Africa, and it is a large fruit that grows in tropical and subtropical regions. As you might guess from the name, watermelons are another fruit with a high water content; 91.5% to be exact. The fruit can wildly vary in size, with some fruit being a few kilograms in weight, but others reaching gigantic proportions.",
+
+        "carbs": "7.55g",
+        "protein": "0.61g",
+        "fat": "0.15g",
+        "calories": "30kcal",
+        "fiber": "0.4g",
+        "sugar": "6.2g",
+
+        "a": "28mcg",
+        "b-1": "0.033mg",
+        "b-3": "0.178mg",
+        "b-6": "0.045mg",
+        "b-9": " -",
+        "b-12": " -",
+        "c": "8.1mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "7mg",
+        "iron": "0.24mg",
+        "magnesium": "10mg",
+        "omega-3": " -",
+        "phosphorus": "11g",
+        "sodium": "1mg",
+        "zinc": "0.1mg"
       }
     ]
   }

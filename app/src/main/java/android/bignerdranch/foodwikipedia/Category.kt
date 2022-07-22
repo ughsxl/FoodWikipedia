@@ -1,16 +1,18 @@
 package android.bignerdranch.foodwikipedia
 
+import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.databinding.CategoryFragmentBinding
 import android.bignerdranch.foodwikipedia.extensions.launchFragment
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.json.JSONObject
 
 class Category: Fragment(R.layout.category_fragment) {
     private lateinit var binding: CategoryFragmentBinding
 
-    private var category = "no initialised in category screen"
+    private var category = ""
     private var categoryIcon = 0
     private var categoryJsonString = ""
 
@@ -21,12 +23,13 @@ class Category: Fragment(R.layout.category_fragment) {
     private var representatives = mutableSetOf<String>()
 
     private var pickedItem = ""
+    private var pickedItemIndex = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         if (arguments != null) {
-            category = arguments?.getString(CATEGORY_KEY) ?: "null in category screen"
+            category = arguments?.getString(CATEGORY_KEY) ?: ""
             categoryIcon = arguments?.getInt(CATEGORY_ICON_KEY) ?: 0
             categoryJsonString = arguments?.getString(CATEGORY_JSONSTRING_KEY) ?: ""
             categoryItemName = arguments?.getString(CATEGORY_ITEM_NAME_KEY) ?: ""
@@ -52,7 +55,7 @@ class Category: Fragment(R.layout.category_fragment) {
 
         binding.includedActionBar.arrowBack.setOnClickListener { activity?.onBackPressed() }
 
-        binding.pickItemTextView.setOnClickListener { launchFragment(parentFragmentManager, CategoryItem.newInstance(pickedItem, category)) }
+        binding.pickItemButton.setOnClickListener { showCategoryItemDialog() }
     }
 
 
@@ -73,6 +76,24 @@ class Category: Fragment(R.layout.category_fragment) {
         }
     }
 
+
+    private fun showCategoryItemDialog() {
+        val items = representatives.toTypedArray()
+
+        AlertDialog.Builder(requireContext())
+            .setTitle("Pick item")
+            .setSingleChoiceItems(items, pickedItemIndex) { dialog, _ ->
+                pickedItemIndex = (dialog as AlertDialog).listView.checkedItemPosition
+            }
+            .setPositiveButton("Discover") { dialog, _ ->
+                pickedItemIndex = (dialog as AlertDialog).listView.checkedItemPosition
+                pickedItem = items[pickedItemIndex]
+
+                launchFragment(parentFragmentManager, CategoryItem.newInstance(category, pickedItem))
+            }
+            .create()
+            .show()
+    }
 
 
     companion object {
