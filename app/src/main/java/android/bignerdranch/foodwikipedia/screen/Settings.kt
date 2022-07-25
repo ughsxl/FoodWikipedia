@@ -1,5 +1,6 @@
-package android.bignerdranch.foodwikipedia
+package android.bignerdranch.foodwikipedia.screen
 
+import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.SettingsFragmentBinding
 import android.bignerdranch.foodwikipedia.languages_spinner_components.LanguageAdapter
 import android.bignerdranch.foodwikipedia.languages_spinner_components.LanguageItem

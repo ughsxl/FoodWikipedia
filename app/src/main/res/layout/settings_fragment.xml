@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
     android:orientation="vertical"
-    tools:context=".Settings">
+    tools:context=".screen.Settings">
 
     <include layout="@layout/actionbar_light_theme"
         android:id="@+id/includedActionBar"/>

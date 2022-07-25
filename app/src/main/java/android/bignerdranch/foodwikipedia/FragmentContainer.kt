@@ -1,13 +1,9 @@
 package android.bignerdranch.foodwikipedia
 
 import android.bignerdranch.foodwikipedia.databinding.FragmentContainerBinding
-import android.content.res.Resources
-import android.media.MediaPlayer
+import android.bignerdranch.foodwikipedia.screen.Header
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.app.AppCompatDelegate
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
 
 class FragmentContainer: AppCompatActivity() {
     private lateinit var binding: FragmentContainerBinding

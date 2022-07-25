@@ -1,23 +1,19 @@
 package android.bignerdranch.foodwikipedia.category_data
 
-object CategoryJsonStrings {
+import org.json.JSONObject
+import org.json.simple.parser.JSONParser
+import java.io.FileInputStream
+import java.io.FileReader
+import java.util.*
 
-    const val fruitsJsonString = "{\"fruits\":" +
-            "{\"description\":" +
-            "\"In botany, a fruit is the seed-bearing structure in " +
-            "flowering plants that is formed from the ovary after flowering. " +
-            "Consequently, fruits account for a substantial fraction of the world's " +
-            "agricultural output, and some have acquired extensive cultural and symbolic meanings\"," +
-            "\"main representatives\":\"" +
-            "Apple, Banana, Cherry, Orange, Tangerine, Peach, Strawberry\"," +
-            "\"representatives\":" +
-            "[{\"name\":\"Apple\"},{\"name\":\"Avokado\"},{\"name\":\"Banana\"},{\"name\":\"Blueberry\"},{\"name\":\"Blackberry\"},{\"name\":\"Cantaloupe\"}," +
-            "{\"name\":\"Cranberry\"},{\"name\":\"Cherry\"},{\"name\":\"Grapefruit\"},{\"name\":\"Grapes\"},{\"name\":\"Kiwi\"}," +
-            "{\"name\":\"Lemon\"},{\"name\":\"Lychee\"},{\"name\":\"Lime\"},{\"name\":\"Melon\"},{\"name\":\"Nectarines\"}," +
-            "{\"name\":\"Olive\"},{\"name\":\"Orange\"},{\"name\":\"Papaya\"},{\"name\":\"Peach\"},{\"name\":\"Pineapple\"}," +
-            "{\"name\":\"Pomegranate\"},{\"name\":\"Raspberry\"},{\"name\":\"Strawberry\"},{\"name\":\"Tangerine\"}]}}"
+class CategoryJsonStrings {
 
-    const val vegetablesJsonString = "{\"vegetables\":" +
+
+
+
+
+
+    val vegetablesJsonString = "{\"vegetables\":" +
             "{\"description\":" +
             "\"Vegetables are parts of plants that are consumed by humans or other animals as food." +
             " The original meaning is still commonly used and is applied to plants collectively to refer to all edible plant matter, " +
@@ -31,7 +27,7 @@ object CategoryJsonStrings {
             "{\"name\":\"Parsnip\"},{\"name\":\"Peppers\"},{\"name\":\"Potato\"},{\"name\":\"Spinach\"},{\"name\":\"Tomato\"}," +
             "{\"name\":\"Turnips\"},{\"name\":\"Zucchini\"}]}}"
 
-    const val meatAndFreshwaterFishJsonString = "{\"meat & freshwater fish\":" +
+    val meatAndFreshwaterFishJsonString = "{\"meat & freshwater fish\":" +
             "{\"description\":" +
             "\"Meat is animal flesh that is eaten as food. Humans have hunted, farmed, " +
             "and scavenged animals & fish for meat since prehistoric times. " +
@@ -46,7 +42,7 @@ object CategoryJsonStrings {
             "{\"name\":\"Bream\"},{\"name\":\"Carp\"},{\"name\":\"Catfish\"},{\"name\":\"Pike\"}," +
             "{\"name\":\"Redfish\"},{\"name\":\"Roach\"},{\"name\":\"Silver carp\"},{\"name\":\"Trout\"}]}}"
 
-    const val dairyJsonString = "{\"dairy\":{" +
+    val dairyJsonString = "{\"dairy\":{" +
             "\"description\":\"" +
             "Dairy products are generally defined as food products that are produced from milk." +
             " They are rich sources of energy. Raw milk for processing generally comes from cows," +
@@ -60,7 +56,7 @@ object CategoryJsonStrings {
             "{\"name\":\"Cream Cheese\"},{\"name\":\"Goat Milk\"},{\"name\":\"Kefir\"},{\"name\":\"Sour Cream\"}," +
             "{\"name\":\"Whey Protein\"},{\"name\":\"Whipped Cream\"},{\"name\":\"Regular Milk\"},{\"name\":\"Yogurt\"}]}}"
 
-    const val grainsJsonString = "{\"grains\":{" +
+    val grainsJsonString = "{\"grains\":{" +
             "\"description\":" +
             "\"A grain is a small, hard, dry seed – with or without an attached hull or " +
             "fruit layer – harvested for human or animal consumption. " +
@@ -74,7 +70,7 @@ object CategoryJsonStrings {
             "{\"name\":\"Grits\"},{\"name\":\"Millet\"},{\"name\":\"Oats\"},{\"name\":\"Quinoa\"}," +
             "{\"name\":\"Rice\"},{\"name\":\"Wheat\"},{\"name\":\"WildRice\"}]}}"
 
-    const val legumesJsonString = "{\"legumes\":{" +
+    val legumesJsonString = "{\"legumes\":{" +
             "\"description\":" +
             "\"Legumes are grown agriculturally, primarily for human consumption, " +
             "for livestock forage and silage, and as soil-enhancing green manure." +
@@ -86,7 +82,7 @@ object CategoryJsonStrings {
             "{\"name\":\"Kidney Beans\"},{\"name\":\"Lentils\"},{\"name\":\"Peanuts\"}," +
             "{\"name\":\"Sugar Snap Peas\"},{\"name\":\"Soybeans\"},{\"name\":\"Split Peas\"}]}}"
 
-    const val seafoodJsonString = "{\"seafood\":{" +
+    val seafoodJsonString = "{\"seafood\":{" +
             "\"description\":" +
             "\"Seafood is any form of sea life regarded as food by humans, " +
             "prominently including fish and shellfish. Shellfish include various species of " +
@@ -101,7 +97,7 @@ object CategoryJsonStrings {
             "{\"name\":\"Salmon\"},{\"name\":\"Sardines\"},{\"name\":\"Seaweed\"}," +
             "{\"name\":\"Shrimp\"},{\"name\":\"Sprats\"},{\"name\":\"Squid\"},{\"name\":\"Trout\"}]}}"
 
-    const val nutsJsonString = "{\"nuts\":{" +
+    val nutsJsonString = "{\"nuts\":{" +
             "\"description\":" +
             "\"Nuts are some of the healthiest foods, and they provide a wide range of " +
             "essential nutrients. Basically, they have a hard shell and an edible core. " +
@@ -112,7 +108,7 @@ object CategoryJsonStrings {
             "{\"name\":\"Acorns\"},{\"name\":\"Almonds\"},{\"name\":\"Cashew\"},{\"name\":\"Chestnuts\"}," +
             "{\"name\":\"Hazelnuts\"},{\"name\":\"Pine Nuts\"},{\"name\":\"Pistachio\"},{\"name\":\"Walnuts\"}]}}"
 
-    const val herbsAndSpicesJsonString = "{\"herbs & spices\":{" +
+    val herbsAndSpicesJsonString = "{\"herbs & Spices\":{" +
             "\"description\":" +
             "\"Herbs and spices are food or drinking additives of mostly biological origin:" +
             " herbs, fruits, and so on. It is used in nutritionally insignificant amounts, " +

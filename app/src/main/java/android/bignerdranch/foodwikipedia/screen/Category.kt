@@ -1,12 +1,12 @@
-package android.bignerdranch.foodwikipedia
+package android.bignerdranch.foodwikipedia.screen
 
 import android.app.AlertDialog
+import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.CategoryFragmentBinding
 import android.bignerdranch.foodwikipedia.extensions.launchFragment
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.json.JSONObject
 
 class Category: Fragment(R.layout.category_fragment) {
@@ -89,7 +89,8 @@ class Category: Fragment(R.layout.category_fragment) {
                 pickedItemIndex = (dialog as AlertDialog).listView.checkedItemPosition
                 pickedItem = items[pickedItemIndex]
 
-                launchFragment(parentFragmentManager, CategoryItem.newInstance(category, pickedItem))
+                launchFragment(parentFragmentManager,
+                    CategoryItem.newInstance(category, pickedItem))
             }
             .create()
             .show()

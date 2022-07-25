@@ -6,7 +6,7 @@
     "representatives": [
         {
           "name": "Artichoke",
-          "description": "",
+          "description": "Artichoke (or artichoke heart) is a kind of thistle. Interestingly, this vegetable is actually the flower buds of the plant before they bloom.",
 
           "calories": "74kcal",
           "carbs": "11.57g",
@@ -34,7 +34,7 @@
 
         {
           "name": "Basil",
-          "description": "",
+          "description": "Basil is an herb in the mint family that is essential in Italian cooking, although it is also used in a variety of other types of cuisines including Thai, Indonesian, and Vietnamese.",
 
           "calories": "22kcal",
           "carbs": "2.65g",
@@ -62,7 +62,7 @@
 
         {
           "name": "Beets",
-          "description": "",
+          "description": "Beets are a root vegetable, and they are quite adaptable too. For instance, they can be boiled, fried, roasted, mashed, or you can even buy pickled beets. Consuming beets leads to a large intake of nitrate, which has many purported health benefits. Most notably, nitrate helps to lower blood pressure.",
 
           "calories": "43kcal",
           "carbs": "9.56g",
@@ -91,8 +91,38 @@
         },
 
         {
+          "name": "Bell Peppers",
+          "description": "Bell peppers come in all colors, shapes, and sizes.Technically bell peppers are a fruit, but since most people use them as a vegetable, they make this list.",
+
+          "calories": "20kcal",
+          "carbs": "4.64g",
+          "sugar": "2.4g",
+          "fiber": "1.8g",
+          "fat": "0.17g",
+          "protein": "0.86g",
+
+          "a": "18mcg",
+          "b-1": "0.057mg",
+          "b-3": "0.48mg",
+          "b-6": "0.224mg",
+          "b-9": "10mcg",
+          "b-12": " -",
+          "c": "80.4mg",
+          "d": " -",
+          "e": "0.37mg",
+
+          "calcium": "10mg",
+          "iron": "0.34mg",
+          "magnesium": "10mg",
+          "omega-3": " -",
+          "phosphorus": "20mg",
+          "sodium": "3mg",
+          "zinc": "0.13mg"
+        },
+
+        {
           "name": "Broccoli",
-          "description": "",
+          "description": "Broccoli is another nutritious cruciferous vegetable, and numerous studies show it can lower the risk of various cancers. Interestingly, wild broccoli doesn't exist, and the vegetable was made by man through selectively breeding cabbage plants.",
 
           "calories": "34kcal",
           "carbs": "6.64g",
@@ -122,7 +152,7 @@
 
         {
           "name": "Cabbage",
-          "description": "",
+          "description": "Cabbage is a large-headed green vegetable that has close botanical links to broccoli, cauliflower, and brussels sprouts. Cabbage belongs to the cruciferous category of vegetables and like others, it has links to similar anti-cancer health benefits.",
 
           "calories": "25kcal",
           "carbs": "5.8g",
@@ -151,7 +181,7 @@
 
         {
           "name": "Carrot",
-          "description": "",
+          "description": "Carrots are a sweet-tasting, bright orange root vegetable. However, it's possible to find rarer cultivars of the vegetable that are red, yellow and even black. Carrots are mainly known for their high vitamin A content. That said, it's essential to eat them with a source of fat if you want to absorb this vitamin.",
 
           "calories": "41kcal",
           "carbs": "9.6g",
@@ -181,7 +211,7 @@
 
         {
           "name": "Celery",
-          "description": "",
+          "description": "Usually eaten in its raw state, celery is a popular salad vegetable with high water content. Notably, quite a lot of research shows that celery may have some interesting health properties too. According to one systematic review, the vegetable can have a positive impact on fertility.",
 
           "calories": "16kcal",
           "carbs": "2.97g",
@@ -210,7 +240,7 @@
 
         {
           "name": "Chile peppers",
-          "description": "",
+          "description": "Chili peppers are primarily used as a spice and can be cooked or dried and powdered. Powdered, red chili peppers are known as paprika. Capsaicin is the main bioactiveplant compound in chili peppers, responsible for their unique, pungent taste and many of their health benefits.",
 
           "calories": "40kcal",
           "carbs": "8.8g",
@@ -238,7 +268,7 @@
 
         {
           "name": "Corn",
-          "description": "",
+          "description": "Corn is a tall annual cereal grass that is widely grown for its large elongated ears of starchy seeds. The seeds, which are also known as corn, are used as food for humans and livestock and as a source of biofuel and can be processed into a wide range of useful chemicals.",
 
           "calories": "86kcal",
           "carbs": "18.7g",
@@ -268,7 +298,7 @@
 
         {
           "name": "Cucumber",
-          "description": "",
+          "description": "Cucumbers have a mild, refreshing taste and a high water content. They can help relieve dehydration and are pleasant to eat in hot weather. People eat cucumber as a vegetable, but it is a fruit. It also features in some beauty products.",
 
           "calories": "16kcal",
           "carbs": "3.63g",
@@ -297,7 +327,7 @@
 
         {
           "name": "Dill",
-          "description": "",
+          "description": "The dill plant provides feathery green leaves for the dill weed herb, while the flat, oval fruits make the dill seed spice. It's an annual herb related to celery that tends to replant itself and spread widely, which is good to know if you're considering planting it in your garden.",
 
           "calories": "43kcal",
           "carbs": "7g",
@@ -327,7 +357,7 @@
 
         {
           "name": "Eggplant",
-          "description": "",
+          "description": "While it goes by the name of eggplant in the US, the UK uses the French name of aubergine. It seems that with eggplant, people either love it or hate it – and the way of cooking probably has a lot to do with it.",
 
           "calories": "25kcal",
           "carbs": "5.88g",
@@ -357,7 +387,7 @@
 
         {
           "name": "Lettuce",
-          "description": "",
+          "description": "Lettuce is one of the most popular varieties of vegetables. You can find it pretty much everywhere too; burgers, sandwiches, salads, or just decorating the sides of a plate. Lettuce has an extremely high water content, which makes it quite crisp and refreshing.",
 
           "calories": "13kcal",
           "carbs": "2.23g",
@@ -387,7 +417,7 @@
 
         {
           "name": "Onion",
-          "description": "",
+          "description": "It's hard to pinpoint the taste of onions, but they are slightly sweet, spicy, bitter, and flavorful, all at the same time. Grilled onions taste delicious, especially in combination with garlic and some steak. However, most people use onions for flavoring, and adding chopped onions to a dish always boosts the taste.",
 
           "calories": "40kcal",
           "carbs": "9.34g",
@@ -415,7 +445,7 @@
 
         {
           "name": "Parsnip",
-          "description": "",
+          "description": "Parsnip may look like a white carrot, but they taste completely different. Parsnips are another biennial type of plant, and they are very versatile in the kitchen. Parsnips have a soft texture with a nutty/sweet flavor, and roasting them in the oven tastes particularly good.",
 
           "calories": "75kcal",
           "carbs": "18g",
@@ -445,7 +475,7 @@
 
         {
           "name": "Potato",
-          "description": "",
+          "description": "While a traditional staple food in the East is rice, potatoes fill that bracket for much of the West. Interestingly, there are many different types of potatoes, each of which have their own unique characteristics. Nutritionally, potatoes are one of the higher carbohydrate sources on this list of vegetables.",
 
           "carbs": "19.36g",
           "protein": "1.66g",
@@ -475,7 +505,7 @@
 
         {
           "name": "Spinach",
-          "description": "",
+          "description": "Spinach is among the most nutrient-dense of this list of vegetables. It is a leafy green that is native to Asia, and it is incredibly high in vitamin A and vitamins C and K1. Spinach has an impressive nutrient profile too, and it provides a decent amount of almost every micronutrient.",
 
           "calories": "23kcal",
           "carbs": "3.6g",
@@ -505,7 +535,7 @@
 
         {
           "name": "Tomato",
-          "description": "",
+          "description": "Tomatoes are juicy, sweet, and slightly sour fruit.Yes, botanically speaking tomatoes are fruit.However, when was the last time you saw tomato in a fruit salad? While tomatoes, technically, are a fruit, we use them as a vegetable in cooking.",
 
           "calories": "18kcal",
           "carbs": "3.9g",
@@ -535,7 +565,7 @@
 
         {
           "name": "Turnips",
-          "description": "",
+          "description": "Turnips are a root vegetable that grows in temperate regions around the world. Turnips are often eaten on their own, either mashed, boiled or stewed. However, they work well in a range of dishes too. The edible part of this root vegetable is a white bulb that provides a range of nutrients.",
 
           "calories": "22kcal",
           "carbs": "5.1g",
@@ -564,7 +594,7 @@
 
         {
           "name": "Zucchini",
-          "description": "",
+          "description": "Here is another vegetable that has alternate names across the Atlantic.Known by the original Italian word 'zucchini' in the US and Australia, this vegetable goes by the French name of \"courgette\" in the UK, Ireland and New Zealand. But whatever you call it, it still looks and tastes the same.",
 
           "calories": "15kcal",
           "carbs": "2.69g",

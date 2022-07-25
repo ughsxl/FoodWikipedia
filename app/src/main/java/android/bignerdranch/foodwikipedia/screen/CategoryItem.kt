@@ -1,7 +1,7 @@
-package android.bignerdranch.foodwikipedia
+package android.bignerdranch.foodwikipedia.screen
 
+import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.CategoryItemFragmentBinding
-import android.bignerdranch.foodwikipedia.extensions.showToast
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment

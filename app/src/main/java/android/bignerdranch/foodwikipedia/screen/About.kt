@@ -1,7 +1,7 @@
-package android.bignerdranch.foodwikipedia
+package android.bignerdranch.foodwikipedia.screen
 
+import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.AboutFragmentBinding
-import android.bignerdranch.foodwikipedia.databinding.ActionbarLightThemeBinding
 import android.content.Intent
 import android.os.Bundle
 import android.view.View

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
     android:id="@+id/header"
-    tools:context=".Header"
+    tools:context=".screen.Header"
     tools:ignore="contentDescription">
 
     <include layout="@layout/actionbar_light_theme"
