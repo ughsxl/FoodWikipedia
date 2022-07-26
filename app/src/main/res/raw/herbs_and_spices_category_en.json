@@ -1,7 +1,6 @@
 {
-  "Herbs & Spices": {
     "description": "Herbs and spices are food or drinking additives of mostly biological origin: herbs, fruits, and so on. It is used in nutritionally insignificant amounts, most often in powder form, for flavoring or coloring.",
-    "main representatives": "Basil, Caraway, Cardamom, Cilantro, Cloves.",
+    "main_representatives": "Basil, Caraway, Cardamom, Cilantro, Cloves.",
 
 
     "representatives": [
@@ -111,4 +110,3 @@
       }
     ]
   }
-}

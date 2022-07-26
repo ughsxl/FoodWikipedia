@@ -1,7 +1,6 @@
 {
-  "grains": {
     "description": "A grain is a small, hard, dry seed – with or without an attached hull or fruit layer – harvested for human or animal consumption. A grain crop is a grain-producing plant. The two main types of commercial grain crops are cereals and legumes.",
-    "main representatives": "Buckwheat, Rice, Wheat, Oats, Barley, Grits, Bulgur.",
+    "main_representatives": "Buckwheat, Rice, Wheat, Oats, Barley, Grits, Bulgur.",
 
     "representatives": [
       {
@@ -57,4 +56,3 @@
       }
     ]
   }
-}

@@ -1,7 +1,6 @@
 {
-  "legumes": {
     "description": "Legumes are grown agriculturally, primarily for human consumption, for livestock forage and silage, and as soil-enhancing green manure. Well-known legumes include beans, soybeans, peas, chickpeas, peanuts, lentils.",
-    "main representatives": "Chickpeas, Lentils, Soybeans, Kidney Beans, Peanuts.",
+    "main_representatives": "Chickpeas, Lentils, Soybeans, Kidney Beans, Peanuts.",
 
     "representatives": [
       {
@@ -41,4 +40,3 @@
       }
     ]
   }
-}

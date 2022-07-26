@@ -3,13 +3,12 @@ package android.bignerdranch.foodwikipedia.screen
 import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.category_data.CategoryIcons
-import android.bignerdranch.foodwikipedia.category_data.CategoryJsonStrings
 import android.bignerdranch.foodwikipedia.databinding.HeaderFragmentBinding
-import android.bignerdranch.foodwikipedia.extensions.launchFragment
-import android.bignerdranch.foodwikipedia.extensions.loadFont
-import android.bignerdranch.foodwikipedia.extensions.showToast
+import android.bignerdranch.foodwikipedia.navigator
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
+import androidx.core.content.res.ResourcesCompat
 import androidx.fragment.app.Fragment
 import java.nio.charset.Charset
 
@@ -34,7 +33,9 @@ class Header: Fragment(R.layout.header_fragment) {
     }
 
     private fun setupUI() {
-        loadFont(requireContext(), R.font.plavea_font, binding.mainLabel)
+        ResourcesCompat.getFont(requireContext(), R.font.plavea_font).also {
+            binding.mainLabel.typeface = it
+        }
 
         binding.includedActionBar.screenLabel.text = getString(R.string.app_name)
 
@@ -51,11 +52,11 @@ class Header: Fragment(R.layout.header_fragment) {
         binding.launchCategoryButton.setOnClickListener { launchCategoryOnClickListener() }
 
         binding.aboutButton.setOnClickListener {
-            launchFragment(parentFragmentManager, About.newInstance())
+            navigator().launchFragment(parentFragmentManager, About.newInstance())
         }
 
         binding.includedActionBar.toSettingsImageButton.setOnClickListener {
-            launchFragment(parentFragmentManager, Settings.newInstance())
+            navigator().launchFragment(parentFragmentManager, Settings.newInstance())
         }
     }
 
@@ -87,78 +88,78 @@ class Header: Fragment(R.layout.header_fragment) {
         if (binding.launchCategoryButton.text != getString(R.string.launch_category))
             when (selectedCategory) {
                 "Fruits" -> {
-                    launchFragment(parentFragmentManager,
-                        Category.newInstance(selectedCategory,
+                    navigator().launchFragment(parentFragmentManager,
+                        CategoryScreen.newInstance(selectedCategory,
                             CategoryIcons.fruitIcon,
                             categoryJsonStrings["fruits"]!!,
                             "fruit"))
                 }
 
                 "Vegetables" -> {
-                    launchFragment(parentFragmentManager,
-                        Category.newInstance(selectedCategory,
+                    navigator().launchFragment(parentFragmentManager,
+                        CategoryScreen.newInstance(selectedCategory,
                             CategoryIcons.vegetableIcon,
                             categoryJsonStrings["vegetables"]!!,
                             "vegetable"))
                 }
 
                 "Meat & Freshwater Fish" -> {
-                    launchFragment(parentFragmentManager,
-                        Category.newInstance(selectedCategory,
+                    navigator().launchFragment(parentFragmentManager,
+                        CategoryScreen.newInstance(selectedCategory,
                             CategoryIcons.meatAndFishIcon,
                             categoryJsonStrings["meat_and_freshwater_fish"]!!,
                             "meat or fish"))
                 }
 
                 "Dairy" -> {
-                    launchFragment(parentFragmentManager,
-                        Category.newInstance(selectedCategory,
+                    navigator().launchFragment(parentFragmentManager,
+                        CategoryScreen.newInstance(selectedCategory,
                             CategoryIcons.dairyIcon,
                             categoryJsonStrings["dairy"]!!,
                             "dairy"))
                 }
 
                 "Grains" -> {
-                    launchFragment(parentFragmentManager,
-                        Category.newInstance(selectedCategory,
+                    navigator().launchFragment(parentFragmentManager,
+                        CategoryScreen.newInstance(selectedCategory,
                             CategoryIcons.grainsIcon,
                             categoryJsonStrings["grains"]!!,
                             "grain"))
                 }
 
                 "Legumes" -> {
-                    launchFragment(parentFragmentManager,
-                        Category.newInstance(selectedCategory,
+                    navigator().launchFragment(parentFragmentManager,
+                        CategoryScreen.newInstance(selectedCategory,
                             CategoryIcons.legumesIcon,
                             categoryJsonStrings["legumes"]!!,
                             "legume"))
                 }
 
                 "Seafood" -> {
-                    launchFragment(parentFragmentManager,
-                        Category.newInstance(selectedCategory,
+                    navigator().launchFragment(parentFragmentManager,
+                        CategoryScreen.newInstance(selectedCategory,
                             CategoryIcons.seafoodIcon,
                             categoryJsonStrings["legumes"]!!,
                             "seafood"))
                 }
 
                 "Nuts" -> {
-                    launchFragment(parentFragmentManager,
-                        Category.newInstance(selectedCategory,
+                    navigator().launchFragment(parentFragmentManager,
+                        CategoryScreen.newInstance(selectedCategory,
                             CategoryIcons.nutsIcon,
                             categoryJsonStrings["nuts"]!!,
                             "nuts"))
                 }
 
                 "Herbs & Spices" -> {
-                    launchFragment(parentFragmentManager,
-                        Category.newInstance(selectedCategory,
+                    navigator().launchFragment(parentFragmentManager,
+                        CategoryScreen.newInstance(selectedCategory,
                             CategoryIcons.herbsAndSpicesIcon,
                             categoryJsonStrings["herbs_and_spices"]!!,
                             "herb or spice"))
                 }
             }
-        else showToast(requireContext(), "First pick a category")
+        else Toast.makeText(requireContext(), "First pick a category", Toast.LENGTH_SHORT).show()
     }
 
 

@@ -4,8 +4,11 @@ import android.bignerdranch.foodwikipedia.databinding.FragmentContainerBinding
 import android.bignerdranch.foodwikipedia.screen.Header
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.commit
 
-class FragmentContainer: AppCompatActivity() {
+class FragmentContainer: AppCompatActivity(), Navigator {
     private lateinit var binding: FragmentContainerBinding
     //private lateinit var mediaPlayer: MediaPlayer
 
@@ -17,17 +20,32 @@ class FragmentContainer: AppCompatActivity() {
 
         //mediaPlayer = MediaPlayer.create(this, R.raw.background_music)
 
-        if (savedInstanceState == null)
-            launchHeader()
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
+                .replace(R.id.fragmentContainer, Header.newInstance())
+                .commit()
+        }
+            
 
     }
+    
 
-    private fun launchHeader() {
-        supportFragmentManager.beginTransaction()
-            .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
-            .replace(R.id.fragmentContainer, Header.newInstance())
-            .commit()
+    override fun launchFragment(manager: FragmentManager, fragment: Fragment) {
+        manager.commit {
+            setCustomAnimations(
+                R.anim.slide_in,
+                R.anim.fade_out,
+                R.anim.fade_in,
+                R.anim.slide_out
+            )
+            replace(R.id.fragmentContainer, fragment)
+            addToBackStack(null)
+        }
+
+
     }
+    
 
 
     override fun onStart() {
@@ -45,5 +63,7 @@ class FragmentContainer: AppCompatActivity() {
         //mediaPlayer.stop()
         //mediaPlayer.release()
     }
+
+
 
 }

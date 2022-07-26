@@ -1,7 +1,6 @@
 {
-  "seafood": {
     "description": "Seafood is any form of sea life regarded as food by humans, prominently including fish and shellfish. Shellfish include various species of molluscs crustaceans and echinoderms. Seafood is an important source of protein in many diets around the world, especially in coastal areas.",
-    "main representatives": "Oysters, Salmon, Trout, Abalone, Mackerel, Herring.",
+    "main_representatives": "Oysters, Salmon, Trout, Abalone, Mackerel, Herring.",
 
     "representatives": [
       {
@@ -69,4 +68,3 @@
       }
     ]
   }
-}

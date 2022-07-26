@@ -3,13 +3,15 @@ package android.bignerdranch.foodwikipedia.screen
 import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.CategoryFragmentBinding
-import android.bignerdranch.foodwikipedia.extensions.launchFragment
+import android.bignerdranch.foodwikipedia.json_objects.CategoryModel
+import android.bignerdranch.foodwikipedia.json_objects.ItemModel
+import android.bignerdranch.foodwikipedia.navigator
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import org.json.JSONObject
+import com.google.gson.Gson
 
-class Category: Fragment(R.layout.category_fragment) {
+class CategoryScreen: Fragment(R.layout.category_fragment) {
     private lateinit var binding: CategoryFragmentBinding
 
     private var category = ""
@@ -20,7 +22,7 @@ class Category: Fragment(R.layout.category_fragment) {
     private var categoryItemName = ""
 
     private var categoryMainRepresentatives = ""
-    private var representatives = mutableSetOf<String>()
+    private var representativesNames = arrayListOf<String>()
 
     private var pickedItem = ""
     private var pickedItemIndex = 0
@@ -60,25 +62,23 @@ class Category: Fragment(R.layout.category_fragment) {
 
 
     private fun fetchCategoryInfo() {
-        val reader = JSONObject(categoryJsonString)
+        if (categoryJsonString != "") {
+            val categoryObject = Gson().fromJson(categoryJsonString, CategoryModel::class.java) as CategoryModel
 
-        val jsonCategory = reader.getJSONObject(category.lowercase())
-        categoryDescription = jsonCategory.getString("description")
-        categoryMainRepresentatives = jsonCategory.getString("main representatives")
+            categoryDescription = categoryObject.description
+            categoryMainRepresentatives = categoryObject.main_representatives
+            val categoryReps: List<ItemModel> = categoryObject.representatives
 
-        val categoryRepresentatives = jsonCategory.getJSONArray("representatives")
-
-        for (representative in 0 until categoryRepresentatives.length()) {
-            val representativeObject = categoryRepresentatives.getJSONObject(representative)
-
-            val representativeName = representativeObject.getString("name")
-            representatives.add(representativeName)
+            for (element in categoryReps) {
+                val itemName = element.name
+                representativesNames += itemName
+            }
         }
     }
 
 
     private fun showCategoryItemDialog() {
-        val items = representatives.toTypedArray()
+        val items = representativesNames.toTypedArray()
 
         AlertDialog.Builder(requireContext())
             .setTitle("Pick item")
@@ -89,8 +89,8 @@ class Category: Fragment(R.layout.category_fragment) {
                 pickedItemIndex = (dialog as AlertDialog).listView.checkedItemPosition
                 pickedItem = items[pickedItemIndex]
 
-                launchFragment(parentFragmentManager,
-                    CategoryItem.newInstance(category, pickedItem))
+                navigator().launchFragment(parentFragmentManager,
+                    CategoryItemScreen.newInstance(category, pickedItem))
             }
             .create()
             .show()
@@ -103,14 +103,14 @@ class Category: Fragment(R.layout.category_fragment) {
         private const val CATEGORY_JSONSTRING_KEY = "category_jsonstring_key"
         private const val CATEGORY_ITEM_NAME_KEY = "category_item_name_key"
 
-        fun newInstance(category: String, categoryIcon: Int, jsonString: String, itemName: String): Category {
+        fun newInstance(category: String, categoryIcon: Int, jsonString: String, itemName: String): CategoryScreen {
             val args = Bundle()
             args.putString(CATEGORY_KEY, category)
             args.putInt(CATEGORY_ICON_KEY, categoryIcon)
             args.putString(CATEGORY_JSONSTRING_KEY, jsonString)
             args.putString(CATEGORY_ITEM_NAME_KEY, itemName)
 
-            val fragment = Category()
+            val fragment = CategoryScreen()
             fragment.arguments = args
 
             return fragment

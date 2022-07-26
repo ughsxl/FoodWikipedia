@@ -1,7 +1,6 @@
 {
-  "nuts": {
     "description": "Nuts are some of the healthiest foods, and they provide a wide range of essential nutrients. Basically, they have a hard shell and an edible core. Biologically, they have three types: nuts, seeds and legumes.",
-    "main representatives": "Walnuts, Hazelnuts, Almonds, Cashew, Pistachio.",
+    "main_representatives": "Walnuts, Hazelnuts, Almonds, Cashew, Pistachio.",
 
 
     "representatives": [
@@ -38,4 +37,3 @@
       }
     ]
   }
-}

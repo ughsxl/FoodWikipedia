@@ -1,7 +1,6 @@
 {
-  "dairy": {
     "description": "Dairy products are generally defined as food products that are produced from milk. They are rich sources of energy. Raw milk for processing generally comes from cows, but occasionally from other mammals such as goats, sheep, and water buffalo.",
-    "main representatives": "Milk, Butter, Cheese, Yogurt, Cream, Kefir, Sour Cream.",
+    "main_representatives": "Milk, Butter, Cheese, Yogurt, Cream, Kefir, Sour Cream.",
 
     "representatives": [
       {
@@ -73,4 +72,3 @@
       }
     ]
   }
-}

@@ -1,7 +1,6 @@
 {
-  "fruits": {
     "description": "In botany, a fruit is the seed-bearing structure in flowering plants that is formed from the ovary after flowering. Consequently, fruits account for a substantial fraction of the world's agricultural output, and some have acquired extensive cultural and symbolic meanings.",
-    "main representatives": "Apple, Banana, Cherry, Orange, Tangerine, Peach, Strawberry.",
+    "main_representatives": "Apple, Banana, Cherry, Orange, Tangerine, Peach, Strawberry.",
 
     "representatives": [
       {
@@ -844,5 +843,4 @@
         "zinc": "0.1mg"
       }
     ]
-  }
 }
