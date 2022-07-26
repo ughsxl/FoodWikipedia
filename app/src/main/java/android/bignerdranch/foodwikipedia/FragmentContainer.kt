@@ -21,15 +21,10 @@ class FragmentContainer: AppCompatActivity(), Navigator {
         //mediaPlayer = MediaPlayer.create(this, R.raw.background_music)
 
         if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
-                .replace(R.id.fragmentContainer, Header.newInstance())
-                .commit()
+            replaceFragments(supportFragmentManager, Header.newInstance())
         }
-            
-
     }
-    
+
 
     override fun launchFragment(manager: FragmentManager, fragment: Fragment) {
         manager.commit {
@@ -42,8 +37,18 @@ class FragmentContainer: AppCompatActivity(), Navigator {
             replace(R.id.fragmentContainer, fragment)
             addToBackStack(null)
         }
+    }
 
-
+    override fun replaceFragments(manager: FragmentManager, fragment: Fragment) {
+        manager.commit {
+            setCustomAnimations(
+                R.anim.slide_in,
+                R.anim.fade_out,
+                R.anim.fade_in,
+                R.anim.slide_out
+            )
+            replace(R.id.fragmentContainer, fragment)
+        }
     }
     
 

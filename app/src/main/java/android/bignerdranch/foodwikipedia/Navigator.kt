@@ -7,4 +7,6 @@ fun Fragment.navigator() = requireActivity() as Navigator
 
 interface Navigator {
     fun launchFragment(manager: FragmentManager, fragment: Fragment)
+
+    fun replaceFragments(manager: FragmentManager, fragment: Fragment)
 }

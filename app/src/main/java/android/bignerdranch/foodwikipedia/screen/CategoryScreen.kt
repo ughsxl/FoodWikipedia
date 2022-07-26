@@ -22,13 +22,16 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
     private var categoryItemName = ""
 
     private var categoryMainRepresentatives = ""
-    private var representativesNames = arrayListOf<String>()
+    private var representativesNames = ArrayList<String>()
+    private var categoryRepresentatives = ArrayList<ItemModel>()
 
     private var pickedItem = ""
     private var pickedItemIndex = 0
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding = CategoryFragmentBinding.bind(view)
 
         if (arguments != null) {
             category = arguments?.getString(CATEGORY_KEY) ?: ""
@@ -36,11 +39,6 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
             categoryJsonString = arguments?.getString(CATEGORY_JSONSTRING_KEY) ?: ""
             categoryItemName = arguments?.getString(CATEGORY_ITEM_NAME_KEY) ?: ""
         }
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        binding = CategoryFragmentBinding.bind(view)
 
         fetchCategoryInfo()
         setupUI()
@@ -63,14 +61,14 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
 
     private fun fetchCategoryInfo() {
         if (categoryJsonString != "") {
-            val categoryObject = Gson().fromJson(categoryJsonString, CategoryModel::class.java) as CategoryModel
+            val categoryObject = Gson().fromJson(categoryJsonString, CategoryModel::class.java)
 
             categoryDescription = categoryObject.description
             categoryMainRepresentatives = categoryObject.main_representatives
-            val categoryReps: List<ItemModel> = categoryObject.representatives
+            categoryRepresentatives = categoryObject.representatives
 
-            for (element in categoryReps) {
-                val itemName = element.name
+            for (item in categoryRepresentatives) {
+                val itemName = item.name
                 representativesNames += itemName
             }
         }
@@ -89,8 +87,12 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
                 pickedItemIndex = (dialog as AlertDialog).listView.checkedItemPosition
                 pickedItem = items[pickedItemIndex]
 
-                navigator().launchFragment(parentFragmentManager,
-                    CategoryItemScreen.newInstance(category, pickedItem))
+                for (item in categoryRepresentatives) {
+                    if (pickedItem == item.name) {
+                        navigator().launchFragment(parentFragmentManager,
+                            CategoryItemScreen.newInstance(category, item))
+                    }
+                }
             }
             .create()
             .show()
@@ -100,7 +102,7 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
     companion object {
         private const val CATEGORY_KEY = "category_key"
         private const val CATEGORY_ICON_KEY = "category_icon_key"
-        private const val CATEGORY_JSONSTRING_KEY = "category_jsonstring_key"
+        const val CATEGORY_JSONSTRING_KEY = "category_jsonstring_key"
         private const val CATEGORY_ITEM_NAME_KEY = "category_item_name_key"
 
         fun newInstance(category: String, categoryIcon: Int, jsonString: String, itemName: String): CategoryScreen {

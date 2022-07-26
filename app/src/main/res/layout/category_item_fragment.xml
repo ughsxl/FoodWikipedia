@@ -27,7 +27,7 @@
             android:id="@+id/itemName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="4dp"
             android:text="Apple"
@@ -45,8 +45,7 @@
             android:text="An apple is an edible fruit produced by an apple tree. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Different cultivars are bred for various tastes and uses, including cooking, eating raw, and cider production."
             android:textStyle="normal"
             app:layout_constraintStart_toStartOf="@+id/itemName"
-            app:layout_constraintTop_toBottomOf="@+id/itemName"
-            tools:text="An apple is an edible fruit produced by an apple tree. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Different cultivars are bred for various tastes and uses, including cooking, eating raw, and cider production." />
+            app:layout_constraintTop_toBottomOf="@+id/itemName"/>
 
 
         <TextView
@@ -61,14 +60,13 @@
 
         <GridLayout
             android:id="@+id/nutritionValues"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="@+id/nutritionValueTextView"
             app:layout_constraintStart_toStartOf="@+id/nutritionValueTextView"
             app:layout_constraintTop_toBottomOf="@+id/nutritionValueTextView"
-            android:layout_marginStart="10dp"
             android:paddingBottom="12dp">
 
             <TextView
