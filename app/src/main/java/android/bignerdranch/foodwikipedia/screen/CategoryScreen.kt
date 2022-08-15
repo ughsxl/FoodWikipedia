@@ -3,8 +3,8 @@ package android.bignerdranch.foodwikipedia.screen
 import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.CategoryFragmentBinding
-import android.bignerdranch.foodwikipedia.json_objects.CategoryModel
-import android.bignerdranch.foodwikipedia.json_objects.ItemModel
+import android.bignerdranch.foodwikipedia.models.CategoryModel
+import android.bignerdranch.foodwikipedia.models.ItemModel
 import android.bignerdranch.foodwikipedia.navigator
 import android.os.Bundle
 import android.view.View
@@ -22,8 +22,8 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
     private var categoryItemName = ""
 
     private var categoryMainRepresentatives = ""
-    private var representativesNames = ArrayList<String>()
-    private var categoryRepresentatives = ArrayList<ItemModel>()
+    private lateinit var representativesNames: ArrayList<String>
+    private lateinit var categoryRepresentatives: ArrayList<ItemModel>
 
     private var pickedItem = ""
     private var pickedItemIndex = 0
@@ -39,6 +39,9 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
             categoryJsonString = arguments?.getString(CATEGORY_JSONSTRING_KEY) ?: ""
             categoryItemName = arguments?.getString(CATEGORY_ITEM_NAME_KEY) ?: ""
         }
+
+        representativesNames = ArrayList<String>()
+        categoryRepresentatives = ArrayList<ItemModel>()
 
         fetchCategoryInfo()
         setupUI()
@@ -106,11 +109,12 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
         private const val CATEGORY_ITEM_NAME_KEY = "category_item_name_key"
 
         fun newInstance(category: String, categoryIcon: Int, jsonString: String, itemName: String): CategoryScreen {
-            val args = Bundle()
-            args.putString(CATEGORY_KEY, category)
-            args.putInt(CATEGORY_ICON_KEY, categoryIcon)
-            args.putString(CATEGORY_JSONSTRING_KEY, jsonString)
-            args.putString(CATEGORY_ITEM_NAME_KEY, itemName)
+            val args = Bundle().apply {
+                putString(CATEGORY_KEY, category)
+                putInt(CATEGORY_ICON_KEY, categoryIcon)
+                putString(CATEGORY_JSONSTRING_KEY, jsonString)
+                putString(CATEGORY_ITEM_NAME_KEY, itemName)
+            }
 
             val fragment = CategoryScreen()
             fragment.arguments = args

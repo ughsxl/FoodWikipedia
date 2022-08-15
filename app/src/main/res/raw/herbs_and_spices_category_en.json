@@ -6,107 +6,390 @@
     "representatives": [
 
       {
-        "name": "Basil"
+        "name": "Basil",
+        "description": "There are many different varieties of basil, but the sweet basil cultivars are the most common. Basil is the key ingredient in basil pesto, a delicious herby-tasting condiment from Italy. It is also used for flavoring in various dishes, including Chinese-style stir-fries such as Thai basil chicken.",
+
+        "calories": "22kcal",
+        "carbs": "2.65g",
+        "fiber": "1.6g",
+        "sugar": " -",
+        "fat": "0.64g",
+        "protein": "3.15g",
+
+        "a": "264mcg",
+        "b-1": "0.034mg",
+        "b-3": "0.902mg",
+        "b-6": "0.155mg",
+        "b-9": "68mcg",
+        "b-12": " -",
+        "c": "18mg",
+        "d": " -",
+        "e": "0.80mg",
+
+        "calcium": "177mg",
+        "iron": "3.17mg",
+        "magnesium": "64mg",
+        "omega-3": " -",
+        "phosphorus": "56mg",
+        "sodium": "4mg",
+        "zinc": "0.81mg"
       },
 
       {
-        "name": "Bay Leaf"
+        "name": "Caraway",
+        "description": "Caraway seeds have a nutty and licorice-like taste. Either whole caraway seeds or ground caraway can be used, and both help enhance the flavor of food.Some popular foods that use caraway seeds include condiments such as harissa paste and sauerkraut",
+
+        "calories": "330kcal",
+        "carbs": "49.9g",
+        "sugar": "0.64g",
+        "fiber": "38g",
+        "fat": "14.59g",
+        "protein": "19.77g",
+
+        "a": "18mcg",
+        "b-1": "0.383mg",
+        "b-3": "3.606mg",
+        "b-6": "0.360mg",
+        "b-9": "10mcg",
+        "b-12": " -",
+        "c": "21mg",
+        "d": " -",
+        "e": "2.5mg",
+
+        "calcium": "689mg",
+        "iron": "16.23mg",
+        "magnesium": "258mg",
+        "omega-3": " -",
+        "phosphorus": "568mg",
+        "sodium": "17mg",
+        "zinc": "5.5mg"
       },
 
       {
-        "name": "Caraway"
+        "name": "Chili pepper",
+        "description": "Chili powder generally shares the same characteristics as cayenne pepper. The only real difference is that cayenne pepper should be hotter because it contains more cayenne.",
+
+        "calories": "40kcal",
+        "carbs": "8.8g",
+        "sugar": "5.3g",
+        "fiber": "1.5g",
+        "fat": "0.4g",
+        "protein": "1.9g",
+
+        "a": "48mcg",
+        "b-1": " -",
+        "b-3": " -",
+        "b-6": "0.51mg",
+        "b-9": " -",
+        "b-12": " -",
+        "c": "144mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": " -",
+        "iron": "1mg",
+        "magnesium": "23mg",
+        "omega-3": " -",
+        "phosphorus": " -",
+        "sodium": " -",
+        "zinc": " -"
       },
 
       {
-        "name": "Cardamom"
+        "name": "Chives",
+        "description": "Chives are one of the most common herb varieties, and they're a member of the allium family alongside garlic, leeks, onions, and shallots. They have a mildly sweet and enjoyable flavor and have a taste that somewhat resembles onion and garlic. Adding some chives to a dish can provide a big flavor boost.",
+
+        "calories": "30kcal",
+        "carbs": "4.35g",
+        "sugar": "1.85g",
+        "fiber": "2.5g",
+        "fat": "0.73g",
+        "protein": "3.27g",
+
+        "a": "218mcg",
+        "b-1": "0.078mg",
+        "b-3": "0.647mg",
+        "b-6": "0.138mg",
+        "b-9": "105mcg",
+        "b-12": " -",
+        "c": "58.1mg",
+        "d": " -",
+        "e": "0.21mg",
+
+        "calcium": "92mg",
+        "iron": "1.6mg",
+        "magnesium": "42mg",
+        "omega-3": " -",
+        "phosphorus": "58mg",
+        "zinc": "0.56mg"
       },
 
       {
-        "name": "Chili Pepper"
+        "name": "Cilantro",
+        "description": "As a spice, the lemony and floral flavor of coriander finds its way into the many Asian, Latin, and Indian dishes, as well as European cuisine. While the leaves of the coriander plant are an herb known as cilantro or Chinese parsley, the round seeds are used to make coriander spice.",
+
+        "calories": "23kcal",
+        "carbs": "3.67g",
+        "fiber": "2.8g",
+        "sugar": "0.87g",
+        "fat": "0.52g",
+        "protein": "2.13g",
+
+        "a": "337mcg",
+        "b-1": "0.067mg",
+        "b-3": "1.114mg",
+        "b-6": "0.149mg",
+        "b-9": "62mcg",
+        "b-12": " -",
+        "c": "27mg",
+        "d": " -",
+        "e": "2.5mg",
+
+        "calcium": "67mg",
+        "iron": "1.77mg",
+        "magnesium": "26mg",
+        "omega-3": " -",
+        "phosphorus": "48mg",
+        "sodium": "46mg",
+        "zinc": "0.5mg"
       },
 
       {
-        "name": "Chives"
+        "name": "Cinnamon",
+        "description": "Since the spice has slightly sweet properties, it tends to be used in sweet dishes. Cinnamon powder has a fine yellowy-brown appearance, and it is commonly added to hot chocolate. Also, cinnamon sticks are often an ingredient in seasonal drinks like mulled wine. ",
+
+        "calories": "247kcal",
+        "carbs": "80.6g",
+        "sugar": "2.2g",
+        "fiber": "53.1g",
+        "fat": "1.2g",
+        "protein": "4g",
+
+        "a": "15mcg",
+        "b-1": "0.02mg",
+        "b-3": "1.33mg",
+        "b-6": "0.16mg",
+        "b-9": "6mcg",
+        "b-12": " -",
+        "c": "3.8mg",
+        "d": " -",
+        "e": "2.3mg",
+
+        "calcium": "1002mg",
+        "iron": "8.3mg",
+        "magnesium": "60mg",
+        "omega-3": " -",
+        "phosphorus": "64mg",
+        "sodium": "10mg",
+        "zinc": "1.8mg"
       },
 
       {
-        "name": "Cilantro"
+        "name": "Garlic",
+        "description": "Garlic is the bulb of a flowering plant called Allium sativum. Botanically, garlic is a vegetable, but people generally use it as a herb or spice. Garlic is one of the most commonly used herbs and spices, and it features heavily in cuisines around the world.",
+
+        "calories": "149kcal",
+        "carbs": "33.06g",
+        "sugar": "1g",
+        "fiber": "2.1g",
+        "fat": "0.5g",
+        "protein": "6.36g",
+
+        "a": " -",
+        "b-1": "0.2mg",
+        "b-3": "0.7mg",
+        "b-6": "1.235mg",
+        "b-9": "3mcg",
+        "b-12": " -",
+        "c": "31.2mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "181mg",
+        "iron": "1.7mg",
+        "magnesium": "25mg",
+        "omega-3": " -",
+        "phosphorus": "153mg",
+        "sodium": "17mg",
+        "zinc": "1.16mg"
       },
 
       {
-        "name": "Cinnamon"
+        "name": "Ginger",
+        "description": "Ginger is the root of a flowering plant called Zingiber officinale, and it is one of the most common culinary spices. Ginger has a warming, flavorful, and slightly spicy taste, and it works well in a range of savory and sweet dishes.",
+
+        "calories": "80kcal",
+        "carbs": "17.77g",
+        "sugar": "1.7g",
+        "fiber": "2g",
+        "fat": "0.75g",
+        "protein": "1.82g",
+
+        "a": " -",
+        "b-1": "0.025mg",
+        "b-3": "0.75mg",
+        "b-6": "0.16mg",
+        "b-9": "11mcg",
+        "b-12": " -",
+        "c": "5mg",
+        "d": " -",
+        "e": "0.26mg",
+
+        "calcium": "16mg",
+        "iron": "0.6mg",
+        "magnesium": "43mg",
+        "omega-3": " -",
+        "phosphorus": "34mg",
+        "sodium": "13mg",
+        "zinc": "0.34mg"
       },
 
       {
-        "name": "Dill"
+        "name": "Parsley",
+        "description": "Parsley enjoys widespread use in the kitchen around the world. nThis popular herb features in a range of condiments, soups, and stocks, and it is one of the main ingredients in the Italian condiment salsa verde, Parsley also features in numerous European and Middle Eastern cooked dishes.",
+
+        "calories": "36kcal",
+        "carbs": "6.33g",
+        "sugar": "0.85g",
+        "fiber": "3.3g",
+        "fat": "0.79g",
+        "protein": "2.97g",
+
+        "a": "421mcg",
+        "b-1": "0.086mg",
+        "b-3": "1.313mg",
+        "b-6": "0.09mg",
+        "b-9": "152mcg",
+        "b-12": " -",
+        "c": "133mg",
+        "d": " -",
+        "e": "0.75mg",
+
+        "calcium": "138mg",
+        "iron": "6.2mg",
+        "magnesium": "50mg",
+        "omega-3": " -",
+        "phosphorus": "58mg",
+        "sodium": "56mg",
+        "zinc": "1.07mg"
       },
 
       {
-        "name": "Garam Masala"
+        "name": "Poppy",
+        "description": "Poppy seeds are often used to add some flavor to bread, cakes, and pastries. They are the main ingredient in beigli, which is a rolled cake filled with poppy seeds. Poppy seeds also feature in various Indian dishes as a spice and thickener. ",
+
+        "carbs": "28.13g",
+        "sugar": "2.99g",
+        "fiber": "19.5g",
+        "fat": "41.56g",
+        "protein": "21.22g",
+
+        "a": " -",
+        "b-1": "0.854mg",
+        "b-3": "0.896mg",
+        "b-6": "0.247mg",
+        "b-9": "82mcg",
+        "b-12": " -",
+        "c": "1mg",
+        "e": "1.77mg",
+
+        "calcium": "1438mg",
+        "iron": "9.76mg",
+        "magnesium": "347mg",
+        "phosphorus": "870mg",
+        "sodium": "26mg",
+        "zinc": "7mg"
+
       },
 
       {
-        "name": "Garlic"
+        "name": "Sesame",
+        "description": "Sesame seeds are widely used as a spice for the mildly sweet and nutty depth of flavor they add to food. These tasty seeds are often used as a topping on bread buns or sprinkled into a cooked dish for added flavor.",
+
+        "calories": "573kcal",
+        "carbs": "23.4g",
+        "sugar": "0.3g",
+        "fiber": "11.8g",
+        "fat": "49.7g",
+        "protein": "17.7g",
+
+        "a": "2.7mcg",
+        "b-1": "0.79mg",
+        "b-3": "4.52mg",
+        "b-6": "0.79mg",
+        "b-9": "97mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": "0.25mg",
+
+        "calcium": "975mg",
+        "iron": "14.6mg",
+        "magnesium": "351mg",
+        "omega-3": " -",
+        "phosphorus": "629mg",
+        "sodium": "11mg",
+        "zinc": "7.8mg"
       },
 
       {
-        "name": "Ginger"
+        "name": "Turmeric",
+        "description": "Turmeric is a popular spice that is prevalent in Asian cuisine, but particularly so in India. This spice has a strong yellowy-orange color and changes the color of food in much the same way as saffron. Perhaps for this reason, it has an alternate name of 'Indian saffron'. Turmeric is most commonly used in curries, and it provides an earthy, pungent, and warming taste.",
+
+        "calories": "354kcal",
+        "carbs": "64.9g",
+        "sugar": " -",
+        "fiber": "21g",
+        "fat": "9.88g",
+        "protein": "7.83g",
+
+        "a":  " -",
+        "b-1": " -",
+        "b-3": "5.14mg",
+        "b-6": "1.8mg",
+        "b-9": "39mcg",
+        "b-12": " -",
+        "c": "25.9mg",
+        "d": " -",
+        "e": "3.1mg",
+
+        "calcium": "183mg",
+        "iron": "41.42mg",
+        "magnesium": "193mg",
+        "omega-3": " -",
+        "phosphorus": "268mg",
+        "sodium": "38mg",
+        "zinc": "4.35mg"
       },
 
       {
-        "name": "Mustard"
-      },
+        "name": "Wasabi",
+        "description": "Wasabi a popular Japanese condiment used as a spice with a unique green color. It is most famous for its use in sushi, a small amount is typically found between the raw fish and the rice. While historically popular mainly in Japan, wasabi's popularity has grown alongside the growing worldwide interest in sushi. Wasabi has a hot and pungent flavor and only tiny amounts are necessary.",
 
-      {
-        "name": "Paprika"
-      },
+        "calories": "109kcal",
+        "carbs": "23.54g",
+        "sugar": " -",
+        "fiber": "23.54g",
+        "fat": "0.63g",
+        "protein": "4.80g",
 
-      {
-        "name": "Parsley"
-      },
+        "a": "10.5mcg",
+        "b-1": "0.131mg",
+        "b-3": "0.743mg",
+        "b-6": "0.274mg",
+        "b-9": "18mcg",
+        "b-12": " -",
+        "c": "25.9mg",
+        "d": " -",
+        "e": "3.1mg",
 
-      {
-        "name": "Pepper"
-      },
-
-      {
-        "name": "Poppy"
-      },
-
-      {
-        "name": "Rosemary"
-      },
-
-      {
-        "name": "Saffron"
-      },
-
-      {
-        "name": "Sage"
-      },
-
-      {
-        "name": "Sesame"
-      },
-
-      {
-        "name": "Tarragon"
-      },
-
-      {
-        "name": "Thyme"
-      },
-
-      {
-        "name": "Turmeric"
-      },
-
-      {
-        "name": "Vanilla"
-      },
-
-      {
-        "name": "Wasabi"
+        "calcium": "128mg",
+        "iron": "1.03mg",
+        "magnesium": "69mg",
+        "omega-3": " -",
+        "phosphorus": "80mg",
+        "sodium": "17mg",
+        "zinc": "1.62mg"
       }
     ]
   }

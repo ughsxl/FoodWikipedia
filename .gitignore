@@ -13,4 +13,3 @@
 .externalNativeBuild
 .cxx
 local.properties
-app/release/apk_key.jks

@@ -4,55 +4,305 @@
 
     "representatives": [
       {
-        "name": "Artek"
+        "name": "Barley",
+        "description": "Barley is one of the most popular grains, and it is a true cereal grain that also contains gluten. This cereal grain has a mild and nutty flavor and it features in everything from beer and tea to bread and desserts.",
+
+        "calories": "123kcal",
+        "carbs": "28.2g",
+        "sugar": "0.3g",
+        "fiber": "3.8g",
+        "fat": "0.4g",
+        "protein": "2.3g",
+
+        "a": " -",
+        "b-1": "0.083mg",
+        "b-3": "2.063mg",
+        "b-6": "0.115mg",
+        "b-9": "16mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": "0.01mg",
+
+        "calcium": "11mg",
+        "iron": "1.3mg",
+        "magnesium": "22mg",
+        "omega-3": " -",
+        "phosphorus": "54mg",
+        "sodium": "3mg",
+        "zinc": "0.82mg"
       },
 
       {
-        "name": "Barley"
+        "name": "Buckwheat",
+        "description": "Buckwheat is a gluten-free pseudocereal grain that has grown increasingly popular over the past decade. In this regard, numerous buckwheat products have come to the market, such as buckwheat flour, pasta, and noodles.",
+
+        "calories": "343kcal",
+        "carbs": "71.5g",
+        "sugar": " -",
+        "fiber": "10g",
+        "fat": "3.4g",
+        "protein": "13.25g",
+
+        "a": " -",
+        "b-1": "0.101mg",
+        "b-3": "7.02mg",
+        "b-6": "0.21mg",
+        "b-9": "30mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": " -",
+
+
+        "calcium": "18mg",
+        "iron": "2.2mg",
+        "magnesium": "231mg",
+        "omega-3": "0.078g",
+        "phosphorus": "347mg",
+        "sodium": "1mg",
+        "zinc": "2.4mg"
       },
 
       {
-        "name": "Buckwheat"
+        "name": "Bulgur",
+        "description": "Bulgur is one of the more nutrient-dense grains, and it offers higher fiber and nutrient concentrations than rice. Technically, bulgur is a form of wheat. This grain food is produced by the partial boiling of different wheat groats, mainly durum wheat.",
+
+        "calories": "83kcal",
+        "carbs": "18.58g",
+        "sugar": "0.10g",
+        "fiber": "4.5g",
+        "fat": "0.24g",
+        "protein": "3.08g",
+
+        "a": " -",
+        "b-1": "0.057mg",
+        "b-3": "1.000mg",
+        "b-6": "0.083mg",
+        "b-9": "18mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": "0.01mg",
+
+        "calcium": "10mg",
+        "iron": "0.96mg",
+        "magnesium": "32mg",
+        "omega-3": " -",
+        "phosphorus": "40mg",
+        "sodium": "5mg",
+        "zinc": "0.57mg"
       },
 
       {
-        "name": "Bulgur"
+        "name": "Corn",
+        "description": "Corn is the most popular grain globally. Corn is a true cereal grain, and it is also gluten-free.\nAccording to recent genetic and microbotanical analyses, maize was likely first domesticated over 10,000 years ago in Mexico.",
+
+        "calories": "86kcal",
+        "carbs": "18.7g",
+        "sugar": "6.26g",
+        "fiber": "2g",
+        "fat": "1.35g",
+        "protein": "3.27g",
+
+        "a": "653mcg",
+        "b-1": "0.155mg",
+        "b-3": "1.77mg",
+        "b-6": "0.093mg",
+        "b-9": "42mcg",
+        "b-12": " -",
+        "c": "6.8mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": " -",
+        "iron": "0.52mg",
+        "magnesium": "37mg",
+        "omega-3": " -",
+        "phosphorus": "89mg",
+        "sodium": " -",
+        "zinc": "0.46mg"
       },
 
       {
-        "name": "Corn"
+        "name": "Millet",
+        "description": "Millet is a true cereal grain and production centers around parts of Asia and Africa with semi-arid climates. In these regions of the world, millet is a major food source for the local people.",
+
+        "calories": "378kcal",
+        "carbs": "72.8g",
+        "fiber": "8.5g",
+        "sugar": " -",
+        "fat": "4.3g",
+        "protein": "11.0g",
+
+        "a": " -",
+        "b-1": " -",
+        "b-3": "4.72mg",
+        "b-6": "0.38mg",
+        "b-9": "85mcg",
+        "b-12": " -",
+        "c": "1.6mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "8mg",
+        "iron": "3.0mg",
+        "magnesium": "114mg",
+        "omega-3": "0.1g",
+        "phosphorus": "285mg",
+        "sodium": "5mg",
+        "zinc": "1.7mg"
       },
 
       {
-        "name": "Couscous"
+        "name": "Oats",
+        "description": "Oats are one of the most popular grains in the Western world, and they are most often used to make the breakfast option of porridge. There are several different forms that oats may come in.",
+
+        "calories": "389kcal",
+        "carbs": "66.3g",
+        "fiber": "11.6g",
+        "sugar": " -",
+        "fat": "6.9g",
+        "protein": "16.9g",
+
+        "a": " -",
+        "b-1": "0.763mg",
+        "b-3": "0.961mg",
+        "b-6": "0.12mg",
+        "b-9": "56mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "54mg",
+        "iron": "5mg",
+        "magnesium": "177mg",
+        "omega-3": " -",
+        "phosphorus": "523mg",
+        "sodium": "2mg",
+        "zinc": "4mg"
       },
 
       {
-        "name": "Grits"
+        "name": "Quinoa",
+        "description": "Quinoa is a pseudocereal grain grown worldwide and first cultivated by the Inca people prior to 3000 BC. This whole grain has increased in popularity in recent years, with global production vastly increasing.",
+
+        "calories": "368kcal",
+        "carbs": "64.2g",
+        "fiber": "7g",
+        "sugar": " -",
+        "fat": "6.1g",
+        "protein": "14.1g",
+
+        "a": "1mcg",
+        "b-1": "0.36mg",
+        "b-3": "1.52mg",
+        "b-6": "0.49mg",
+        "b-9": "184mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": "2.4mg",
+
+        "calcium": "47mg",
+        "iron": "4.6mg",
+        "magnesium": "197mg",
+        "omega-3": " -",
+        "phosphorus": "457mg",
+        "sodium": "5mg",
+        "zinc": "3.1mg"
+
       },
 
       {
-        "name": "Millet"
+        "name": "Rice",
+        "description": "Rice is a staple in any kitchen, and with so many different types, it lends itself to an endless number of recipes. Each type of rice has its own taste, texture, and unique properties that work best in different applications. Plus, rice is naturally gluten-free, making it an easy way to offer gluten-free entrees to accommodate alternative diets on your menu. ",
+
+        "calories": "130kcal",
+        "carbs": "28.1g",
+        "sugar": "0.05g",
+        "fiber": "0.4g",
+        "fat": "0.28g",
+        "protein": "2.69g",
+
+        "a": " -",
+        "b-1": "0.02mg",
+        "b-3": "0.4mg",
+        "b-6": "0.093mg",
+        "b-9": " -",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "10mg",
+        "iron": "0.2mg",
+        "magnesium": "12mg",
+        "omega-3": " -",
+        "phosphorus": "43mg",
+        "sodium": "1mg",
+        "zinc": "0.049mg"
       },
 
       {
-        "name": "Oats"
+        "name": "Wheat",
+        "description": "There are many different wheat strains, but today's most popular form in the food environment is known simply as 'common wheat'. Triticum aestivum is the strain that we know as common whole wheat, and it is the second most widely grown cereal crop in the world behind corn",
+
+        "calories": "327kcal",
+        "carbs": "71.18g",
+        "fiber": "12.2g",
+        "fat": "1.54g",
+        "sugar": " -",
+        "protein": "12.61g",
+
+        "a": " -",
+        "b-1": "0.383mg",
+        "b-3": "5.464mg",
+        "b-6": "0.3mg",
+        "b-9": "38mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "29mg",
+        "iron": "3.19mg",
+        "magnesium": "126mg",
+        "omega-3": " -",
+        "phosphorus": "288mg",
+        "sodium": "2mg",
+        "zinc": "2.65mg"
       },
 
       {
-        "name": "Quinoa"
-      },
+        "name": "Wild rice",
+        "description": "Wild rice is another type of whole grain rice that enjoys popularity around the world. While nutritionally similar to brown rice, it has a slightly higher protein and fiber content. It can also be used in various ways, whether served alone, used as flour, or as an ingredient in mixed dishes.",
 
-      {
-        "name": "Rice"
-      },
+        "calories": "101kcal",
+        "carbs": "21.34g",
+        "fiber": "1.8g",
+        "sugar": " -",
+        "fat": "0.34g",
+        "protein": "3.99g",
 
-      {
-        "name": "Wheat"
-      },
+        "a": "64mcg",
+        "b-1": "0.052mg",
+        "b-3": "1.287mg",
+        "b-6": "0.135mg",
+        "b-9": "26mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": "0.24mg",
 
-      {
-        "name": "Wild Rice"
+        "calcium": "3mg",
+        "iron": "0.6mg",
+        "magnesium": "32mg",
+        "omega-3": " -",
+        "phosphorus": "82mg",
+        "sodium": "3mg",
+        "zinc": "1.34mg"
       }
     ]
   }

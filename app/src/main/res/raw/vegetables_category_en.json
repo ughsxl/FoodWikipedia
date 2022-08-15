@@ -25,38 +25,10 @@
 
           "calcium": "21mg",
           "iron": "0.59mg",
-          "magnesium": " 41mg",
-          "phosphorus": " 71mg",
-          "sodium": " 180mg",
+          "magnesium": "41mg",
+          "phosphorus": "71mg",
+          "sodium": "180mg",
           "zinc": "0.4mg"
-        },
-
-        {
-          "name": "Basil",
-          "description": "Basil is an herb in the mint family that is essential in Italian cooking, although it is also used in a variety of other types of cuisines including Thai, Indonesian, and Vietnamese.",
-
-          "calories": "22kcal",
-          "carbs": "2.65g",
-          "fiber": "1.6g",
-          "fat": "0.64g",
-          "protein": "3.15g",
-
-          "a": "264mcg",
-          "b-1": "0.034mg",
-          "b-3": "0.902mg",
-          "b-6": "0.155mg",
-          "b-9": "68mcg",
-          "b-12": " -",
-          "c": " 18.0mg",
-          "d": " -",
-          "e": "0.80mg",
-
-          "calcium": " 177mg",
-          "iron": " 3.17mg",
-          "magnesium": " 64mg",
-          "phosphorus": "56mg",
-          "sodium": "4mg",
-          "zinc": "0.81mg"
         },
 
         {
@@ -84,13 +56,13 @@
           "iron": "0.8mg",
           "magnesium": " 23mg",
           "omega-3": " -",
-          "phosphorus": "40",
+          "phosphorus": "40mg",
           "sodium": "78mg",
           "zinc": "0.35mg"
         },
 
         {
-          "name": "Bell Peppers",
+          "name": "Bell peppers",
           "description": "Bell peppers come in all colors, shapes, and sizes.Technically bell peppers are a fruit, but since most people use them as a vegetable, they make this list.",
 
           "calories": "20kcal",
@@ -215,6 +187,7 @@
           "calories": "16kcal",
           "carbs": "2.97g",
           "fiber": "1.6g",
+          "sugar": " -",
           "fat": "0.17g",
           "protein": "0.69g",
 
@@ -331,10 +304,11 @@
           "calories": "43kcal",
           "carbs": "7g",
           "fiber": "2.1g",
+          "sugar": " -",
           "fat": "1.1g",
           "protein": "3.5g",
 
-          "a": "7717UI",
+          "a": "2315mcg",
           "b-1": "0.1mg",
           "b-3": "1.6mg",
           "b-6": "0.2mg",
@@ -421,6 +395,7 @@
           "calories": "40kcal",
           "carbs": "9.34g",
           "sugar": "4.24g",
+          "fiber": " -",
           "fat": "0.1g",
           "protein": "1.1g",
 
@@ -513,7 +488,7 @@
           "fat": "0.4g",
           "protein": "2.9g",
 
-          "a": "9377UI",
+          "a": "2813mcg",
           "b-1": "0.078mg",
           "b-3": "0.724mg",
           "b-6": "0.195mg",

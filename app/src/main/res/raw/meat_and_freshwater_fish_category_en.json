@@ -3,81 +3,244 @@
     "main_representatives": "Chicken, Carp, Turkey, Goose, Perch, Pork.",
 
     "representatives": [
-
       {
-        "name": "Chicken"
+        "name": "Beef",
+        "description": "When most people think of red meat, they probably imagine beef. There are many different beef products and cuts of beef, ranging from hamburgers to ribeye steaks.",
+
+        "calories": "250kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "15g",
+        "protein": "26g",
+
+        "a": " -",
+        "b-1": "0.046mg",
+        "b-3": "5.378mg",
+        "b-6": "0.383mg",
+        "b-9": "9mcg",
+        "b-12": "2.64mcg",
+        "c": " -",
+        "d": " -",
+        "e": "0.45mg",
+
+        "calcium": "18mg",
+        "iron": "2.6mg",
+        "magnesium": "21mg",
+        "omega-3": " -",
+        "phosphorus": "198mg",
+        "sodium": "72mg",
+        "zinc": "6.31mg"
       },
 
       {
-        "name": "Turkey"
+        "name": "Chicken",
+        "description": "Alongside beef and pork, chicken is one of the 'big three' popularity-wise. However, chicken is a different classification of meat and comes under the poultry category. People commonly refer to poultry as 'white meat'. As one of the most popular foods in the world, there are all sorts of chicken-based foods. These range from fried and roasted chicken to chicken soup and even chicken popcorn.",
+
+        "calories": "219kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "12.56g",
+        "protein": "24.68g",
+
+        "a": "44mcg",
+        "b-1": " -",
+        "b-3": " -",
+        "b-6": " -",
+        "b-9": " -",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": " -",
+
+        "calcium": " -",
+        "iron": "1.16mg",
+        "magnesium": " -",
+        "omega-3": " -",
+        "phosphorus": " -",
+        "sodium": "67mg",
+        "zinc": " -"
       },
 
       {
-        "name": "Duck"
+        "name": "Pork",
+        "description": "Pork is one of the most popular forms of meat in the world. Despite some confusion on the issue, pork is classed as red meat rather than white. This is because it contains a large amount of myoglobin, a protein responsible for the red color of meat.",
+
+        "calories": "242kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "27.92g",
+        "protein": "13.32g",
+
+        "a": " -",
+        "b-1": " -",
+        "b-3": " -",
+        "b-6": "0.464mg",
+        "b-12": "0.70mcg",
+        "c": "0.6mg",
+        "d": "1.325mcg",
+        "e": " -",
+
+        "calcium": "19mg",
+        "iron": "0.87mg",
+        "magnesium": "28mg",
+        "omega-3": " -",
+        "phosphorus": "246mg",
+        "sodium": "62mg",
+        "zinc": "2.39mg"
       },
 
       {
-        "name": "Goose"
+        "name": "Turkey",
+        "description": "Turkey is another type of white meat, probably best known in America for its appearance at the Christmas table. It has both a deeper yet drier taste than chicken and is a less prevalent form of poultry.\nAs mentioned above, the most popular kind is probably roast turkey, but you can find a variety of processed and unprocessed turkey products.",
+
+        "calories": "111kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "0.7g",
+        "protein": "24.6g",
+
+        "a": " -",
+        "b-1": " -",
+        "b-3": "6.6mg",
+        "b-6": "0.6mg",
+        "b-9": "8mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "10mg",
+        "iron": "1.2mg",
+        "magnesium": "28mg",
+        "omega-3": " -",
+        "phosphorus": "206mg",
+        "sodium": "49mg",
+        "zinc": "1.2mg"
+      },
+
+
+      {
+        "name": "Carp",
+        "description": "Carp meat is white but has a strip of tough, fatty dark meat running through it. When using fillets, the dark meat can be removed before cooking for a more appetizing finished preparation. The flesh is meaty and firm, with moderate oil content and a mild flavor. As with all farmed fish, the quality of the water in which the carp was raised determines the taste.",
+
+        "calories": "127kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "5.6g",
+        "protein": "17.8g",
+
+        "a": " -",
+        "b-1": " 0.155mg",
+        "b-3": "1.64mg",
+        "b-6": "0.190mg",
+        "b-9": "3mcg",
+        "b-12": "1.53mcg",
+        "c": " -",
+        "d": "24.7mcg",
+        "e": " -",
+
+        "calcium": "41mg",
+        "iron": "1.24mg",
+        "magnesium": "29mg",
+        "omega-3": "0.238g",
+        "phosphorus": "415mg",
+        "sodium": "49mg",
+        "zinc": "1.48mg"
       },
 
       {
-        "name": "Beef"
+        "name": "Pike",
+        "description": "Pike is a river predatory fish. A good source of protein. It is also often used in cooking, often soup is boiled from it..",
+
+        "calories": "88kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "0.7g",
+        "protein": "19g",
+
+        "a": "21mcg",
+        "b-1": "0.058",
+        "b-3": "2.300mg",
+        "b-6": "0.117mg",
+        "b-9": "15mcg",
+        "b-12": "2mg",
+        "c": "3.8mg",
+        "d": "2.5mcg",
+        "e": "0.20mg",
+
+        "calcium": "57mg",
+        "iron": "0.55mg",
+        "magnesium": "31mg",
+        "omega-3": "0.12g",
+        "phosphorus": "220mg",
+        "sodium": "39mg",
+        "zinc": "0.67mg"
       },
 
       {
-        "name": "Pork"
+        "name": "Redfish",
+        "description": "Many people say that smaller redfish have the best tasting. For more detailed, smaller redfish are around 10 to 15 pounds or less than 24 inches. These redfish have a medium flaky texture, unlike the flounder. Besides, they do not have a fishy flavor like giant redfish.",
+
+        "calories": "179kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "10.43g",
+        "protein": "19.93g",
+
+        "a": "135.90mcg",
+        "b-1": "0.054mg",
+        "b-3": "8.420mg",
+        "b-6": "0.4mg",
+        "b-9": "30mcg",
+        "b-12": "1.3mcg",
+        "c": "4mg",
+        "d": "13.15mcg",
+        "e": "1.22mg",
+
+        "calcium": "26mg",
+        "iron": "0.25mg",
+        "magnesium": "95mg",
+        "omega-3": "1g",
+        "phosphorus": "206mg",
+        "sodium": "47mg",
+        "zinc": "0.44mg"
       },
 
       {
-        "name": "Lamb"
-      },
+        "name": "Trout",
+        "description": "Trout is a cousin of salmon, and the two fish have a similar appearance. The taste is also somewhat similar, but trout has a milder flavor than salmon, which could be a positive or a negative depending on personal preference. Both of these fish share some positive traits too; specifically, they are high in omega-3, low in mercury, and offer an excellent source of vitamins and minerals. For a tasty meal, try cooking trout in a lemon butter sauce.",
 
-      {
-        "name": "Mutton"
-      },
+        "calories": "148kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "6.61g",
+        "protein": "20.77g",
 
-      {
-        "name": "Goat"
-      },
+        "a": "17.1mcg",
+        "b-1": "0.350mcg",
+        "b-3": "4.5mg",
+        "b-6": "0.2mg",
+        "b-9": "13mcg",
+        "b-12": " -",
+        "c": "0.5mg",
+        "d": "3.88mcg",
+        "e": "0.20mg",
 
-      {
-        "name": "Venison"
-      },
-
-      {
-        "name": "Rabbit"
-      },
-
-      {
-        "name": "Bream"
-      },
-
-      {
-        "name": "Carp"
-      },
-
-      {
-        "name": "Catfish"
-      },
-
-      {
-        "name": "Pike"
-      },
-
-      {
-        "name": "Redfish"
-      },
-
-      {
-        "name": "Roach"
-      },
-
-      {
-        "name": "Silver carp"
-      },
-
-      {
-        "name": "Trout"
+        "calcium": "43mg",
+        "iron": "1.5mg",
+        "magnesium": "22mg",
+        "omega-3": "0.5g",
+        "phosphorus": "245mg",
+        "sodium": "52mg",
+        "zinc": "0.66mg"
       }
     ]
   }

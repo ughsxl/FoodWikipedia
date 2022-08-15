@@ -4,36 +4,215 @@
 
 
     "representatives": [
+
       {
-        "name": "Acorns"
+        "name": "Almond",
+        "description": "Almonds are tree nuts that originated in the Middle East, and they were domesticated thousands of years ago. The nuts are popular worldwide, and there are also many food products made from the nuts, such as almond flour and almond milk.",
+
+        "calories": "579kcal",
+        "carbs": "21.6g",
+        "sugar": "4.4g",
+        "fiber": "12.5g",
+        "fat": "49.9g",
+        "protein": "21.2g",
+
+        "a": "1mcg",
+        "b-1": "0.211mg",
+        "b-3": "3.385mg",
+        "b-6": "0.143mg",
+        "b-9": "50mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": "25.6mcg",
+
+        "calcium": "264mg",
+        "iron": "3.72mg",
+        "magnesium": "268mg",
+        "omega-3": " -",
+        "phosphorus": "484mg",
+        "sodium": "1mg",
+        "zinc": "3.08mg"
       },
 
       {
-        "name": "Almonds"
+        "name": "Cashew",
+        "description": "Cashews are a true tree nut, and global production centers around Asia and Africa, with Vietnam and India being the top exporters. Compared to other nuts, cashews have a higher concentration of carbohydrates, and they are slightly lower in fat.",
+
+        "calories": "553kcal",
+        "carbs": "30.19g",
+        "fiber": "3.3g",
+        "sugar": "5.91g",
+        "fat": "43.85g",
+        "protein": "18.22g",
+
+        "a": " -",
+        "b-1": "0.423mg",
+        "b-3": "1.062mg",
+        "b-6": "0.417mg",
+        "b-9": "25mcg",
+        "b-12": " -",
+        "c": "0.5mg",
+        "d": " -",
+        "e": "mcg",
+
+        "calcium": "37mg",
+        "iron": "6.68mg",
+        "magnesium": "292mg",
+        "omega-3": " -",
+        "phosphorus": "593mg",
+        "sodium": "12mg",
+        "zinc": "5.78mg"
       },
 
       {
-        "name": "Cashew"
+        "name": "Chestnuts",
+        "description": "Chestnuts are different from other kinds of nuts in that they are predominantly a source of starchy carbohydrates. Most chestnut production happens in five countries: China, Bolivia, Turkey, South Korea, and Italy. Roasted chestnuts often appear for sale in the winter, and they are one of the tastiest ways to eat any nut.",
+
+        "calories": "200kcal",
+        "carbs": "44g",
+        "sugar": "11g",
+        "fiber": " -",
+        "fat": "1.3g",
+        "protein": "1.6g",
+
+        "a": "1mcg",
+        "b-1": "0.144mg",
+        "b-3": "1.102mg",
+        "b-6": "0.352mg",
+        "b-9": "58mcg",
+        "b-12": " -",
+        "c": "40.2mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "19mg",
+        "iron": "0.94mg",
+        "magnesium": "30mg",
+        "omega-3": " -",
+        "phosphorus": "38mg",
+        "sodium": "2mg",
+        "zinc": "0.49mg"
       },
 
       {
-        "name": "Chestnuts"
+        "name": "Hazelnuts",
+        "description": "Turkey dominates the worldwide production of hazelnuts, and the nation produces more than two-thirds of the global supply. As one of the world’s most popular types of nuts, hazelnuts are delicious and used in all sorts of food products. Hazelnuts are a favorite pairing with chocolate and coffee, among their many uses.",
+
+        "calories": "628kcal",
+        "carbs": "16.70g",
+        "sugar": "4.34g",
+        "fiber": "9.7g",
+        "fat": "60.75g",
+        "protein": "14.95g",
+
+        "a": "104mcg",
+        "b-1": "0.643mg",
+        "b-3": "1.8mg",
+        "b-6": "0.563mg",
+        "b-9": "113mcg",
+        "b-12": " -",
+        "c": "6.3mg",
+        "d": " -",
+        "e": "mcg",
+
+        "calcium": "114mg",
+        "iron": "4.7mg",
+        "magnesium": "163mg",
+        "omega-3": " -",
+        "phosphorus": "290mg",
+        "sodium": " -",
+        "zinc": "2.45mg"
       },
 
       {
-        "name": "Hazelnuts"
+        "name": "Pine nuts",
+        "description": "Pine nuts are one of the harder-to-find nut varieties, but they taste delicious. Further, they are one of the key ingredients in the famous condiment pesto. Despite this, pine nuts have increased in visibility over recent years and offer an excellent nutritional profile.",
+
+        "calories": "673kcal",
+        "carbs": "13.1g",
+        "sugar": "3.6g",
+        "fiber": "3.7g",
+        "fat": "68.4g",
+        "protein": "13.7g",
+
+        "a": "18mcg",
+        "b-1": "0.4mg",
+        "b-3": "4.4mg",
+        "b-6": "0.1mg",
+        "b-9": "34mcg",
+        "b-12": " -",
+        "c": "0.8mg",
+        "d": " -",
+        "e": "9.3mcg",
+
+        "calcium": "16mg",
+        "iron": "5.5mg",
+        "magnesium": "251mg",
+        "omega-3": " -",
+        "phosphorus": "575mg",
+        "sodium": " -",
+        "zinc": "6.4mg"
       },
 
       {
-        "name": "Pine Nuts"
+        "name": "Pistachio",
+        "description": "Different from most other types of nuts, pistachios are usually sold still in their shell. These nuts originate from the Middle East, but the primary producers of pistachios are Iran and the United States. Pistachios have a mild and slightly sweet taste, and in combination with a bit of salt, they taste delicious. In this regard, the fact that you have to break the shells of each nut helps stop you from eating too many!",
+
+        "calories": "562kcal",
+        "carbs": "27.51g",
+        "sugar": "7.66g",
+        "fiber": "10.3g",
+        "fat": "45.39g",
+        "protein": "20.27g",
+
+        "a": "1205mcg",
+        "b-1": "0.87mg",
+        "b-3": "1.300mg",
+        "b-6": "1.700mg",
+        "b-9": "51mcg",
+        "b-12": " -",
+        "c": "5.6mg",
+        "d": " -",
+        "e": "2.3mcg",
+
+        "calcium": "105mg",
+        "iron": "3.92mg",
+        "magnesium": "121mg",
+        "omega-3": " -",
+        "phosphorus": "490mg",
+        "sodium": " -",
+        "zinc": "2.2mg"
       },
 
       {
-        "name": "Pistachio"
-      },
+        "name": "Walnuts",
+        "description": "Walnuts are among the most popular types of nuts, and approximately 50% of global production comes from China. Not only are they used as a snack, but they are also a significant ingredient in a wide range of recipes.",
 
-      {
-        "name": "Walnuts"
+        "calories": "654kcal",
+        "carbs": "13.71g",
+        "sugar": "2.61g",
+        "fiber": "6.7g",
+        "fat": "65.21g",
+        "protein": "15.23g",
+
+        "a": "73mcg",
+        "b-1": "0.341mg",
+        "b-3": "1.125mg",
+        "b-6": "0.537mg",
+        "b-9": "98mcg",
+        "b-12": " -",
+        "c": "1.3mg",
+        "d": " -",
+        "e": "0.7mcg",
+
+        "calcium": "98mg",
+        "iron": "2.91mg",
+        "magnesium": "158mg",
+        "omega-3": " -",
+        "phosphorus": "346mg",
+        "sodium": "2mg",
+        "zinc": "3.09mg"
       }
     ]
   }

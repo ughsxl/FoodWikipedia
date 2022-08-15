@@ -4,67 +4,243 @@
 
     "representatives": [
       {
-        "name": "Abalone"
+        "name": "Anchovies",
+        "description": "Anchovies are one of the smallest edible fish in the world, but they pack an impressive nutritional punch. As small oily fish, they share some common traits with sardines. However, these two fish are entirely different species and belong to different families of fish. There is quite a big difference in their taste too. For instance, anchovies are notably stronger in flavor and sardines are relatively mild in comparison.",
+
+        "calories": "167kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "6.2g",
+        "protein": "26.05g",
+
+        "a": "13mcg",
+        "b-1": "0.05mg",
+        "b-3": "14.2mg",
+        "b-6": "0.13mg",
+        "b-9": "9mcg",
+        "b-12": "0.53mcg",
+        "c": " -",
+        "d": "2.85mcg",
+        "e": "0.73mg",
+
+        "calcium": "147mg",
+        "iron": "3.25mg",
+        "magnesium": "41mg",
+        "omega-3": "1.96g",
+        "phosphorus": "174mg",
+        "sodium": "104mg",
+        "zinc": "1.72mg"
       },
 
       {
-        "name": "Anchovies"
+        "name": "Fish roe",
+        "description": "Fish roe is otherwise known as fish eggs. While not such a common food in the Western world, it is extremely popular in Japan and Eastern Russia. Fish roe is also extremely nutritious and packs an impressive amount of nutrients including omega-3, vitamin D, significant amounts of protein, and much more.",
+
+        "calories": "153kcal",
+        "carbs": "2g",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "6g",
+        "protein": "22g",
+
+        "a": "89.7mcg",
+        "b-1": "0.2mg",
+        "b-3": "1.8mg",
+        "b-6": "0.2mg",
+        "b-9": "80mcg",
+        "b-12": "10mcg",
+        "c": "16mg",
+        "d": "12.1mcg",
+        "e": "7mg",
+
+        "calcium": "22mg",
+        "iron": "0.6mg",
+        "magnesium": "20mg",
+        "omega-3": "2.43g",
+        "phosphorus": "402mg",
+        "sodium": "91mg",
+        "zinc": "1mg"
       },
 
       {
-        "name": "Fish Roe"
+        "name": "Mackerel",
+        "description": "Mackerel is another oily fish that provides a great source of omega-3. However, it is worth noting that there are several different species of mackerel, and not all of them are equally healthy. Atlantic mackerel is the best bet because it contains very little mercury. ",
+
+        "calories": "201kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "10.1g",
+        "protein": "25.7g",
+
+        "a": "23mcg",
+        "b-1": "0.1mg",
+        "b-3": "10.7mg",
+        "b-6": "0.4mg",
+        "b-9": "2mcg",
+        "b-12": "4.2mcg",
+        "c": "2.1mg",
+        "d": "11.4mcg",
+        "e": "1.3mcg",
+
+        "calcium": "29mg",
+        "iron": "1.5mg",
+        "magnesium": "36mg",
+        "omega-3": "2g",
+        "phosphorus": "160mg",
+        "sodium": "110mg",
+        "zinc": "0.9mg"
       },
 
       {
-        "name": "Mussels"
+        "name": "Mussels",
+        "description": "Mussels belong to the mollusk family of shellfish, and like oysters and clams, they offer a lot of benefits.\n\nMost notably, mussels are a substantial source of B vitamins and the mineral manganese. They also offer a decent amount of omega-3. Regarding taste, they are both mild and salty, with a soft and chewy texture. Like other shellfish, we can eat them alone along with various seasonings like lemon, soy sauce, garlic, and butter.",
+
+        "calories": "172kcal",
+        "carbs": "7.39g",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "4.48g",
+        "protein": "23.8g",
+
+        "a": "91mcg",
+        "b-1": "0.30mg",
+        "b-3": "3mg",
+        "b-6": "0.1mg",
+        "b-9": "76mcg",
+        "b-12": "24mcg",
+        "c": "13.6mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "33mg",
+        "iron": "6.72mg",
+        "magnesium": "37mg",
+        "omega-3": "0.94g",
+        "phosphorus": "285mg",
+        "sodium": "369mg",
+        "zinc": "2.67mg"
       },
 
       {
-        "name": "Lobster"
+        "name": "Octopus",
+        "description": "Although octopus is not so “normal” in traditional Western cuisine, it plays a significant part in various cuisines around the world.  For instance, the octopus is a valued part of the diet in countries such as Japan, Korea, Singapore, and several Mediterranean countries. On the negative side, octopus is one of those foods that people tend to either love or hate. Much of this depends on how the octopus is cooked since overcooking can quickly make it too chewy.",
+
+        "calories": "164kcal",
+        "carbs": "4.4g",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "2.1g",
+        "protein": "29.8g",
+
+        "a": "90mcg",
+        "b-1": "0.1mg",
+        "b-3": "3.8mg",
+        "b-6": "0.6mg",
+        "b-9": "24mcg",
+        "b-12": "36mcg",
+        "c": "8mg",
+        "d": " -",
+        "e": "1.2mcg",
+
+        "calcium": "106mg",
+        "iron": "9.5mg",
+        "magnesium": "60mg",
+        "omega-3": "0.3g",
+        "phosphorus": "279mg",
+        "sodium": "460mg",
+        "zinc": "3.4mg"
       },
 
       {
-        "name": "Mackerel"
+        "name": "Oysters",
+        "description": "With a slimy appearance, people seem to either love or hate this type of mollusk shellfish. However, oysters are one of the healthiest seafood options. Alongside organ meats like liver, oysters are one of the most nutrient-dense foods out there. We can either eat them raw or cooked, and they provide a substantial amount of Zinc, copper, and B vitamins.",
+
+        "calories": "59kcal",
+        "carbs": "5.5g",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "1.6g",
+        "protein": "5.2g",
+
+        "a": "8mcg",
+        "b-1": "0.1mg",
+        "b-3": "1.3mg",
+        "b-6": "0.1mg",
+        "b-9": "18mcg",
+        "b-12": "16.2mcg",
+        "c": "4.7mg",
+        "d": " -",
+        "e": "2mcg",
+
+        "calcium": "44mg",
+        "iron": "5.8mg",
+        "magnesium": "33mg",
+        "omega-3": "0.4g",
+        "phosphorus": "93mg",
+        "sodium": "178mg",
+        "zinc": "37.9mg"
       },
 
       {
-        "name": "Mussels"
+        "name": "Salmon",
+        "description": "Salmon is one of the most popular fish in the world, that is quite easy to understand given how delicious it tastes. Also, salmon comes in all different shapes and sizes, and there are numerous popular species of salmon. Salmon is also a versatile food choice, and we can eat it fresh, as raw fish (sashimi) or in canned form for convenience.",
+
+        "calories": "142kcal",
+        "carbs": " -",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "6.3g",
+        "protein": "19.8g",
+
+        "a": "12mcg",
+        "b-1": "0.2mg",
+        "b-3": "7.9mg",
+        "b-6": "0.8mg",
+        "b-9": "25mcg",
+        "b-12": "3.2mcg",
+        "c": " -",
+        "d": "21.5mcg",
+        "e": "2.3mcg",
+
+        "calcium": "105mg",
+        "iron": "3.92mg",
+        "magnesium": "121mg",
+        "omega-3": "1.7g",
+        "phosphorus": "490mg",
+        "sodium": " -",
+        "zinc": "3.55mg"
       },
 
       {
-        "name": "Octopus"
-      },
+        "name": "Squid",
+        "description": "Squid is otherwise known as calamari, and it is a popular food in cuisines around the world. Depending on the country, it can be prepared in a range of different ways. In the Mediterranean region, chefs tend to either fry squid or serve it as a stew that incorporates vegetables. In contrast, people eat it raw in East Asia as sashimi or sushi.",
 
-      {
-        "name": "Oysters"
-      },
+        "calories": "92kcal",
+        "carbs": "3.1g",
+        "sugar": " -",
+        "fiber": " -",
+        "fat": "1.4g",
+        "protein": "16g",
 
-      {
-        "name": "Salmon"
-      },
+        "a": "10mcg",
+        "b-1": "20mcg",
+        "b-3": "2.2mg",
+        "b-6": "56mcg",
+        "b-9": "5mcg",
+        "b-12": "1.3mcg",
+        "c": "4.7mg",
+        "d": " -",
+        "e": "1.2mcg",
 
-      {
-        "name": "Sardines"
-      },
-
-      {
-        "name": "Seaweed"
-      },
-
-      {
-        "name": "Shrimp"
-      },
-
-      {
-        "name": "Sprats"
-      },
-
-      {
-        "name": "Squid"
-      },
-
-      {
-        "name": "Trout"
+        "calcium": "32mg",
+        "iron": "680mcg",
+        "magnesium": "33mg",
+        "omega-3": "0.5g",
+        "phosphorus": "221mg",
+        "sodium": "44mg",
+        "zinc": "1.5mg"
       }
     ]
   }

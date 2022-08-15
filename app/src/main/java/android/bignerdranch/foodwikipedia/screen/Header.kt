@@ -2,7 +2,6 @@ package android.bignerdranch.foodwikipedia.screen
 
 import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.R
-import android.bignerdranch.foodwikipedia.category_data.CategoryIcons
 import android.bignerdranch.foodwikipedia.databinding.HeaderFragmentBinding
 import android.bignerdranch.foodwikipedia.navigator
 import android.os.Bundle
@@ -37,7 +36,7 @@ class Header: Fragment(R.layout.header_fragment) {
             binding.mainLabel.typeface = it
         }
 
-        binding.includedActionBar.screenLabel.text = getString(R.string.app_name)
+        binding.includedActionBar.screenLabel.text = "Menu"
 
         if (selectedCategory != "")
             binding.launchCategoryButton.text = "${getString(R.string.launch_category)}: $selectedCategory"
@@ -65,7 +64,7 @@ class Header: Fragment(R.layout.header_fragment) {
             "dairy", "fruits", "grains", "herbs_and_spices",
             "legumes", "meat_and_freshwater_fish", "nuts", "seafood", "vegetables",
         )
-        val filesIds = arrayListOf<Int>(
+        val filesIds = arrayListOf(
             R.raw.dairy_category_en, R.raw.fruits_category_en, R.raw.grains_category_en,
             R.raw.herbs_and_spices_category_en, R.raw.legumes_category_en, R.raw.meat_and_freshwater_fish_category_en,
             R.raw.nuts_category_en, R.raw.seafood_category_en, R.raw.vegetables_category_en
@@ -90,7 +89,7 @@ class Header: Fragment(R.layout.header_fragment) {
                 "Fruits" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
-                            CategoryIcons.fruitIcon,
+                            R.drawable.fruits_icon,
                             categoryJsonStrings["fruits"]!!,
                             "fruit"))
                 }
@@ -98,7 +97,7 @@ class Header: Fragment(R.layout.header_fragment) {
                 "Vegetables" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
-                            CategoryIcons.vegetableIcon,
+                            R.drawable.vegetables_icon,
                             categoryJsonStrings["vegetables"]!!,
                             "vegetable"))
                 }
@@ -106,7 +105,7 @@ class Header: Fragment(R.layout.header_fragment) {
                 "Meat & Freshwater Fish" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
-                            CategoryIcons.meatAndFishIcon,
+                            R.drawable.meat_and_fish_icon,
                             categoryJsonStrings["meat_and_freshwater_fish"]!!,
                             "meat or fish"))
                 }
@@ -114,7 +113,7 @@ class Header: Fragment(R.layout.header_fragment) {
                 "Dairy" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
-                            CategoryIcons.dairyIcon,
+                            R.drawable.dairy_icon,
                             categoryJsonStrings["dairy"]!!,
                             "dairy"))
                 }
@@ -122,7 +121,7 @@ class Header: Fragment(R.layout.header_fragment) {
                 "Grains" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
-                            CategoryIcons.grainsIcon,
+                            R.drawable.grains_icon,
                             categoryJsonStrings["grains"]!!,
                             "grain"))
                 }
@@ -130,7 +129,7 @@ class Header: Fragment(R.layout.header_fragment) {
                 "Legumes" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
-                            CategoryIcons.legumesIcon,
+                            R.drawable.legumes_icon,
                             categoryJsonStrings["legumes"]!!,
                             "legume"))
                 }
@@ -138,7 +137,7 @@ class Header: Fragment(R.layout.header_fragment) {
                 "Seafood" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
-                            CategoryIcons.seafoodIcon,
+                            R.drawable.seafood_icon,
                             categoryJsonStrings["legumes"]!!,
                             "seafood"))
                 }
@@ -146,7 +145,7 @@ class Header: Fragment(R.layout.header_fragment) {
                 "Nuts" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
-                            CategoryIcons.nutsIcon,
+                            R.drawable.nuts_icon,
                             categoryJsonStrings["nuts"]!!,
                             "nuts"))
                 }
@@ -154,7 +153,7 @@ class Header: Fragment(R.layout.header_fragment) {
                 "Herbs & Spices" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
-                            CategoryIcons.herbsAndSpicesIcon,
+                            R.drawable.herbs_and_spices_icon,
                             categoryJsonStrings["herbs_and_spices"]!!,
                             "herb or spice"))
                 }
@@ -167,6 +166,10 @@ class Header: Fragment(R.layout.header_fragment) {
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putString("selected_category", selectedCategory)
+    }
+
+    private fun initList() {
+
     }
 
     private fun showPickCategoryDialog() {

@@ -4,39 +4,213 @@
 
     "representatives": [
       {
-        "name": "Alfalfa"
+        "name": "Alfalfa (lucerne)",
+        "description": "Alfalfa, also known as lucerne or Medicago sativa, is a plant that has been grown as feed for livestock for hundreds of years. It was long prized for its superior content of vitamins, minerals, and protein compared to other feed sources",
+
+        "calories": "23kcal",
+        "carbs": "2.1g",
+        "fiber": "1.9g",
+        "sugar": " -",
+        "fat": "0.7g",
+        "protein": "4g",
+
+        "a": " -",
+        "b-1": "0.076mg",
+        "b-3": "0.481mg",
+        "b-6": "0.034mg",
+        "b-9": "36mcg",
+        "b-12": " -",
+        "c": "8.2mg",
+        "d": " -",
+        "e": " -",
+
+        "calcium": "32mg",
+        "iron": "0.96mg",
+        "magnesium": "27mg",
+        "omega-3": " -",
+        "phosphorus": "70mg",
+        "sodium": "6mg",
+        "zinc": "0.92mg"
       },
 
       {
-        "name": "Chickpeas"
+        "name": "Chickpeas",
+        "description": "Chickpeas have an interesting appearance, and they look somewhat similar to nuts. These legumes are otherwise known as garbanzo beans, and they are thought to have originated in the Middle East. Chickpeas remain immensely popular in their place of origin, and they feature in a wide range of condiments, curries, and other dishes. Additionally, they are the primary ingredient in the famous condiment hummus.",
+
+        "calories": "378kcal",
+        "carbs": "62.95g",
+        "sugar": "10.7g",
+        "fiber": "12.2g",
+        "fat": "6.04g",
+        "protein": "20.5g",
+
+        "a": "3mcg",
+        "b-1": "0.477mg",
+        "b-3": "1.541mg",
+        "b-6": "0.535mg",
+        "b-9": "557mcg",
+        "b-12": " -",
+        "c": "4mg",
+        "d": " -",
+        "e": "0.82mg",
+
+        "calcium": "57mg",
+        "iron": "4.31mg",
+        "magnesium": "79mg",
+        "omega-3": " -",
+        "phosphorus": "252mg",
+        "sodium": "24mg",
+        "zinc": "2.76mg"
       },
 
       {
-        "name": "Green Peas"
+        "name": "Green peas",
+        "description": "Despite most people thinking green peas are a vegetable, they are a type of legume. However, unlike most legumes, peas are usually consumed in their fresh and immature green form.",
+
+        "calories": "81kcal",
+        "carbs": "14.45g",
+        "sugar": "5.67g",
+        "fiber": "5.1g",
+        "fat": "0.4g",
+        "protein": "5.42g",
+
+        "a": "38mcg",
+        "b-1": "0.266mg",
+        "b-3": "2.09mg",
+        "b-6": "0.169mg",
+        "b-9": "65mcg",
+        "b-12": " -",
+        "c": "40mg",
+        "d": " -",
+        "e": "0.13mg",
+
+        "calcium": "25mg",
+        "iron": "1.47mg",
+        "magnesium": "33mg",
+        "omega-3": " -",
+        "phosphorus": "108mg",
+        "sodium": "5mg",
+        "zinc": "1.24mg"
       },
 
       {
-        "name": "Kidney Beans"
+        "name": "Kidney beans",
+        "description": "Kidney beans come in several different colors, from black to red. However, red kidney beans are by far the most common variety. Kidney beans are among the most nutritious legumes.",
+
+        "calories": "127kcal",
+        "carbs": "22.8g",
+        "sugar": "0.3g",
+        "fiber": "7.4g",
+        "fat": "0.50g",
+        "protein": "8.7g",
+
+        "a": " -",
+        "b-1": "0.16mg",
+        "b-3": "0.58mg",
+        "b-6": "0.12mg",
+        "b-9": "130mcg",
+        "b-12": " -",
+        "c": "1.2mg",
+        "d": " -",
+        "e": "0.03mg",
+
+        "calcium": "28mg",
+        "iron": "2.9mg",
+        "magnesium": "45mg",
+        "omega-3": " -",
+        "phosphorus": "142mg",
+        "sodium": "2mg",
+        "zinc": "1.07mg"
       },
 
       {
-        "name": "Lentils"
+        "name": "Lentils",
+        "description": "Lentils are one of the most popular legumes, and they come in colors ranging from green and black to orange and yellow. These legumes commonly feature in dishes worldwide, including lentil soup and various curries.",
+
+        "calories": "114kcal",
+        "carbs": "19.54g",
+        "sugar": "1.8g",
+        "fiber": "7.9g",
+        "fat": "0.38g",
+        "protein": "9.02g",
+
+        "a": " -",
+        "b-1": "0.169mg",
+        "b-3": "1.06mg",
+        "b-6": "0.178mg",
+        "b-9": "181mcg",
+        "b-12": " -",
+        "c": "1.5mg",
+        "d": " -",
+        "e": "0.11mg",
+
+        "calcium": "19mg",
+        "iron": "3.3mg",
+        "magnesium": "36mg",
+        "omega-3": " -",
+        "phosphorus": "180mg",
+        "sodium": "238mg",
+        "zinc": "1.27mg"
       },
 
       {
-        "name": "Peanuts"
+        "name": "Peanut",
+        "description": "Peanuts are mostly thought of as a variety of nut. However, botanically peanuts are classed as a type of legume. That said, peanuts' nutritional profile is slightly different from most legumes. For one thing, peanuts are relatively low in carbohydrates and contain high amounts of calories and dietary fat.",
+
+        "calories": "570kcal",
+        "carbs": "21g",
+        "sugar": " -",
+        "fiber": "9g",
+        "fat": "48g",
+        "protein": "25g",
+
+        "a": " -",
+        "b-1": "0.6mg",
+        "b-3": "12.9mg",
+        "b-6": "0.3mg",
+        "b-9": "246mcg",
+        "b-12": " -",
+        "c": " -",
+        "d": " -",
+        "e": "6.6mg",
+
+        "calcium": "62mg",
+        "iron": "2mg",
+        "magnesium": "184mg",
+        "omega-3": " -",
+        "phosphorus": "336mg",
+        "sodium": "6mg",
+        "zinc": "3.3mg"
       },
 
       {
-        "name": "Sugar Snap Peas"
-      },
+        "name": "Soybeans",
+        "description": "Soybeans are one of the world's staple foods, and they are the most common plant-based protein source.There are a wide variety of soybean-based foods consumed around the world. Some of the most popular include: Miso, Natto, Soy milk, Soybeans, Soy protein, Tempeh and Tofu",
 
-      {
-        "name": "Soybeans"
-      },
+        "calories": "446kcal",
+        "carbs": "30.16g",
+        "sugar": "7.33g",
+        "fiber": "9.3g",
+        "fat": "19.94g",
+        "protein": "36.49g",
 
-      {
-        "name": "Split Peas"
+        "a": "1mcg",
+        "b-1": "0.874mg",
+        "b-3": "1.623mg",
+        "b-6": "0.377mg",
+        "b-9": "375mcg",
+        "b-12": " -",
+        "c": "6.0mg",
+        "d": " -",
+        "e": "0.85mg",
+
+        "calcium": "277mg",
+        "iron": "15.7mg",
+        "magnesium": "280mg",
+        "omega-3": "1.330g",
+        "phosphorus": "704mg",
+        "sodium": "2mg",
+        "zinc": "4.89mg"
       }
     ]
   }

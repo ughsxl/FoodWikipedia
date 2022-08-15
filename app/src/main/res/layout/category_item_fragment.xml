@@ -75,7 +75,6 @@
                 android:layout_height="wrap_content"
                 android:layout_row="0"
                 android:layout_column="0"
-                android:text="Carbs: 13.8g"
                 android:textSize="18sp"
                 android:textStyle="normal"/>
 
@@ -86,7 +85,6 @@
                 android:layout_row="0"
                 android:layout_column="1"
                 android:layout_marginStart="50dp"
-                android:text="Protein: 0.26g"
                 android:textSize="16sp"
                 android:textStyle="normal"/>
 
@@ -97,7 +95,6 @@
                 android:layout_row="1"
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
-                android:text="Fats: 0.17g"
                 android:textSize="16sp"
                 android:textStyle="normal"/>
 
@@ -109,7 +106,6 @@
                 android:layout_column="1"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="16dp"
-                android:text="Calories: 52kcal"
                 android:textSize="16sp"
                 android:textStyle="normal"/>
 
@@ -121,8 +117,7 @@
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Fiber: 2.4g"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/sugarValue"
@@ -133,8 +128,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="50dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Sugar: 10.39g"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/vitaminAValue"
@@ -144,8 +138,7 @@
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Vitamin A: 3mcg"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/vitaminB1Value"
@@ -156,8 +149,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="50dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Vitamin B-1: 0.017mg"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/vitaminB3Value"
@@ -167,8 +159,7 @@
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Vitamin B-3: 0.091mg"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/vitaminB6Value"
@@ -179,8 +170,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="50dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Vitamin B-6: 0.041mg"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/vitaminB9Value"
@@ -190,8 +180,7 @@
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Vitamin B-9: 3mcg"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/vitaminB12Value"
@@ -202,8 +191,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="50dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Vitamin B-12:  -"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/vitaminCValue"
@@ -213,8 +201,7 @@
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Vitamin C: 4.6mg"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/vitaminDValue"
@@ -225,8 +212,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="50dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Vitamin D:  -"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/vitaminEValue"
@@ -236,8 +222,7 @@
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Vitamin E: 0.18mg"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/calciumValue"
@@ -248,8 +233,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="50dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Calcium: 6mg"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/ironValue"
@@ -259,8 +243,7 @@
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Iron: 0.12mg"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/magnesiumValue"
@@ -271,8 +254,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="50dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Magnesium: 5mg"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/omega3Value"
@@ -282,8 +264,7 @@
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Omega-3:  -"/>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/phosphorusValue"
@@ -294,8 +275,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="50dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Phosphorus: 11mg"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/sodiumValue"
@@ -305,8 +285,7 @@
                 android:layout_column="0"
                 android:layout_marginTop="16dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Sodium: 1mg"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/zincValue"
@@ -317,8 +296,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="50dp"
                 android:textStyle="normal"
-                android:textSize="16sp"
-                android:text="Zinc: 0.04mg"/>
+                android:textSize="16sp"/>
 
 
         </GridLayout>
