@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment
 import java.nio.charset.Charset
 
 
-class Header: Fragment(R.layout.header_fragment) {
+class Header : Fragment(R.layout.header_fragment) {
     private lateinit var binding: HeaderFragmentBinding
 
     private var selectedCategory = ""
@@ -138,7 +138,7 @@ class Header: Fragment(R.layout.header_fragment) {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.seafood_icon,
-                            categoryJsonStrings["legumes"]!!,
+                            categoryJsonStrings["seafood"]!!,
                             "seafood"))
                 }
 

@@ -9,7 +9,7 @@ import android.view.View
 import androidx.fragment.app.Fragment
 
 
-class CategoryItemScreen: Fragment(R.layout.category_item_fragment) {
+class CategoryItemScreen : Fragment(R.layout.category_item_fragment) {
     private val binding by lazy {
         view?.let { CategoryItemFragmentBinding.bind(it) }
     }

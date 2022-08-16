@@ -63,7 +63,7 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
 
 
     private fun fetchCategoryInfo() {
-        if (categoryJsonString != "") {
+        if (categoryJsonString.isNotEmpty()) {
             val categoryObject = Gson().fromJson(categoryJsonString, CategoryModel::class.java)
 
             categoryDescription = categoryObject.description

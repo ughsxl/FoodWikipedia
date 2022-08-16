@@ -2,6 +2,8 @@ package android.bignerdranch.foodwikipedia
 
 import android.bignerdranch.foodwikipedia.databinding.FragmentContainerBinding
 import android.bignerdranch.foodwikipedia.screen.Header
+import android.bignerdranch.foodwikipedia.screen.Settings
+import android.content.Context
 import android.media.MediaPlayer
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -14,16 +16,36 @@ class FragmentContainer: AppCompatActivity(), Navigator {
         FragmentContainerBinding.inflate(layoutInflater)
     }
 
-    private val mediaPlayer by lazy {
-        MediaPlayer.create(this, R.raw.background_music)
-    }
+    private var mediaPlayer: MediaPlayer? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        setMusic()
+
         if (savedInstanceState == null) {
             replaceFragments(supportFragmentManager, Header.newInstance())
+        }
+    }
+
+     override fun setMusic() {
+        val preferences = getSharedPreferences(Settings.MUSIC_PREFERENCES, Context.MODE_PRIVATE)
+        val isChecked = preferences.getBoolean(Settings.MUSIC_STATE, true)
+
+        if (isChecked) {
+            if (mediaPlayer == null) {
+                mediaPlayer = MediaPlayer.create(this, R.raw.background_music)
+                mediaPlayer?.isLooping = true
+            }
+            mediaPlayer?.start()
+        } else {
+            if (mediaPlayer != null) {
+                mediaPlayer?.release()
+                mediaPlayer = null
+            }
+
         }
     }
 
@@ -52,21 +74,20 @@ class FragmentContainer: AppCompatActivity(), Navigator {
             replace(R.id.fragmentContainer, fragment)
         }
     }
-    
 
     override fun onStart() {
         super.onStart()
-        mediaPlayer.start()
+        mediaPlayer?.start()
     }
 
     override fun onStop() {
         super.onStop()
-        mediaPlayer.pause()
+        mediaPlayer?.pause()
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        mediaPlayer.stop()
-        mediaPlayer.release()
+        mediaPlayer?.stop()
+        mediaPlayer?.release()
     }
 }

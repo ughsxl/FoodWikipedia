@@ -9,4 +9,6 @@ interface Navigator {
     fun launchFragment(manager: FragmentManager, fragment: Fragment)
 
     fun replaceFragments(manager: FragmentManager, fragment: Fragment)
+
+    fun setMusic()
 }
