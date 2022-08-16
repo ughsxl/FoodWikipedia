@@ -8,6 +8,8 @@ import android.bignerdranch.foodwikipedia.screen.language_spinner.LanguageAdapte
 import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.widget.RadioButton
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 
 class Settings : Fragment(R.layout.settings_fragment) {
@@ -25,16 +27,39 @@ class Settings : Fragment(R.layout.settings_fragment) {
         binding.musicOnOfSwitch.isChecked = activity?.getSharedPreferences(MUSIC_PREFERENCES, Context.MODE_PRIVATE)
             ?.getBoolean(MUSIC_STATE, true) ?: true
 
+        val pickedTheme = activity?.getSharedPreferences(THEME_PREFERENCES, Context.MODE_PRIVATE)
+            ?.getString(THEME_STATE, "none")
+
+        when (pickedTheme) {
+            "Light", "none" -> binding.lightThemeRadio.isChecked = true
+            "Dark" -> binding.darkThemeRadio.isChecked = true
+            else -> Toast.makeText(requireContext(), getString(R.string.an_error_occurred_toast), Toast.LENGTH_SHORT).show()
+        }
+
+        navigator().setAppTheme()
+
+
         binding.musicOnOfSwitch.setOnCheckedChangeListener { _, isChecked ->
-            setMusic(isChecked)
+            setMusicPreferences(isChecked)
+        }
+
+
+
+        binding.themeRadioGroup.setOnCheckedChangeListener { group, checkedId ->
+            val checkedRadio = group.findViewById(checkedId) as RadioButton
+            Toast.makeText(requireContext(), getString(R.string.exit_settings_to_make_the_theme_apply_toast), Toast.LENGTH_SHORT).show()
+            setThemePreferences(checkedRadio)
+            binding.includedActionBar.toSettingsImageButton.visibility = View.INVISIBLE
+
         }
 
         initList()
     }
 
 
-    private fun setMusic(isChecked: Boolean) {
+    private fun setMusicPreferences(isChecked: Boolean) {
         val preferences = activity?.getSharedPreferences(MUSIC_PREFERENCES, Context.MODE_PRIVATE)
+
         preferences?.edit()
             ?.putBoolean(MUSIC_STATE, isChecked)
             ?.apply()
@@ -42,9 +67,19 @@ class Settings : Fragment(R.layout.settings_fragment) {
         navigator().setMusic()
     }
 
+    private fun setThemePreferences(pickedTheme: RadioButton) {
+        val preferences = activity?.getSharedPreferences(THEME_PREFERENCES, Context.MODE_PRIVATE)
+
+        preferences?.edit()
+            ?.putString(THEME_STATE, pickedTheme.text.toString())
+            ?.apply()
+
+        navigator().setAppTheme()
+    }
 
     private fun initList() {
         mLanguageList = ArrayList()
+
         mLanguageList.run {
             add(Language("English", R.drawable.english_icon))
             add(Language("Russian", R.drawable.russia_icon))
@@ -57,10 +92,24 @@ class Settings : Fragment(R.layout.settings_fragment) {
         languageSpinner.adapter = mLanguageAdapter
     }
 
+    override fun onResume() {
+        super.onResume()
+        
+
+        val preferences = activity?.getSharedPreferences(THEME_PREFERENCES, Context.MODE_PRIVATE)
+        val theme = preferences?.getString(THEME_STATE, "none")
+
+        if (theme == "none" || theme == "Dark")
+            binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
+    }
+
 
     companion object {
         const val MUSIC_PREFERENCES = "MUSIC_PREFERENCES"
         const val MUSIC_STATE = "MUSIC_STATE"
+
+        const val THEME_PREFERENCES = "THEME_PREFERENCES"
+        const val THEME_STATE = "THEME_STATE"
 
         fun newInstance() = Settings()
     }

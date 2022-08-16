@@ -72,11 +72,12 @@
     <string name="zinc_value">Zinc: %s</string>
 
 
-
-
     <!-- Core strings -->
     <string name="confirm_button_label">Confirm</string>
     <string name="pick_label">Pick</string>
+    <string name="first_pick_category_toast">First pick a category</string>
+    <string name="an_error_occurred_toast">An error occurred</string>
+    <string name="exit_settings_to_make_the_theme_apply_toast">Exit the settings to make the theme apply correctly</string>
 
 
     <!-- Food categories list -->

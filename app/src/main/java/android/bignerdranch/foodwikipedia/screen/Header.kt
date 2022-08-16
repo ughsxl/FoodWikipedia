@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.HeaderFragmentBinding
 import android.bignerdranch.foodwikipedia.navigator
+import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -28,6 +29,7 @@ class Header : Fragment(R.layout.header_fragment) {
         super.onViewCreated(view, savedInstanceState)
         binding = HeaderFragmentBinding.bind(view)
 
+
         setupUI()
     }
 
@@ -44,6 +46,8 @@ class Header : Fragment(R.layout.header_fragment) {
 
         binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_exit_to_app_light_24)
         binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_settings_light_24)
+
+        navigator().setAppTheme()
 
         binding.includedActionBar.arrowBack.setOnClickListener { activity?.finish() }
 
@@ -158,7 +162,7 @@ class Header : Fragment(R.layout.header_fragment) {
                             "herb or spice"))
                 }
             }
-        else Toast.makeText(requireContext(), "First pick a category", Toast.LENGTH_SHORT).show()
+        else Toast.makeText(requireContext(), getString(R.string.first_pick_category_toast), Toast.LENGTH_SHORT).show()
     }
 
 
@@ -193,6 +197,26 @@ class Header : Fragment(R.layout.header_fragment) {
             }
             .create()
             .show()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        val preferences = activity?.getSharedPreferences(Settings.THEME_PREFERENCES, Context.MODE_PRIVATE)
+        val theme = preferences?.getString(Settings.THEME_STATE, "none")
+
+        when (theme) {
+            "Light" -> {
+                binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_exit_to_app_light_24)
+                binding.includedActionBar.screenLabel.setTextColor(activity?.resources?.getColor(R.color.white)!!)
+                binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_settings_light_24)
+            }
+            "Dark" -> {
+                binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_exit_to_app_dark_24)
+                binding.includedActionBar.screenLabel.setTextColor(activity?.resources?.getColor(R.color.black)!!)
+                binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_settings_dark_24)
+            }
+            else -> Unit
+        }
     }
 
     companion object {

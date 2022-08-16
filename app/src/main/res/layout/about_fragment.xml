@@ -10,7 +10,7 @@
     android:orientation="vertical"
     tools:context=".screen.About" >
 
-    <include layout="@layout/actionbar_light_theme"
+    <include layout="@layout/actionbar"
         android:id="@+id/includedActionBar"/>
 
     <TextView

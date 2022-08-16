@@ -2,6 +2,8 @@ package android.bignerdranch.foodwikipedia.screen
 
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.AboutFragmentBinding
+import android.bignerdranch.foodwikipedia.navigator
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -14,6 +16,7 @@ class About: Fragment(R.layout.about_fragment) {
         binding = AboutFragmentBinding.bind(view)
 
         setupAboutStrings()
+        navigator().setAppTheme()
 
         binding.sendFeedbackButton.setOnClickListener { sendFeedback() }
 
@@ -35,6 +38,18 @@ class About: Fragment(R.layout.about_fragment) {
             it.putExtra(Intent.EXTRA_EMAIL, arrayOf(getString(R.string.gmail)))
             it.putExtra(Intent.EXTRA_SUBJECT, "Feedback")
             startActivity(it)
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        val preferences = activity?.getSharedPreferences(Settings.THEME_PREFERENCES, Context.MODE_PRIVATE)
+        val theme = preferences?.getString(Settings.THEME_STATE, "none")
+
+        when (theme) {
+            "Light" -> binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
+            "Dark" -> binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
+            else -> Unit
         }
     }
 

@@ -11,4 +11,6 @@ interface Navigator {
     fun replaceFragments(manager: FragmentManager, fragment: Fragment)
 
     fun setMusic()
+
+    fun setAppTheme()
 }

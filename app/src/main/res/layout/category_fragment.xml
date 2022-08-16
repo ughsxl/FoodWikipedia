@@ -8,7 +8,7 @@
 
     <include
         android:id="@+id/includedActionBar"
-        layout="@layout/actionbar_light_theme"/>
+        layout="@layout/actionbar"/>
 
     <TextView
         android:id="@+id/category_name"

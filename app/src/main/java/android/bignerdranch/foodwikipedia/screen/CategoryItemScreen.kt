@@ -4,6 +4,7 @@ import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.CategoryItemFragmentBinding
 import android.bignerdranch.foodwikipedia.models.ItemModel
 import android.bignerdranch.foodwikipedia.navigator
+import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
@@ -63,6 +64,8 @@ class CategoryItemScreen : Fragment(R.layout.category_item_fragment) {
 
         binding?.includedActionBar?.screenLabel?.text = category
 
+        navigator().setAppTheme()
+
         binding?.includedActionBar?.arrowBack?.setOnClickListener { activity?.onBackPressed() }
         binding?.includedActionBar?.toSettingsImageButton?.setImageResource(R.drawable.ic_baseline_home_light_24)
         binding?.includedActionBar?.toSettingsImageButton?.setOnClickListener {
@@ -70,6 +73,24 @@ class CategoryItemScreen : Fragment(R.layout.category_item_fragment) {
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+
+        val preferences = activity?.getSharedPreferences(Settings.THEME_PREFERENCES, Context.MODE_PRIVATE)
+        val theme = preferences?.getString(Settings.THEME_STATE, "none")
+
+        when (theme) {
+            "Light" -> {
+                binding?.includedActionBar?.arrowBack?.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
+                binding?.includedActionBar?.toSettingsImageButton?.setImageResource(R.drawable.ic_baseline_home_light_24)
+            }
+            "Dark" -> {
+                binding?.includedActionBar?.arrowBack?.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
+                binding?.includedActionBar?.toSettingsImageButton?.setImageResource(R.drawable.ic_baseline_home_dark_24)
+            }
+            else -> Unit
+        }
+    }
 
     companion object {
         private const val KEY_ITEM = "key_item"

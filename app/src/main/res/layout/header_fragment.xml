@@ -9,7 +9,7 @@
     tools:context=".screen.Header"
     tools:ignore="contentDescription">
 
-    <include layout="@layout/actionbar_light_theme"
+    <include layout="@layout/actionbar"
         android:id="@+id/includedActionBar"/>
 
     <TextView

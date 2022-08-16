@@ -6,6 +6,7 @@ import android.bignerdranch.foodwikipedia.databinding.CategoryFragmentBinding
 import android.bignerdranch.foodwikipedia.models.CategoryModel
 import android.bignerdranch.foodwikipedia.models.ItemModel
 import android.bignerdranch.foodwikipedia.navigator
+import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
@@ -56,6 +57,8 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
         binding.mainRepresentations.text = categoryMainRepresentatives
         binding.pickItemTextView.text = getString(R.string.pick_any_item_label, categoryItemName)
 
+        navigator().setAppTheme()
+
         binding.includedActionBar.arrowBack.setOnClickListener { activity?.onBackPressed() }
 
         binding.pickItemButton.setOnClickListener { showCategoryItemDialog() }
@@ -99,6 +102,19 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
             }
             .create()
             .show()
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        val preferences = activity?.getSharedPreferences(Settings.THEME_PREFERENCES, Context.MODE_PRIVATE)
+        val theme = preferences?.getString(Settings.THEME_STATE, "none")
+
+        when (theme) {
+            "Light" -> binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
+            "Dark" -> binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
+            else -> Unit
+        }
     }
 
 
