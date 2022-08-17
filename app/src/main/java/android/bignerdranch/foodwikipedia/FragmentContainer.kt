@@ -70,6 +70,8 @@ class FragmentContainer: AppCompatActivity(), Navigator {
                         .setImageResource(R.drawable.ic_baseline_settings_light_24)
 
                     findViewById<TextView>(R.id.screenLabel).setTextColor(resources.getColor(R.color.white))
+
+
                 } catch (e: Exception) {}
 
             }
