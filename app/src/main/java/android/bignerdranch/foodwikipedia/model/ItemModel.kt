@@ -1,4 +1,4 @@
-package android.bignerdranch.foodwikipedia.models
+package android.bignerdranch.foodwikipedia.model
 
 import android.os.Parcel
 import android.os.Parcelable

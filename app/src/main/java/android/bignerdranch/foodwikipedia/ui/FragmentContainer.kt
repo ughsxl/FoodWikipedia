@@ -1,8 +1,9 @@
-package android.bignerdranch.foodwikipedia
+package android.bignerdranch.foodwikipedia.ui
 
+import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.FragmentContainerBinding
-import android.bignerdranch.foodwikipedia.screen.Header
-import android.bignerdranch.foodwikipedia.screen.Settings
+import android.bignerdranch.foodwikipedia.ui.repository.Repository
+import android.bignerdranch.foodwikipedia.utils.LanguageConfig
 import android.content.Context
 import android.media.MediaPlayer
 import android.os.Bundle
@@ -15,7 +16,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.commit
 import kotlin.system.exitProcess
 
-class FragmentContainer: AppCompatActivity(), Navigator {
+class FragmentContainer: AppCompatActivity(), Repository {
     private val binding by lazy {
         FragmentContainerBinding.inflate(layoutInflater)
     }
@@ -33,6 +34,7 @@ class FragmentContainer: AppCompatActivity(), Navigator {
         if (savedInstanceState == null) {
             replaceFragments(supportFragmentManager, Header.newInstance())
         }
+
     }
 
      override fun setMusic() {
@@ -96,6 +98,14 @@ class FragmentContainer: AppCompatActivity(), Navigator {
                 exitProcess(0)
             }
         }
+    }
+
+    override fun attachBaseContext(newBase: Context?) {
+        val preferences = newBase?.getSharedPreferences(Settings.LANG_PREFERENCES, MODE_PRIVATE)
+        val languageCode = preferences?.getString(Settings.LANG_STATE, "en") ?: "en"
+
+        val context = LanguageConfig().changeLanguage(newBase, languageCode)
+        super.attachBaseContext(context)
     }
 
 

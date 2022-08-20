@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Label strings -->
+    <string name="settings_label">Настройки</string>
+    <string name="category_label">Категория</string>
+    <string name="menu_label">Меню</string>
+
+
+    <!-- Header screen's button's strings -->
+    <string name="pick_category">Выберите категорию продукта</string>
+
+
+    <!-- About screen's strings -->
+    <string name="about_app_name">Имя приложения: %s</string>
+    <string name="about_version_code">Версия: %s</string>
+    <string name="github_link">Проект: <a href="https://github.com/ughsxl/FoodWikipedia">https://github.com/ughsxl/FoodWikipedia</a></string>
+    <string name="send_feedback">Написать отзыв</string>
+    <string name="thanks_to_label">Благодарность</string>
+
+
+    <!-- Settings screen's strings -->
+    <string name="music_label">Музыка</string>
+
+    <string name="theme_label">Тема</string>
+    <string name="light_theme_radio_button">Светлая</string>
+    <string name="dark_theme_radio_button">Тёмная</string>
+
+    <string name="language_label">Язык</string>
+
+
+    <!-- Category screen strings -->
+    <string name="pick_any_item_label">Выбери  %s</string>
+
+
+    <!-- Category Item screen strings -->
+    <string name="nutrition_value">Пищ. ценность(100g)</string>
+
+    <string name="carbs_value">Углеводы: %s</string>
+    <string name="protein_value">Белок: %s</string>
+    <string name="calories_value">Калории: %s</string>
+    <string name="fiber_value">Клетчатка: %s</string>
+    <string name="sugar_value">Сахар: %s</string>
+
+    <string name="a_value">Витамин A: %s</string>
+    <string name="b1_value">Витамин B-1: %s</string>
+    <string name="b3_value">Витамин B-3: %s</string>
+    <string name="b6_value">Витамин B-6: %s</string>
+    <string name="b9_value">Витамин B-9: %s</string>
+    <string name="b12_value">Витамин B-12: %s</string>
+    <string name="c_value">Витамин C: %s</string>
+    <string name="d_value">Витамин D: %s</string>
+    <string name="e_value">Витамин E: %s</string>
+
+    <string name="calcium_value">Кальций: %s</string>
+    <string name="iron_value">Железо: %s</string>
+    <string name="magnesium_value">Магний: %s</string>
+    <string name="omega3_value">Омега-3: %s</string>
+    <string name="phosphorus_value">Фосфор: %s</string>
+    <string name="sodium_value">Натрий: %s</string>
+    <string name="zinc_value">Цинк: %s</string>
+
+
+    <!-- Core strings -->
+    <string name="pick_label">Выбрать</string>
+    <string name="first_pick_category_toast">Сначала выберите категорию</string>
+    <string name="an_error_occurred_toast">Произошла ошибка</string>
+
+
+    <!-- Food categories list -->
+    <string-array name="categories_list">
+        <item>Овощи</item>
+        <item>Фрукты</item>
+        <item>Мясо и Речная Рыба</item>
+        <item>Молодчные продукты</item>
+        <item>Крупы</item>
+        <item>Бобовые</item>
+        <item>Морская еда</item>
+        <item>Орехи</item>
+        <item>Травы и Специи</item>
+    </string-array>
+
+    <string name="about_label">О приложении</string>
+    <string name="launch_category">Узнать</string>
+    <string name="main_representatives_label">Основные продукты</string>
+    <string name="fats_value">Жиры: %s</string>
+    <string name="confirm_button_label">Подтвердить</string>
+
+</resources>

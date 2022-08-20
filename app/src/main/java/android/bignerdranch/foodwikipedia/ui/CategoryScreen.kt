@@ -1,11 +1,11 @@
-package android.bignerdranch.foodwikipedia.screen
+package android.bignerdranch.foodwikipedia.ui
 
 import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.CategoryFragmentBinding
-import android.bignerdranch.foodwikipedia.models.CategoryModel
-import android.bignerdranch.foodwikipedia.models.ItemModel
-import android.bignerdranch.foodwikipedia.navigator
+import android.bignerdranch.foodwikipedia.model.CategoryModel
+import android.bignerdranch.foodwikipedia.model.ItemModel
+import android.bignerdranch.foodwikipedia.ui.repository.navigator
 import android.content.Context
 import android.os.Bundle
 import android.view.View

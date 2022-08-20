@@ -1,8 +1,8 @@
-package android.bignerdranch.foodwikipedia.screen
+package android.bignerdranch.foodwikipedia.ui
 
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.AboutFragmentBinding
-import android.bignerdranch.foodwikipedia.navigator
+import android.bignerdranch.foodwikipedia.ui.repository.navigator
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle

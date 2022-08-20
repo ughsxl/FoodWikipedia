@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Label strings -->
+    <string name="about_label">Про додаток</string>
+    <string name="settings_label">Налаштування</string>
+    <string name="category_label">Категорія</string>
+    <string name="menu_label">Меню</string>
+
+
+    <!-- Header screen's button's strings -->
+    <string name="pick_category">Виберіть категорію</string>
+
+
+    <!-- About screen's strings -->
+    <string name="about_app_name">Ім\'я додатку: %s</string>
+    <string name="about_version_code">Версія: %s</string>
+    <string name="github_link">Проєкт: <a href="https://github.com/ughsxl/FoodWikipedia">https://github.com/ughsxl/FoodWikipedia</a></string>
+    <string name="thanks_to_label">Вдячність</string>
+
+
+    <!-- Settings screen's strings -->
+    <string name="music_label">Музика</string>
+
+    <string name="theme_label">Тема</string>
+    <string name="light_theme_radio_button">Світла</string>
+    <string name="dark_theme_radio_button">Темна</string>
+
+    <string name="language_label">Мова</string>
+
+
+    <!-- Category screen strings -->
+    <string name="main_representatives_label">Основні продукти</string>
+    <string name="pick_any_item_label">Вибери %s</string>
+
+
+    <!-- Category Item screen strings -->
+    <string name="nutrition_value">Харч. цінність (100g)</string>
+
+    <string name="carbs_value">Вуглеводи: %s</string>
+    <string name="protein_value">Білок: %s</string>
+    <string name="calories_value">Калории: %s</string>
+    <string name="fiber_value">Клітковина: %s</string>
+    <string name="sugar_value">Цукор: %s</string>
+
+    <string name="a_value">Вітамін A: %s</string>
+    <string name="b1_value">Вітамін B-1: %s</string>
+    <string name="b3_value">Вітамін B-3: %s</string>
+    <string name="b6_value">Вітамін B-6: %s</string>
+    <string name="b9_value">Вітамін B-9: %s</string>
+    <string name="b12_value">Вітамін B-12: %s</string>
+    <string name="c_value">Вітамін C: %s</string>
+    <string name="d_value">Вітамін D: %s</string>
+    <string name="e_value">Вітамін E: %s</string>
+
+    <string name="calcium_value">Кальцій: %s</string>
+    <string name="iron_value">Залізо: %s</string>
+    <string name="magnesium_value">Магній: %s</string>
+    <string name="omega3_value">Омега-3: %s</string>
+    <string name="phosphorus_value">Фосфор: %s</string>
+    <string name="sodium_value">Натрій: %s</string>
+    <string name="zinc_value">Цинк: %s</string>
+
+
+    <!-- Core strings -->
+    <string name="confirm_button_label">Підтвердити</string>
+    <string name="pick_label">Вибрати</string>
+    <string name="first_pick_category_toast">Спочатку виберіть категорію</string>
+    <string name="an_error_occurred_toast">Помилка</string>
+
+
+    <!-- Food categories list -->
+    <string-array name="categories_list">
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Meat &amp; Freshwater Fish</item>
+        <item>Dairy</item>
+        <item>Grains</item>
+        <item>Legumes</item>
+        <item>Seafood</item>
+        <item>Nuts</item>
+        <item>Herbs &amp; Spices</item>
+    </string-array>
+
+    <string name="fats_value">Жири: %s</string>
+    <string name="launch_category">Дізнатись</string>
+    <string name="send_feedback">Надіслати відгук</string>
+</resources>

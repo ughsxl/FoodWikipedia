@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:context=".screen.CategoryItemScreen">
+        tools:context=".ui.CategoryItemScreen">
 
 
         <include
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_row="0"
                 android:layout_column="0"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="normal"/>
 
             <TextView

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
     android:id="@+id/header"
-    tools:context=".screen.Header"
+    tools:context=".ui.Header"
     tools:ignore="contentDescription">
 
     <include layout="@layout/actionbar"
@@ -27,8 +27,8 @@
 
     <Button
         android:id="@+id/launchCategoryButton"
-        android:layout_width="175dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:text="@string/launch_category"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,8 +37,8 @@
 
     <Button
         android:id="@+id/pickCategoryButton"
-        android:layout_width="175dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:text="@string/pick_category"
         app:layout_constraintEnd_toEndOf="@+id/launchCategoryButton"
         app:layout_constraintStart_toStartOf="@+id/launchCategoryButton"
@@ -46,8 +46,8 @@
 
     <Button
         android:id="@+id/aboutButton"
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginBottom="33dp"
         android:text="@string/about_label"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +58,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_marginTop="62dp"
         android:src="@drawable/basket"
@@ -66,7 +66,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pickCategoryButton" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

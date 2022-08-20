@@ -1,4 +1,4 @@
-package android.bignerdranch.foodwikipedia.models
+package android.bignerdranch.foodwikipedia.model
 
 data class CategoryModel(
     val description: String,

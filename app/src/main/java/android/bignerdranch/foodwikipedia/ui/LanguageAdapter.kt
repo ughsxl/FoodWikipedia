@@ -1,6 +1,7 @@
-package android.bignerdranch.foodwikipedia.screen.language_spinner
+package android.bignerdranch.foodwikipedia.ui
 
 import android.bignerdranch.foodwikipedia.R
+import android.bignerdranch.foodwikipedia.model.LanguageModel
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -13,8 +14,8 @@ import android.widget.TextView
  *     Created by Krupko Illa on 15.08.2022
  */
 
-class LanguageAdapter(context: Context, languageList: java.util.ArrayList<Language>) :
-    ArrayAdapter<Language>(context, 0, languageList) {
+class LanguageAdapter(context: Context, languageModelList: ArrayList<LanguageModel>) :
+    ArrayAdapter<LanguageModel>(context, 0, languageModelList) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         return initView(position, convertView, parent)

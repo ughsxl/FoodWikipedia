@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
     android:orientation="vertical"
-    tools:context=".screen.Settings">
+    tools:context=".ui.Settings">
 
     <include layout="@layout/actionbar"
         android:id="@+id/includedActionBar"/>
@@ -33,7 +33,7 @@
         android:layout_gravity="end"
         android:thumb="@drawable/thumb"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toEndOf="@+id/musicState"
         app:layout_constraintTop_toTopOf="@id/musicState"
         app:layout_constraintBottom_toBottomOf="@+id/musicState"
