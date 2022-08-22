@@ -1,846 +1,849 @@
 {
-    "description": "In botany, a fruit is the seed-bearing structure in flowering plants that is formed from the ovary after flowering. Consequently, fruits account for a substantial fraction of the world's agricultural output, and some have acquired extensive cultural and symbolic meanings.",
-    "main_representatives": "Apple, Banana, Cherry, Orange, Tangerine, Peach, Strawberry.",
-
-    "representatives": [
-      {
-        "name": "Apple",
-        "description": "An apple is an edible fruit produced by an apple tree. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Different cultivars are bred for various tastes and uses, including cooking, eating raw, and cider production.",
-
-        "carbs": "13.81g",
-        "protein": "0.26g",
-        "fat": "0.17g",
-        "calories": "52kcal",
-        "fiber": "2.4g",
-        "sugar": "10.39g",
-
-        "a": "3mcg",
-        "b-1": "0.017mg",
-        "b-3": "0.091mg",
-        "b-6": "0.041mg",
-        "b-9": "3mcg",
-        "b-12": " -",
-        "c": "4.6mg",
-        "d": " -",
-        "e": "0.18mg",
-
-        "calcium": "6mg",
-        "iron": "0.12mg",
-        "magnesium": "5mg",
-        "omega-3": " -",
-        "phosphorus": "11mg",
-        "sodium": "1mg",
-        "zinc": "0.04mg"
-      },
-
-      {
-        "name": "Avokado",
-        "description": "Avocados are an interesting fruit because they are very low in carbohydrate yet high in healthy fats. The fruit originated in South America, possibly in Mexico or Peru, and it was first referred to in English by the name of “crocodile pear”.",
-
-        "carbs": "8.53g",
-        "protein": "2g",
-        "fat": "14.66g",
-        "calories": "160kcal",
-        "fiber": "6.7g",
-        "sugar": "0.66g",
-
-        "a": "7mcg",
-        "b-1": "0.067mg",
-        "b-3": "1.738mg",
-        "b-6": "0.257mg",
-        "b-9": "81mcg",
-        "b-12": " -",
-        "c": "10mg",
-        "d": " -",
-        "e": "2.07mg",
-
-        "calcium": "12mg",
-        "iron": "0.55mg",
-        "magnesium": "29mg",
-        "omega-3": " -",
-        "phosphorus": "52mg",
-        "sodium": "7mg",
-        "zinc": "0.64mg"
-      },
-
-      {
-        "name": "Banana",
-        "description": "The banana is a tropical fruit with a long body covered in a yellow skin. It's a very common fruit and—despite needing a hot climate—it's available in most countries. Since bananas have a very sweet taste, dessert recipes often use them.",
-
-        "carbs": "22.84g",
-        "protein": "1.09g",
-        "fat": "0.33g",
-        "calories": "89kcal",
-        "fiber": "2.6g",
-        "sugar": "12.23g",
-
-        "a": "3mcg",
-        "b-1": "0.031mg",
-        "b-3": "0.665mg",
-        "b-6": "0.4mg",
-        "b-9": "20mcg",
-        "b-12": " -",
-        "c": "8.7mg",
-        "d": " -",
-        "e": " -",
-
-        "calcium": " -",
-        "iron": "0.26mg",
-        "magnesium": "27mg",
-        "omega-3": " -",
-        "phosphorus": "22mg",
-        "sodium": "1mg",
-        "zinc": "0.15mg"
-      },
-
-      {
-        "name": "Blueberry",
-        "description": "Blueberries are sweet, nutritious and wildly popular. Often labeled a superfood, they are low in calories and incredibly good for you. They are so tasty and convenient that many people consider them their favorite fruit.",
-
-        "carbs": "14.49g",
-        "protein": "0.74g",
-        "fat": "0.33g",
-        "calories": "57kcal",
-        "fiber": "2.4g",
-        "sugar": "9.96g",
-
-        "a": "16mcg",
-        "b-1": "0.037mg",
-        "b-3": "0.418mg",
-        "b-6": "0.052mg",
-        "b-9": "6mcg",
-        "b-12": " -",
-        "c": "9.7mg",
-        "d": " -",
-        "e": "0.57mg",
-
-        "calcium": "6mg",
-        "iron": "0.28mg",
-        "magnesium": "6mg",
-        "omega-3": " -",
-        "phosphorus": "12mg",
-        "sodium": "1mg",
-        "zinc": "0.165mg"
-      },
-
-      {
-        "name": "Blackberry",
-        "description": "Blackberries are one of the tastiest fruits around. They're a small edible fruit with a big taste, and botanically they're a kinda berry that grow on brambles. The fruit has a sweet and succulent taste despite being relatively low in fructose compared to most types of fruit.",
-
-        "carbs": "9.61g",
-        "protein": "1.39g",
-        "fat": "0.49g",
-        "calories": "43kcal",
-        "fiber": "5.3g",
-        "sugar": "4.88g",
-
-        "a": "64mcg",
-        "b-1": "0.020mg",
-        "b-3": "0.646mg",
-        "b-6": "0.030mg",
-        "b-9": "25mcg",
-        "b-12": " -",
-        "c": "21mg",
-        "d": " -",
-        "e": "1.17mg",
-
-        "calcium": "29mg",
-        "iron": "0.62mg",
-        "magnesium": "20mg",
-        "omega-3": " -",
-        "phosphorus": "22mg",
-        "sodium": "1mg",
-        "zinc": "0.53mg"
-      },
-
-      {
-        "name": "Cantaloupe",
-        "description": "Popular with children and adults, cantaloupe can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.This type of fruit also contains a variety of vitamins, minerals, and antioxidants.",
-
-        "carbs": "8.16g",
-        "protein": "0.84g",
-        "fat": "0.19g",
-        "calories": "34kcal",
-        "fiber": "0.9g",
-        "sugar": "7.86g",
-
-        "a": "169mcg",
-        "b-1": "0.041mg",
-        "b-3": "0.734mg",
-        "b-6": "0.072mg",
-        "b-9": "21mcg",
-        "b-12": " -",
-        "c": "36.7mg",
-        "d": " -",
-        "e": " -",
-
-        "calcium": "9mg",
-        "iron": "0.21mg",
-        "magnesium": "12mg",
-        "omega-3": " -",
-        "phosphorus": "15mg",
-        "sodium": "16mg",
-        "zinc": "0.18mg"
-      },
-
-      {
-        "name": "Sour Cherry",
-        "description": "Sour cherry also commonly called tart cherry, is a fruit. The Montmorency sour cherry is the most popular type grown in the U.S. Sour cherry fruit contains chemicals that might reduce swelling and act as antioxidants.",
-
-        "carbs": "16g",
-        "protein": "1.1g",
-        "fat": "0.2g",
-        "calories": "63kcal",
-        "fiber": "2.1g",
-        "sugar": "12.8g",
-
-        "a": "3mcg",
-        "b-1": "0.027mg",
-        "b-3": "0.154mg",
-        "b-6": "0.049mg",
-        "b-9": "4mcg",
-        "b-12": " -",
-        "c": "7mg",
-        "d": " -",
-        "e": " -",
-
-        "calcium": "13mg",
-        "iron": "0.36mg",
-        "magnesium": "11mg",
-        "omega-3": " -",
-        "phosphorus": "21mg",
-        "sodium": "0.001mg",
-        "zinc": "0.07mg"
-      },
-
-      {
-        "name": "Sweet Cherry",
-        "description": "Nothing beats fresh summer produce, and sweet cherries, with their naturally delicious flavor and short season, top the list. Best eaten straight out of hand, you can enjoy this juicy fruit as a simple snack or as dessert.",
-
-        "carbs": "12.2g",
-        "protein": "1g",
-        "fat": "0.3g",
-        "calories": "50kcal",
-        "fiber": "1.6g",
-        "sugar": "8.5g",
-
-        "a": "64mcg",
-        "b-1": "0.03mg",
-        "b-3": "0.4mg",
-        "b-6": "0.044mg",
-        "b-9": "8mcg",
-        "b-12": " -",
-        "c": "10mg",
-        "d": " -",
-        "e": " -",
-
-        "calcium": "16mg",
-        "iron": "0.32mg",
-        "magnesium": "9mg",
-        "omega-3": " -",
-        "phosphorus": "15mg",
-        "sodium": "3mg",
-        "zinc": "0.03mg"
-      },
-
-      {
-        "name": "Cranberry",
-        "description": "Cranberries are a small edible berry with a bright red color. Due to their sour nature, they are usually available in their dried form and contain added sugar. However, it is possible to find fresh berries, but they are very tart.",
-
-        "carbs": "12g",
-        "protein": "0.5g",
-        "fat": "0.1g",
-        "calories": "46kcal",
-        "fiber": "3.6g",
-        "sugar": "4.3g",
-
-        "a": " -",
-        "b-1": "0.012mg",
-        "b-3": "0.101mg",
-        "b-6": "0.057mg",
-        "b-9": "1mcg",
-        "b-12": " -",
-        "c": "14mg",
-        "d": " -",
-        "e": "1.3mg",
-
-        "calcium": "8mg",
-        "iron": "0.2mg",
-        "magnesium": "6mg",
-        "omega-3": " -",
-        "phosphorus": "11mg",
-        "sodium": "2mg",
-        "zinc": "0.1mg"
-      },
-
-      {
-        "name": "Grapefruit",
-        "description": "Grapefruit is a large citrus fruit believed to originate in Asia. It is actually a hybrid fruit, which means that it is not an original species; it was created by the natural crossing of an orange and a pomelo.",
-
-        "carbs": "8.41g",
-        "protein": "0.8g",
-        "fat": "0.10g",
-        "calories": "33kcal",
-        "fiber": "1.1g",
-        "sugar": "7.31g",
-
-        "a": " -",
-        "b-1": "0.037",
-        "b-3": "0.269mg",
-        "b-6": "0.043mg",
-        "b-9": "10mcg",
-        "b-12": " -",
-        "c": "33.3mg",
-        "d": " -",
-        "e": "0.13mg",
-
-        "calcium": "12mg",
-        "iron": "0.06mg",
-        "magnesium": "9mg",
-        "omega-3": " -",
-        "phosphorus": "8mg",
-        "sodium": " -",
-        "zinc": "0.07"
-      },
-
-      {
-        "name": "Grapes",
-        "description": "Grapes are one of the most prevalent types of fruit, and we can find them almost everywhere. Grapes are very versatile too, and they form the basis of many different wines, juices, jams, and dessert products.",
-
-        "carbs": "18.1g",
-        "protein": "0.72g",
-        "fat": "0.16g",
-        "calories": "69kcal",
-        "fiber": "0.9g",
-        "sugar": "15.48g",
-
-        "a": " -",
-        "b-1": "0.069mg",
-        "b-3": "0.188mg",
-        "b-6": "0.086mg",
-        "b-9": "2mcg",
-        "b-12": " -",
-        "c": "3.2mg",
-        "d": " -",
-        "e": "0.19mg",
-
-        "calcium": "10mg",
-        "iron": "0.36mg",
-        "magnesium": "7mg",
-        "omega-3": " -",
-        "phosphorus": "20mg",
-        "sodium": "2mg",
-        "zinc": "0.07mg"
-      },
-
-      {
-        "name": "Kiwi",
-        "description": "Kiwifruit is a soft, green and juicy edible fruit. It has the alternate name of ‘Chinese gooseberry' and it is one of the most famous types of fruit in the world. The fruit is relatively easy to grow and it's easy to find in most developed countries.",
-
-        "carbs": "14.66g",
-        "protein": "1.14g",
-        "fat": "0.52g",
-        "calories": "61kcal",
-        "fiber": "3g",
-        "sugar": "8.99g",
-
-        "a": " -",
-        "b-1": "0.027mg",
-        "b-3": "0.341mg",
-        "b-6": "0.063mg",
-        "b-9": "25mcg",
-        "b-12": "0.08mcg",
-        "c": "92.7mg",
-        "d": " -",
-        "e": "1.46mg",
-
-        "calcium": "34mg",
-        "iron": "0.31mg",
-        "magnesium": "17mg",
-        "omega-3": " -",
-        "phosphorus": "34mg",
-        "sodium": "3mg",
-        "zinc": "0.14mg"
-      },
-
-      {
-        "name": "Lemon",
-        "description": "Lemons house a tart soft flesh behind a thick yellow skin, and they are a famous culinary fruit. For one thing, thousands of recipes call for a squeeze of fresh lemon juice. Lemons also hold value for cleaning uses. The reason for this is their high concentration of citric acid.",
-
-        "carbs": "9.32g",
-        "protein": "1.1g",
-        "fat": "0.3g",
-        "calories": "29kcal",
-        "fiber": "2.8g",
-        "sugar": "2.5g",
-
-        "a": " -",
-        "b-1": "0.04mg",
-        "b-3": "0.1mg",
-        "b-6": "0.08mg",
-        "b-9": "11mcg",
-        "b-12": " -",
-        "c": "53mg",
-        "d": " -",
-        "e": " -",
-
-        "calcium": "26mg",
-        "iron": "0.6mg",
-        "magnesium": "8mg",
-        "omega-3": " -",
-        "phosphorus": "16mg",
-        "sodium": " -",
-        "zinc": "0.06mg"
-      },
-
-      {
-        "name": "Lychee",
-        "description": "In Asia, the lychee fruit is prized for its greater proportion of flesh to peel and is most often eaten on its own. Also called a lychee nut, the fruit is comprised of three layers: the reddish husk, white flesh, and brown seed.",
-
-        "carbs": "16.53g",
-        "protein": "0.83g",
-        "fat": "0.44g",
-        "calories": "66kcal",
-        "fiber": "1.3g",
-        "sugar": "15.23g",
-
-        "a": " -",
-        "b-1": "0.011mg",
-        "b-3": "0.603mg",
-        "b-6": "0.1mg",
-        "b-9": "14mcg",
-        "b-12": " -",
-        "c": "71.5mg",
-        "d": " -",
-        "e": " -",
-
-        "calcium": "5mg",
-        "iron": "0.13mg",
-        "magnesium": "10mg",
-        "omega-3": " -",
-        "phosphorus": "31mg",
-        "sodium": "1mg",
-        "zinc": "0.07mg"
-      },
-
-      {
-        "name": "Lime",
-        "description": "Very close in nature to lemons, the lime is another sour citrus fruit. However, they both have a slight difference in flavor lemons are slightly more tart, while limes are bitter. The flesh of both fruits looks very similar except for the color, and their nutritional profile are fairly similar too.",
-
-        "carbs": "10.5g",
-        "protein": "0.7g",
-        "fat": "0.2g",
-        "calories": "30kcal",
-        "fiber": "2.8g",
-        "sugar": "1.7g",
-
-        "a": " -",
-        "b-1": "0.03mg",
-        "b-3": "0.2mg",
-        "b-6": "0.046mg",
-        "b-9": "8mcg",
-        "b-12": " -",
-        "c": "29.1mg",
-        "d": " -",
-        "e": " -",
-
-        "calcium": "33mg",
-        "iron": "0.6mg",
-        "magnesium": "6mg",
-        "omega-3": " -",
-        "phosphorus": "18mg",
-        "sodium": "2mg",
-        "zinc": " -"
-      },
-
-      {
-        "name": "Mango",
-        "description": "Sometimes referred to as the “king of fruits”, mango are a tropical fruit with extremely sweet and juicy flesh. Mango contain a stone surrounded by sweet yellow flesh; this taste is slightly sweet, soft, and tangy.",
-
-        "carbs": "15g",
-        "protein": "0.82g",
-        "fat": "0.38g",
-        "calories": "60kcal",
-        "fiber": "1.6g",
-        "sugar": "13.7g",
-
-        "a": "54mcg",
-        "b-1": "0.028mg",
-        "b-3": "0.669mg",
-        "b-6": "0.119mg",
-        "b-9": "43mcg",
-        "b-12": " -",
-        "c": "36.4mg",
-        "d": " -",
-        "e": "0.9mg",
-
-        "calcium": "11mg",
-        "iron": "0.16mg",
-        "magnesium": "10mg",
-        "omega-3": " -",
-        "phosphorus": "14mg",
-        "sodium": "1mg",
-        "zinc": "0.09mg"
-      },
-
-      {
-        "name": "Olive",
-        "description": "Most people don't realize that olives are actually a fruit. This is likely because olives don't have that typical sweet flavor most fruits do, and they instead offer a source of healthy fats.",
-
-        "carbs": "3.84g",
-        "protein": "1.03g",
-        "fat": "15.32g",
-        "calories": "146kcal",
-        "fiber": "3.3g",
-        "sugar": "0.54g",
-
-        "a": "20mcg",
-        "b-1": "0.021mg",
-        "b-3": "0.237mg",
-        "b-6": "0.031mg",
-        "b-9": "3mcg",
-        "b-12": " -",
-        "c": " -",
-        "d": " -",
-        "e": "3.81mg",
-
-        "calcium": "52mg",
-        "iron": "0.49mg",
-        "magnesium": "11mg",
-        "omega-3": " -",
-        "phosphorus": "4mg",
-        "sodium": "1556mg",
-        "zinc": " -"
-      },
-
-      {
-        "name": "Orange",
-        "description": "Oranges are among the most common fruit in the world. The orange is a citrus fruit and, surprisingly, it's a hybrid rather than an original species. If you didn't know about this point, then oranges are actually a hybrid of the pomelo and mandarin. Oranges are a relatively high-carbohydrate fruit and they provide a decent amount of vitamin C.",
-
-        "carbs": "11.75g",
-        "protein": "0.94g",
-        "fat": "0.12g",
-        "calories": "47kcal",
-        "fiber": "2.4g",
-        "sugar": "9.35g",
-
-        "a": "11mcg",
-        "b-1": "0.087mg",
-        "b-3": "0.282mg",
-        "b-6": "0.06mg",
-        "b-9": "30mcg",
-        "b-12": " -",
-        "c": "53.2mg",
-        "d": " -",
-        "e": "0.18mg",
-
-        "calcium": "40mg",
-        "iron": "0.1mg",
-        "magnesium": "10mg",
-        "omega-3": " -",
-        "phosphorus": "14mg",
-        "sodium": " -",
-        "zinc": "0.07mg"
-      },
-
-      {
-        "name": "Papaya",
-        "description": "A tropical fruit with an exotic name; the papaya. Papayas originate in Central America and grow in most countries with a tropical climate. Despite previously being thought of as “exotic” they are now easy to find in most countries due to the global fruit trade.",
-
-        "carbs": "10.82g",
-        "protein": "0.47g",
-        "fat": "0.26g",
-        "calories": "43kcal",
-        "fiber": "7.82g",
-        "sugar": "1.7g",
-
-        "a": "47mcg",
-        "b-1": "0.023mg",
-        "b-3": "0.357mg",
-        "b-6": " -",
-        "b-9": "38mcg",
-        "b-12": " -",
-        "c": "62mg",
-        "d": " -",
-        "e": "0.3mg",
-
-        "calcium": "20mg",
-        "iron": "0.25mg",
-        "magnesium": "21mg",
-        "omega-3": " -",
-        "phosphorus": "10mg",
-        "sodium": "8mg",
-        "zinc": "0.08mg"
-      },
-
-      {
-        "name": "Peach",
-        "description": "Peaches — are small fruit with a fuzzy peel and a sweet white or yellow flesh. Peaches are related to plums, apricots, and cherries. They're considered drupes or stone fruit because their flesh surrounds a shell that houses an edible seed.",
-
-        "carbs": "9.54g",
-        "protein": "0.91g",
-        "fat": "0.25g",
-        "calories": "39kcal",
-        "fiber": "1.5g",
-        "sugar": "8.39g",
-
-        "a": "16mcg",
-        "b-1": "0.024mg",
-        "b-3": "0.806mg",
-        "b-6": "0.025mg",
-        "b-9": "4mcg",
-        "b-12": " -",
-        "c": "6.6mg",
-        "d": " -",
-        "e": "0.73mg",
-
-        "calcium": "6mg",
-        "iron": "0.25mg",
-        "magnesium": "9mg",
-        "omega-3": " -",
-        "phosphorus": "20mg",
-        "sodium": "0.002mg",
-        "zinc": "0.17mg"
-      },
-
-      {
-        "name": "Pear",
-        "description": "Pears are a delicious, sweet, and juicy fruit. They grow naturally all around the world, but their origin, like many other fruits, lies in China.",
-
-        "carbs": "15.23g",
-        "protein": "0.36g",
-        "fat": "0.14g",
-        "calories": "57kcal",
-        "fiber": "3.1g",
-        "sugar": "9.75g",
-
-        "a": " -",
-        "b-1": "0.012mg",
-        "b-3": "0.161mg",
-        "b-6": "0.029mg",
-        "b-9": "7mcg",
-        "b-12": " -",
-        "c": "4.3mg",
-        "d": " -",
-        "e": "0.12mg",
-
-        "calcium": "9mg",
-        "iron": "0.18mg",
-        "magnesium": "7mg",
-        "omega-3": " -",
-        "phosphorus": "12mg",
-        "sodium": "1mg",
-        "zinc": "0.1mg"
-      },
-
-      {
-        "name": "Pineapple",
-        "description": "Pineapples are a sweet and slightly sour tropical fruit originating from South America. It is now very common in tropical regions of the world such as the Philippines and the Caribbean.",
-
-        "carbs": "13.12g",
-        "protein": "0.54g",
-        "fat": "0.12g",
-        "calories": "50kcal",
-        "fiber": "1.4g",
-        "sugar": "9.85g",
-
-        "a": " -",
-        "b-1": "0.079mg",
-        "b-3": "0.5mg",
-        "b-6": "0.112mg",
-        "b-9": "18mcg",
-        "b-12": " -",
-        "c": "47.8mg",
-        "d": " -",
-        "e": " -",
-
-        "calcium": "13mg",
-        "iron": "0.29mg",
-        "magnesium": "12mg",
-        "omega-3": " -",
-        "phosphorus": "8mg",
-        "sodium": "1mg",
-        "zinc": "0.12mg"
-      },
-
-      {
-        "name": "Plum",
-        "description": "Plums are small and round purple fruit that have origins in China. Appearance wise, a dark purple skin surrounds the juicy flesh, which can range from yellow-orange to reddish-purple in color. Plums can either be eaten fresh or in their dried state, which is called a \"prune\".",
-
-        "carbs": "11.42g",
-        "protein": "0.7g",
-        "fat": "0.28g",
-        "calories": "46kcal",
-        "fiber": "1.4g",
-        "sugar": "9.92g",
-
-        "a": "17mcg",
-        "b-1": "0.028mg",
-        "b-3": "0.026mg",
-        "b-6": "0.029mg",
-        "b-9": "5mcg",
-        "b-12": " -",
-        "c": "9.5mg",
-        "d": " -",
-        "e": "0.26mg",
-
-        "calcium": "6mg",
-        "iron": "0.17mg",
-        "magnesium": "7mg",
-        "omega-3": " -",
-        "phosphorus": "16mg",
-        "sodium": "0.001mg",
-        "zinc": "0.1mg"
-      },
-
-      {
-        "name": "Pomegranate",
-        "description": "Pomegranates are unique in appearance and taste. Nowadays, pomegranate cultivation is prevalent throughout dry and hot regions in the world. This interesting variety of fruit has a thick and firm red skin.",
-
-        "carbs": "18.7g",
-        "protein": "1.67g",
-        "calories": "83kcal",
-        "fat": "1.17g",
-        "fiber": "4g",
-        "sugar": "13.67g",
-
-        "a": " -",
-        "b-1": "0.067mg",
-        "b-3": "0.293mg",
-        "b-6": "0.075g",
-        "b-9": "38mcg",
-        "b-12": " -",
-        "c": "10.2mg",
-        "d": " -",
-        "e": "0.6mg",
-
-        "calcium": "10mg",
-        "iron": "0.3mg",
-        "magnesium": "12mg",
-        "omega-3": " -",
-        "phosphorus": "36mg",
-        "sodium": "3mg",
-        "zinc": "0.35mg"
-      },
-
-      {
-        "name": "Raspberry",
-        "description": "Raspberries are one of the most commonly cultivated fruits in the world and they grow in temperate regions. Raspberries grow on raspberry bushes and the fruit itself is composed of dozens of small drups. The raspberry has a soft flesh with a slightly sweet and juicy taste.",
-
-        "carbs": "11.94g",
-        "protein": "1.2g",
-        "fat": "0.65g",
-        "calories": "kcal",
-        "fiber": "6.5g",
-        "sugar": "4.42g",
-
-        "a": " -",
-        "b-1": "0.032mg",
-        "b-3": "0.598mg",
-        "b-6": "0.055mg",
-        "b-9": "21mcg",
-        "b-12": " -",
-        "c": "26.2mg",
-        "d": " -",
-        "e": "0.87mg",
-
-        "calcium": "25mg",
-        "iron": "0.69mg",
-        "magnesium": "22mg",
-        "omega-3": " -",
-        "phosphorus": "29mg",
-        "sodium": " -",
-        "zinc": "0.42mg"
-      },
-
-      {
-        "name": "Strawberry",
-        "description": "The strawberry is one of the most common (and beloved) fruits in the world. Strawberries are thought to be berries, but this is not botanically true, and they are an accessory fruit. Commonly eaten fresh, with cream, or in a range of desserts, strawberries are a soft and sweet-tasting fruit.",
-
-        "carbs": "7.68g",
-        "protein": "0.67g",
-        "fat": "0.3g",
-        "calories": "33kcal",
-        "fiber": "2g",
-        "sugar": "4.89g",
-
-        "a": " -",
-        "b-1": "0.024mg",
-        "b-3": "0.386mg",
-        "b-6": "0.047mg",
-        "b-9": "24mcg",
-        "b-12": " -",
-        "c": "58.8mg",
-        "d": " -",
-        "e": "0.29mg",
-
-        "calcium": "16mg",
-        "iron": "0.41mg",
-        "magnesium": "13mg",
-        "omega-3": " -",
-        "phosphorus": "24mg",
-        "sodium": "1mg",
-        "zinc": "0.14mg"
-      },
-
-      {
-        "name": "Tangerine",
-        "description": "While sharing a similar taste, tangerines are a smaller size than oranges, and they are less round (flatter) in shape. However, they have a bigger taste – tangerines are sweeter and more flavorful than regular oranges. The tangerine also has a softer skin which is easier to peel, and this makes them an easy snack for when you're out of the house.",
-
-        "carbs": "13.34g",
-        "protein": "0.81g",
-        "fat": "0.31g",
-        "calories": "53kcal",
-        "fiber": "1.8g",
-        "sugar": "10.58g",
-
-        "a": "34mcg",
-        "b-1": "0.058mg",
-        "b-3": "0.376mg",
-        "b-6": "0.078mg",
-        "b-9": "16mcg",
-        "b-12": " -",
-        "c": "26.7mg",
-        "d": " -",
-        "e": "0.2mg",
-
-        "calcium": "37mg",
-        "iron": "0.15mg",
-        "magnesium": "12mg",
-        "omega-3": " -",
-        "phosphorus": "20mg",
-        "sodium": "2mg",
-        "zinc": "0.07mg"
-      },
-
-      {
-        "name": "Watermelon",
-        "description": "The origin of watermelons is Southern Africa, and it is a large fruit that grows in tropical and subtropical regions. As you might guess from the name, watermelons are another fruit with a high water content; 91.5% to be exact. The fruit can wildly vary in size, with some fruit being a few kilograms in weight, but others reaching gigantic proportions.",
-
-        "carbs": "7.55g",
-        "protein": "0.61g",
-        "fat": "0.15g",
-        "calories": "30kcal",
-        "fiber": "0.4g",
-        "sugar": "6.2g",
-
-        "a": "28mcg",
-        "b-1": "0.033mg",
-        "b-3": "0.178mg",
-        "b-6": "0.045mg",
-        "b-9": " -",
-        "b-12": " -",
-        "c": "8.1mg",
-        "d": " -",
-        "e": " -",
-
-        "calcium": "7mg",
-        "iron": "0.24mg",
-        "magnesium": "10mg",
-        "omega-3": " -",
-        "phosphorus": "11g",
-        "sodium": "1mg",
-        "zinc": "0.1mg"
-      }
-    ]
+  "description": "In botany, a fruit is the seed-bearing structure in flowering plants that is formed from the ovary after flowering. Consequently, fruits account for a substantial fraction of the world's agricultural output, and some have acquired extensive cultural and symbolic meanings.|В ботанике плод — это семеноносная структура у цветковых растений, которая образуется из завязи после цветения. Следовательно, фрукты составляют значительную часть мирового сельскохозяйственного производства, а некоторые приобрели обширное культурное и символическое значение.|У ботаніці плід - це насінняносная структура у квіткових рослин, яка утворюється з зав'язі після цвітіння. Отже, фрукти становлять значну частку світового сільськогосподарського виробництва, а деякі набули великого культурного та символічного значення.",
+  "main_representatives": "Apple, Banana, Cherry, Orange, Tangerine, Peach, Strawberry.|Яблоко, Банан, Вишня, Апельсин, Мандарин, Персик, Клубника.|Яблуко, Банан, Вишня, Апельсин, Мандарин, Персик, Полуниця.",
+  "product_name": "fruit|фрукт|фрукт",
+
+
+  "representatives": [
+    {
+      "name": "Apple|Яблоко|Яблуко",
+      "description": "An apple is an edible fruit produced by an apple tree. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Different cultivars are bred for various tastes and uses, including cooking, eating raw, and cider production.|An apple is an edible fruit produced by an apple tree. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Different cultivars are bred for various tastes and uses, including cooking, eating raw, and cider production.|Яблоко - это съедобный плод, производимый яблоней. Яблоки выращивались в течение тысяч лет в Азии и Европе и были завезены в Северную Америку европейскими колонистами. Различные сорта выводятся для различных вкусов и применений, включая приготовление пищи, употребление в пищу сырых продуктов и производство сидра.|Яблуко - це їстівний плід, вироблений яблунею. Яблука тисячоліттями вирощувалися в Азії і Європі і були завезені в Північну Америку європейськими колоністами. Різні сорти розводять для різних смаків і застосувань, включаючи приготування їжі, вживання в сирому вигляді та виробництво сидру.",
+
+      "carbs": "13.81g",
+      "protein": "0.26g",
+      "fat": "0.17g",
+      "calories": "52kcal",
+      "fiber": "2.4g",
+      "sugar": "10.39g",
+
+      "a": "3mcg",
+      "b-1": "0.017mg",
+      "b-3": "0.091mg",
+      "b-6": "0.041mg",
+      "b-9": "3mcg",
+      "b-12": " -",
+      "c": "4.6mg",
+      "d": " -",
+      "e": "0.18mg",
+
+      "calcium": "6mg",
+      "iron": "0.12mg",
+      "magnesium": "5mg",
+      "omega-3": " -",
+      "phosphorus": "11mg",
+      "sodium": "1mg",
+      "zinc": "0.04mg"
+    },
+
+    {
+      "name": "Avokado|Авокадо|Авокадо",
+      "description": "Avocados are an interesting fruit because they are very low in carbohydrate yet high in healthy fats. The fruit originated in South America, possibly in Mexico or Peru, and it was first referred to in English by the name of “crocodile pear”.|Авокадо - это интересный фрукт, потому что у них очень мало углеводов, но с высоким содержанием здоровых жиров.Фрукты возникли в Южной Америке, возможно, в Мексике или Перу, и его впервые упоминались на английском языке по имени «Крокодила груша».|Авокадо - це цікавий фрукт, оскільки вони дуже мало вуглеводів, але високі здорові жири.Фрукти виникли в Південній Америці, можливо, в Мексиці чи Перу, і вперше його називали англійською мовою назвою «груша крокодила».",
+
+      "calories": "160kcal",
+      "carbs": "8.53g",
+      "sugar": "0.66g",
+      "fiber": "6.7g",
+      "fat": "14.66g",
+      "protein": "2g",
+
+      "a": "7mcg",
+      "b-1": "0.067mg",
+      "b-3": "1.738mg",
+      "b-6": "0.257mg",
+      "b-9": "81mcg",
+      "b-12": " -",
+      "c": "10mg",
+      "d": " -",
+      "e": "2.07mg",
+
+      "calcium": "12mg",
+      "iron": "0.55mg",
+      "magnesium": "29mg",
+      "phosphorus": "52mg",
+      "omega-3": " -",
+      "sodium": "7mg",
+      "zinc": "0.64mg"
+    },
+
+    {
+      "name": "Banana|Банан|Банан",
+      "description": "The banana is a tropical fruit with a long body covered in a yellow skin. It's a very common fruit and—despite needing a hot climate—it's available in most countries. Since bananas have a very sweet taste, dessert recipes often use them.|Банан - это тропический фрукт с длинным телом, покрытым желтой кожей.Это очень распространенный фрукт и, несмотря на то, что нужен горячий климат - он доступен в большинстве стран.Поскольку бананы имеют очень сладкий вкус, рецепты десертов часто используют их.|Банан - це тропічний плід з довгим тілом, покритим жовтою шкірою.Це дуже поширений фрукт і, незважаючи на те, що потребує гарячого клімату - він доступний у більшості країн.Оскільки банани мають дуже солодкий смак, десертні рецепти часто використовують їх.",
+
+      "calories": "89kcal",
+      "carbs": "22.84g",
+      "sugar": "12.23g",
+      "fiber": "2.6g",
+      "fat": "0.33g",
+      "protein": "1.09g",
+
+      "a": "3mcg",
+      "b-1": "0.031mg",
+      "b-3": "0.665mg",
+      "b-6": "0.4mg",
+      "b-9": "20mcg",
+      "b-12": " -",
+      "c": "8.7mg",
+      "d": " -",
+      "e": " -",
+
+      "calcium": " -",
+      "iron": "0.26mg",
+      "magnesium": "27mg",
+      "phosphorus": "22mg",
+      "omega-3": " -",
+      "sodium": "1mg",
+      "zinc": "0.15mg"
+    },
+
+    {
+      "name": "Blueberry|Черника|Чорниця",
+      "description": "Blueberries are sweet, nutritious and wildly popular. Often labeled a superfood, they are low in calories and incredibly good for you. They are so tasty and convenient that many people consider them their favorite fruit.|Черника сладкая, питательная и дико популярная.Часто называемые суперпродуктами, у них мало калорий и невероятно полезны для вас.Они настолько вкусные и удобные, что многие люди считают их своим любимым фруктом.|Чорниця солодка, поживна та диво популярна.Часто позначені суперпродуктом, вони мають низький калорій і неймовірно добре для вас.Вони настільки смачні та зручні, що багато людей вважають їх улюбленими фруктами.",
+
+      "calories": "57kcal",
+      "carbs": "14.49g",
+      "sugar": "9.96g",
+      "fiber": "2.4g",
+      "fat": "0.33g",
+      "protein": "0.74g",
+
+      "a": "16mcg",
+      "b-1": "0.037mg",
+      "b-3": "0.418mg",
+      "b-6": "0.052mg",
+      "b-9": "6mcg",
+      "b-12": " -",
+      "c": "9.7mg",
+      "d": " -",
+      "e": "0.57mg",
+
+      "calcium": "6mg",
+      "iron": "0.28mg",
+      "magnesium": "6mg",
+      "phosphorus": "12mg",
+      "omega-3": " -",
+      "sodium": "1mg",
+      "zinc": "0.165mg"
+    },
+
+    {
+      "name": "Blackberry|Ежевика|Ожина",
+      "description": "Blackberries are one of the tastiest fruits around. They're a small edible fruit with a big taste, and botanically they're a kinda berry that grow on brambles. The fruit has a sweet and succulent taste despite being relatively low in fructose compared to most types of fruit.|Ежевика - один из самых вкусных фруктов вокруг.Они маленькие съедобные фрукты с большим вкусом, и ботанически это своего рода ягода, которая растут на клетчатке.Фрукты имеют сладкий и сочный вкус, несмотря на то, что он относительно низкий в фруктозе по сравнению с большинством видов фруктов.|Ожина - одна з найсмачніших фруктів навколо.Вони невеликий їстівний фрукт з великим смаком, і ботанічно вони якомога ягоди, що ростуть на мандрівці.Плід має солодкий і соковитий смак, незважаючи на те, що він відносно низький фруктоза порівняно з більшістю видів фруктів.",
+
+      "calories": "43kcal",
+      "carbs": "9.61g",
+      "sugar": "4.88g",
+      "fiber": "5.3g",
+      "fat": "0.49g",
+      "protein": "1.39g",
+
+      "a": "64mcg",
+      "b-1": "0.020mg",
+      "b-3": "0.646mg",
+      "b-6": "0.030mg",
+      "b-9": "25mcg",
+      "b-12": " -",
+      "c": "21mg",
+      "d": " -",
+      "e": "1.17mg",
+
+      "calcium": "29mg",
+      "iron": "0.62mg",
+      "magnesium": "20mg",
+      "phosphorus": "22mg",
+      "omega-3": " -",
+      "sodium": "1mg",
+      "zinc": "0.53mg"
+    },
+
+    {
+      "name": "Cantaloupe|Дыня|Диня",
+      "description": "Popular with children and adults, cantaloupe can make a refreshing, healthful, and easy summer dessert, while their high water content helps prevent dehydration.This type of fruit also contains a variety of vitamins, minerals, and antioxidants.|Популярная среди детей и взрослых, канталупа может сделать освежающий, полезный и легкий летний десерт, в то время как их высокое содержание воды помогает предотвратить обезвоживание. Этот тип фруктов также содержит различные витамины, минералы и антиоксиданты.|Популярний у дітей та дорослих, диналупа може зробити освіжаючий, здоровий та легкий літній десерт, тоді як їх високий вміст води допомагає запобігти зневоднення. Цей тип фруктів також містить різноманітні вітаміни, мінерали та антиоксиданти.",
+
+      "calories": "34kcal",
+      "carbs": "8.16g",
+      "sugar": "7.86g",
+      "fiber": "0.9g",
+      "fat": "0.19g",
+      "protein": "0.84g",
+
+      "a": "169mcg",
+      "b-1": "0.041mg",
+      "b-3": "0.734mg",
+      "b-6": "0.072mg",
+      "b-9": "21mcg",
+      "b-12": " -",
+      "c": "36.7mg",
+      "d": " -",
+      "e": " -",
+
+      "calcium": "9mg",
+      "iron": "0.21mg",
+      "magnesium": "12mg",
+      "phosphorus": "15mg",
+      "omega-3": " -",
+      "sodium": "16mg",
+      "zinc": "0.18mg"
+    },
+
+    {
+      "name": "Sour Cherry|Кислая вишня|Кисла вишня",
+      "description": "Sour cherry also commonly called tart cherry, is a fruit. The Montmorency sour cherry is the most popular type grown in the U.S. Sour cherry fruit contains chemicals that might reduce swelling and act as antioxidants.|Кистная вишня, также обычно называемая терпкой вишней, является фруктом.Черри Montmorency Sour - самый популярный тип, выращенный в вишне -фруктах в США, содержит химические вещества, которые могут уменьшить отек и действовать как антиоксиданты.|Вишня, яка також зазвичай називається терпкою вишнею, - це плід.Вишнева вишня Montmorency - це найпопулярніший тип, вирощений в американських фруктах вишневих вишневих фруктів, що містить хімічні речовини, які можуть зменшити набряк та діяти як антиоксиданти.",
+
+      "calories": "63kcal",
+      "carbs": "16g",
+      "sugar": "12.8g",
+      "fiber": "2.1g",
+      "fat": "0.2g",
+      "protein": "1.1g",
+
+      "a": "3mcg",
+      "b-1": "0.027mg",
+      "b-3": "0.154mg",
+      "b-6": "0.049mg",
+      "b-9": "4mcg",
+      "b-12": " -",
+      "c": "7mg",
+      "d": " -",
+      "e": " -",
+
+      "calcium": "13mg",
+      "iron": "0.36mg",
+      "magnesium": "11mg",
+      "phosphorus": "21mg",
+      "omega-3": " -",
+      "sodium": "0.001mg",
+      "zinc": "0.07mg"
+    },
+
+    {
+      "name": "Sweet Cherry|Сладкая вишня|Солодка вишня",
+      "description": "Nothing beats fresh summer produce, and sweet cherries, with their naturally delicious flavor and short season, top the list. Best eaten straight out of hand, you can enjoy this juicy fruit as a simple snack or as dessert.|Ничто не сравнится с свежими летними продуктами и сладкой вишней, с их естественным вкусным вкусом и коротким сезоном, возглавляют список.Лучше всего есть прямо из -под контроля, вы можете насладиться этим сочным фруктом в качестве простой закуски или десерта.|Ніщо не перемагає свіжу літню продукцію та солодкі вишні, з їх природним смачним ароматом та коротким сезоном, очолюючи список.Найкраще їсти прямо з рук, ви можете насолоджуватися цим соковитим фруктом як простим закускою або як десерт.",
+
+      "calories": "50kcal",
+      "carbs": "12.2g",
+      "sugar": "8.5g",
+      "fiber": "1.6g",
+      "fat": "0.3g",
+      "protein": "1g",
+
+      "a": "64mcg",
+      "b-1": "0.03mg",
+      "b-3": "0.4mg",
+      "b-6": "0.044mg",
+      "b-9": "8mcg",
+      "b-12": " -",
+      "c": "10mg",
+      "d": " -",
+      "e": " -",
+
+      "calcium": "16mg",
+      "iron": "0.32mg",
+      "magnesium": "9mg",
+      "phosphorus": "15mg",
+      "omega-3": " -",
+      "sodium": "3mg",
+      "zinc": "0.03mg"
+    },
+
+    {
+      "name": "Cranberry|Клюква|Журавлина",
+      "description": "Cranberries are a small edible berry with a bright red color. Due to their sour nature, they are usually available in their dried form and contain added sugar. However, it is possible to find fresh berries, but they are very tart.|Клюква - небольшая съедобная ягода с ярко -красным цветом.Из -за своей кислой природы они обычно доступны в их сушеной форме и содержат добавленный сахар.Тем не менее, можно найти свежие ягоды, но они очень терпкие.|Журавлина - це невелика їстівна ягода з яскраво -червоним кольором.Завдяки їх кислим природі вони зазвичай доступні в сушеному вигляді і містять доданий цукор.Однак можна знайти свіжі ягоди, але вони дуже терпкі.",
+
+      "calories": "46kcal",
+      "carbs": "12g",
+      "sugar": "4.3g",
+      "fiber": "3.6g",
+      "fat": "0.1g",
+      "protein": "0.5g",
+
+      "a": " -",
+      "b-1": "0.012mg",
+      "b-3": "0.101mg",
+      "b-6": "0.057mg",
+      "b-9": "1mcg",
+      "b-12": " -",
+      "c": "14mg",
+      "d": " -",
+      "e": "1.3mg",
+
+      "calcium": "8mg",
+      "iron": "0.2mg",
+      "magnesium": "6mg",
+      "phosphorus": "11mg",
+      "omega-3": " -",
+      "sodium": "2mg",
+      "zinc": "0.1mg"
+    },
+
+    {
+      "name": "Grapefruit|Грейпфрут|Грейпфрут",
+      "description": "Grapefruit is a large citrus fruit believed to originate in Asia. It is actually a hybrid fruit, which means that it is not an original species; it was created by the natural crossing of an orange and a pomelo.|Грейпфрут - это большой цитрусовый фрукт, который, как полагают, происходят в Азии.На самом деле это гибридный плод, что означает, что это не оригинальный вид;Он был создан естественным пересечением апельсина и помело.|Грейпфрут - це великий цитрусний плід, який, як вважають, приходить в Азії.Це насправді гібридний плід, а це означає, що це не початковий вид;Він був створений природним переходом апельсина та помоло.",
+
+      "calories": "33kcal",
+      "carbs": "8.41g",
+      "sugar": "7.31g",
+      "fiber": "1.1g",
+      "fat": "0.10g",
+      "protein": "0.8g",
+
+      "a": " -",
+      "b-1": "0.037",
+      "b-3": "0.269mg",
+      "b-6": "0.043mg",
+      "b-9": "10mcg",
+      "b-12": " -",
+      "c": "33.3mg",
+      "d": " -",
+      "e": "0.13mg",
+
+      "calcium": "12mg",
+      "iron": "0.06mg",
+      "magnesium": "9mg",
+      "phosphorus": "8mg",
+      "omega-3": " -",
+      "sodium": " -",
+      "zinc": "0.07"
+    },
+
+    {
+      "name": "Grapes|Виноград|Виноград",
+      "description": "Grapes are one of the most prevalent types of fruit, and we can find them almost everywhere. Grapes are very versatile too, and they form the basis of many different wines, juices, jams, and dessert products.|Виноград - один из самых распространенных типов фруктов, и мы можем найти их почти везде.Виноград также очень универсален, и они составляют основу множества различных вин, соков, джемов и десертных продуктов.|Виноград - один з найпоширеніших типів фруктів, і ми можемо їх знайти майже скрізь.Виноград теж дуже універсальний, і вони складають основу багатьох різних вин, соків, джемів та десертних продуктів.",
+
+      "calories": "69kcal",
+      "carbs": "18.1g",
+      "sugar": "15.48g",
+      "fiber": "0.9g",
+      "fat": "0.16g",
+      "protein": "0.72g",
+
+      "a": " -",
+      "b-1": "0.069mg",
+      "b-3": "0.188mg",
+      "b-6": "0.086mg",
+      "b-9": "2mcg",
+      "b-12": " -",
+      "c": "3.2mg",
+      "d": " -",
+      "e": "0.19mg",
+
+      "calcium": "10mg",
+      "iron": "0.36mg",
+      "magnesium": "7mg",
+      "phosphorus": "20mg",
+      "omega-3": " -",
+      "sodium": "2mg",
+      "zinc": "0.07mg"
+    },
+
+    {
+      "name": "Kiwi|Киви|Ківі",
+      "description": "Kiwifruit is a soft, green and juicy edible fruit. It has the alternate name of 'Chinese gooseberry and it is one of the most famous types of fruit in the world. The fruit is relatively easy to grow and it's easy to find in most developed countries.|Киви - это мягкий, зеленый и сочный съедобный фрукт.У него есть альтернативное название «китайский крыжовник», и это один из самых известных типов фруктов в мире. Фрукты относительно легко выращивать, и его легко найти в большинстве развитых стран.|Ківі - це м'який, зелений і соковитий їстівний фрукт. Також це один з найвідоміших типів фруктів у світі. Плід відносно легко вирощувати, і його легко знайти в більшості розвинених країн.",
+
+      "calories": "61kcal",
+      "carbs": "14.66g",
+      "sugar": "8.99g",
+      "fiber": "3g",
+      "fat": "0.52g",
+      "protein": "1.14g",
+
+      "a": " -",
+      "b-1": "0.027mg",
+      "b-3": "0.341mg",
+      "b-6": "0.063mg",
+      "b-9": "25mcg",
+      "b-12": "0.08mcg",
+      "c": "92.7mg",
+      "d": " -",
+      "e": "1.46mg",
+
+      "calcium": "34mg",
+      "iron": "0.31mg",
+      "magnesium": "17mg",
+      "phosphorus": "34mg",
+      "omega-3": " -",
+      "sodium": "3mg",
+      "zinc": "0.14mg"
+    },
+
+    {
+      "name": "Lemon|Лимон|Лимон",
+      "description": "Lemons house a tart soft flesh behind a thick yellow skin, and they are a famous culinary fruit. For one thing, thousands of recipes call for a squeeze of fresh lemon juice. Lemons also hold value for cleaning uses. The reason for this is their high concentration of citric acid.|Лимоны содержат терпкую мягкую мякоть за густой желтой кожей, и они являются известным кулинарным фруктом. Во-первых, тысячи рецептов требуют сжатия свежего лимонного сока.Лимоны также имеют ценность для очистки. Причиной этого является их высокая концентрация лимонной кислоты.|Лимони мають терпку м’яку м’якоть за товстою жовтою шкірою, і вони є відомим кулінарним фруктом.По -перше, тисячі рецептів вимагають стискання свіжого лимонного соку.Лимони також мають значення для очищення використання. Причиною цього є їх висока концентрація лимонної кислоти.",
+
+      "calories": "29kcal",
+      "carbs": "9.32g",
+      "sugar": "2.5g",
+      "fiber": "2.8g",
+      "fat": "0.3g",
+      "protein": "1.1g",
+
+      "a": " -",
+      "b-1": "0.04mg",
+      "b-3": "0.1mg",
+      "b-6": "0.08mg",
+      "b-9": "11mcg",
+      "b-12": " -",
+      "c": "53mg",
+      "d": " -",
+      "e": " -",
+
+      "calcium": "26mg",
+      "iron": "0.6mg",
+      "magnesium": "8mg",
+      "phosphorus": "16mg",
+      "omega-3": " -",
+      "sodium": " -",
+      "zinc": "0.06mg"
+    },
+
+    {
+      "name": "Lychee|Личи|Лічі",
+      "description": "In Asia, the lychee fruit is prized for its greater proportion of flesh to peel and is most often eaten on its own. Also called a lychee nut, the fruit is comprised of three layers: the reddish husk, white flesh, and brown seed.|В Азии плод личи ценится за большую долю плоти, чтобы очистить и чаще всего едят сами по себе. Также называемый личи-орехом, фрукт состоит из трех слоев: красноватая шелуха, белая плоть и коричневое семя.|В Азії плід лічі цінується за більшу частку плоті, щоб очистити від очищення і найчастіше їдять самостійно. Також називають горіхом лічі, плід складається з трьох шарів: червонувате лушпиння, біла плоть і коричневе насіння.",
+
+      "calories": "66kcal",
+      "carbs": "16.53g",
+      "sugar": "15.23g",
+      "fiber": "1.3g",
+      "fat": "0.44g",
+      "protein": "0.83g",
+
+      "a": " -",
+      "b-1": "0.011mg",
+      "b-3": "0.603mg",
+      "b-6": "0.1mg",
+      "b-9": "14mcg",
+      "b-12": " -",
+      "c": "71.5mg",
+      "d": " -",
+      "e": " -",
+
+      "calcium": "5mg",
+      "iron": "0.13mg",
+      "magnesium": "10mg",
+      "phosphorus": "31mg",
+      "omega-3": " -",
+      "sodium": "1mg",
+      "zinc": "0.07mg"
+    },
+
+    {
+      "name": "Lime|Лайм|Лайм",
+      "description": "Very close in nature to lemons, the lime is another sour citrus fruit. However, they both have a slight difference in flavor lemons are slightly more tart, while limes are bitter. The flesh of both fruits looks very similar except for the color, and their nutritional profile are fairly similar too.|Очень близко по природе к лимонам, известь - еще один кислый цитрусовый.Тем не менее, они оба имеют небольшую разницу в ароматных лимонах немного более терпки, в то время как лаймы горькие.Плоть обоих фруктов выглядит очень похожими, за исключением цвета, а их профиль питания тоже довольно похож.|Дуже близько до лимонів, лайм - це ще один кислий цитрусний плід. Однак вони обидва мають незначну різницю в ароматних лимонах трохи більш терпкі, тоді як лайми гіркі. М'якоть обох фруктів виглядає дуже схоже, за винятком кольору, і їх харчовий профіль теж досить схожий.",
+
+      "calories": "30kcal",
+      "carbs": "10.5g",
+      "sugar": "1.7g",
+      "fiber": "2.8g",
+      "fat": "0.2g",
+      "protein": "0.7g",
+
+      "a": " -",
+      "b-1": "0.03mg",
+      "b-3": "0.2mg",
+      "b-6": "0.046mg",
+      "b-9": "8mcg",
+      "b-12": " -",
+      "c": "29.1mg",
+      "d": " -",
+      "e": " -",
+
+      "calcium": "33mg",
+      "iron": "0.6mg",
+      "magnesium": "6mg",
+      "phosphorus": "18mg",
+      "omega-3": " -",
+      "sodium": "2mg",
+      "zinc": " -"
+    },
+
+    {
+      "name": "Mango|Манго|Манго",
+      "description": "Sometimes referred to as the “king of fruits”, mango are a tropical fruit with extremely sweet and juicy flesh. Mango contain a stone surrounded by sweet yellow flesh; this taste is slightly sweet, soft, and tangy.|Иногда манго, называемый «королем фруктов», представляют собой тропический фрукт с чрезвычайно сладкой и сочной плотью.Манго содержит камень, окруженный сладкой желтой мясом;Этот вкус слегка сладкий, мягкий и острый.|Іноді називають «королем фруктів», манго - це тропічний фрукт з надзвичайно солодкою і соковитим плоттю. Манго містить камінь, оточений солодкою жовтою плоттю. Цей смак трохи солодкий, м’який і відчутний.",
+
+      "calories": "60kcal",
+      "carbs": "15g",
+      "sugar": "13.7g",
+      "fiber": "1.6g",
+      "fat": "0.38g",
+      "protein": "0.82g",
+
+      "a": "54mcg",
+      "b-1": "0.028mg",
+      "b-3": "0.669mg",
+      "b-6": "0.119mg",
+      "b-9": "43mcg",
+      "b-12": " -",
+      "c": "36.4mg",
+      "d": " -",
+      "e": "0.9mg",
+
+      "calcium": "11mg",
+      "iron": "0.16mg",
+      "magnesium": "10mg",
+      "phosphorus": "14mg",
+      "omega-3": " -",
+      "sodium": "1mg",
+      "zinc": "0.09mg"
+    },
+
+    {
+      "name": "Olive|Оливка|Оливка",
+      "description": "Most people don't realize that olives are actually a fruit. This is likely because olives don't have that typical sweet flavor most fruits do, and they instead offer a source of healthy fats.|Большинство людей не понимают, что оливки на самом деле являются фруктами.Вероятно, это связано с тем, что у оливок нет такого типичного сладкого вкуса, которые делают большинство фруктов, и вместо этого они предлагают источник здоровых жиров.|Більшість людей не розуміють, що оливки - це насправді плід.Це, ймовірно, тому, що оливки не мають того типового солодкого аромату, які найбільше фруктів, і вони замість цього пропонують джерело здорових жирів.",
+
+      "calories": "146kcal",
+      "carbs": "3.84g",
+      "sugar": "0.54g",
+      "fiber": "3.3g",
+      "fat": "15.32g",
+      "protein": "1.03g",
+
+      "a": "20mcg",
+      "b-1": "0.021mg",
+      "b-3": "0.237mg",
+      "b-6": "0.031mg",
+      "b-9": "3mcg",
+      "b-12": " -",
+      "c": " -",
+      "d": " -",
+      "e": "3.81mg",
+
+      "calcium": "52mg",
+      "iron": "0.49mg",
+      "magnesium": "11mg",
+      "phosphorus": "4mg",
+      "omega-3": " -",
+      "sodium": "1556mg",
+      "zinc": " -"
+    },
+
+    {
+      "name": "Orange|Апельсин|Апельсин",
+      "description": "Oranges are among the most common fruit in the world. The orange is a citrus fruit and, surprisingly, it's a hybrid rather than an original species. If you didn't know about this point, then oranges are actually a hybrid of the pomelo and mandarin. Oranges are a relatively high-carbohydrate fruit and they provide a decent amount of vitamin C.|Апельсины являются одними из самых распространенных фруктов в мире. Оранжевый - это цитрусовые, и, что удивительно, это гибридный, а не оригинальный вид. Если вы не знали об этом вопросе, то апельсины на самом деле являются гибридом Помело и Мандарина. Апельсины являются относительно высоким содержанием углеводов, и они обеспечивают приличное количество витамина С.|Апельсини є одними з найпоширеніших фруктів у світі.Помаранчевий - це цитрусові, і, на диво, це гібрид, а не початковий вид.Якщо ви не знали про цей момент, то апельсини насправді є гібридом Помело та Мандарина.Апельсини є відносно високо-вуглеводним плідом, і вони забезпечують пристойну кількість вітаміну С.",
+
+      "calories": "47kcal",
+      "carbs": "11.75g",
+      "sugar": "9.35g",
+      "fiber": "2.4g",
+      "fat": "0.12g",
+      "protein": "0.94g",
+
+      "a": "11mcg",
+      "b-1": "0.087mg",
+      "b-3": "0.282mg",
+      "b-6": "0.06mg",
+      "b-9": "30mcg",
+      "b-12": " -",
+      "c": "53.2mg",
+      "d": " -",
+      "e": "0.18mg",
+
+      "calcium": "40mg",
+      "iron": "0.1mg",
+      "magnesium": "10mg",
+      "phosphorus": "14mg",
+      "omega-3": " -",
+      "sodium": " -",
+      "zinc": "0.07mg"
+    },
+
+    {
+      "name": "Papaya|Папайя|Папайя",
+      "description": "A tropical fruit with an exotic name; the papaya. Papayas originate in Central America and grow in most countries with a tropical climate. Despite previously being thought of as “exotic” they are now easy to find in most countries due to the global fruit trade.|Тропический фрукт с экзотическим названием;папайя.Папаи происходят в Центральной Америке и растут в большинстве стран с тропическим климатом.Несмотря на то, что ранее рассматривались как «экзотические», их теперь легко найти в большинстве стран из -за глобальной торговли фруктами.|Тропічний плід з екзотичною назвою;папайя.Папайи походять у Центральній Америці і ростуть у більшості країн з тропічним кліматом.Незважаючи на те, що раніше вважалися 'екзотичними', їх зараз легко знайти в більшості країн через глобальну торгівлю фруктами.",
+
+      "calories": "43kcal",
+      "carbs": "10.82g",
+      "sugar": "1.7g",
+      "fiber": "7.82g",
+      "fat": "0.26g",
+      "protein": "0.47g",
+
+      "a": "47mcg",
+      "b-1": "0.023mg",
+      "b-3": "0.357mg",
+      "b-6": " -",
+      "b-9": "38mcg",
+      "b-12": " -",
+      "c": "62mg",
+      "d": " -",
+      "e": "0.3mg",
+
+      "calcium": "20mg",
+      "iron": "0.25mg",
+      "magnesium": "21mg",
+      "phosphorus": "10mg",
+      "omega-3": " -",
+      "sodium": "8mg",
+      "zinc": "0.08mg"
+    },
+
+    {
+      "name": "Peach|Персик|Персик",
+      "description": "Peaches — are small fruit with a fuzzy peel and a sweet white or yellow flesh. Peaches are related to plums, apricots, and cherries. They're considered drupes or stone fruit because their flesh surrounds a shell that houses an edible seed.|Персики - маленькие фрукты с нечеткой кожурой и сладкой белой или желтой мясом.Персики связаны с сливами, абрикосами и вишней.Они считаются тущими или косточковыми плодами, потому что их плоть окружает раковину, в которой находится съедобное семя.|Персики - маленькі фрукти з нечіткою шкіркою і солодкою білою або жовтою плоттю.Персики пов'язані з сливами, абрикосами та вишнями.Вони вважаються припасами або кам'яними плодами, оскільки їх плоть оточує оболонку, в якій розміщено їстівне насіння.",
+
+      "calories": "39kcal",
+      "carbs": "9.54g",
+      "sugar": "8.39g",
+      "fiber": "1.5g",
+      "fat": "0.25g",
+      "protein": "0.91g",
+
+      "a": "16mcg",
+      "b-1": "0.024mg",
+      "b-3": "0.806mg",
+      "b-6": "0.025mg",
+      "b-9": "4mcg",
+      "b-12": " -",
+      "c": "6.6mg",
+      "d": " -",
+      "e": "0.73mg",
+
+      "calcium": "6mg",
+      "iron": "0.25mg",
+      "magnesium": "9mg",
+      "phosphorus": "20mg",
+      "omega-3": " -",
+      "sodium": "0.002mg",
+      "zinc": "0.17mg"
+    },
+
+    {
+      "name": "Pear|Груша|Груша",
+      "description": "Pears are a delicious, sweet, and juicy fruit. They grow naturally all around the world, but their origin, like many other fruits, lies in China.|Груши - вкусные, сладкие и сочные фрукты. Они растут естественным образом по всему миру, но их происхождение, как и многие другие фрукты, лежит в Китае.|Груші - це смачний, солодкий і соковитий фрукт. Вони природно ростуть у всьому світі, але їх походження, як і багато інших фруктів, лежить у Китаї.",
+
+      "calories": "57kcal",
+      "carbs": "15.23g",
+      "sugar": "9.75g",
+      "fiber": "3.1g",
+      "fat": "0.14g",
+      "protein": "0.36g",
+
+      "a": " -",
+      "b-1": "0.012mg",
+      "b-3": "0.161mg",
+      "b-6": "0.029mg",
+      "b-9": "7mcg",
+      "b-12": " -",
+      "c": "4.3mg",
+      "d": " -",
+      "e": "0.12mg",
+
+      "calcium": "9mg",
+      "iron": "0.18mg",
+      "magnesium": "7mg",
+      "phosphorus": "12mg",
+      "omega-3": " -",
+      "sodium": "1mg",
+      "zinc": "0.1mg"
+    },
+
+    {
+      "name": "Pineapple|Ананас|Ананас",
+      "description": "Pineapples are a sweet and slightly sour tropical fruit originating from South America. It is now very common in tropical regions of the world such as the Philippines and the Caribbean.|Ананасы - это сладкий и слегка кислый тропический фрукт, происходящий из Южной Америки. В настоящее время это очень распространено в тропических регионах мира, таких как Филиппины и Карибское бассейн.|Ананаси - це солодкі і злегка кислі тропічні фрукти, що походять з Південної Америки.Зараз він дуже поширений у тропічних регіонах світу, таких як Філіппіни та Карибський басейн.",
+
+      "calories": "50kcal",
+      "carbs": "13.12g",
+      "sugar": "9.85g",
+      "fiber": "1.4g",
+      "fat": "0.12g",
+      "protein": "0.54g",
+
+      "a": " -",
+      "b-1": "0.079mg",
+      "b-3": "0.5mg",
+      "b-6": "0.112mg",
+      "b-9": "18mcg",
+      "b-12": " -",
+      "c": "47.8mg",
+      "d": " -",
+      "e": " -",
+
+      "calcium": "13mg",
+      "iron": "0.29mg",
+      "magnesium": "12mg",
+      "phosphorus": "8mg",
+      "omega-3": " -",
+      "sodium": "1mg",
+      "zinc": "0.12mg"
+    },
+
+    {
+      "name": "Plum|Слива|Слива",
+      "description": "Plums are small and round purple fruit that have origins in China. Appearance wise, a dark purple skin surrounds the juicy flesh, which can range from yellow-orange to reddish-purple in color. Plums can either be eaten fresh or in their dried state, which is called a 'prune'.|Слины - это маленькие и круглые фиолетовые фрукты, которые имеют происхождение в Китае. Мудрый внешний вид, темно-фиолетовая кожа окружает сочную плоть, которая может варьироваться от желто-оранжевого до красновато-фиолетового цвета.Слины можно есть либо свежим, либо в их сушеном состоянии, которое называется «чернослива».|Сливи - це маленькі та круглі фіолетові фрукти, які мають походження в Китаї.Зовнішній вигляд мудра, темно-фіолетова шкіра оточує соковиту плоть, яка може варіюватися від жовто-помаранчевого до червонувато-фіолетового кольору. Сливу можна їсти свіжими, або в їх сушеному стані, що називається 'чорнослив'.",
+
+      "calories": "46kcal",
+      "carbs": "11.42g",
+      "sugar": "9.92g",
+      "fiber": "1.4g",
+      "fat": "0.28g",
+      "protein": "0.7g",
+
+      "a": "17mcg",
+      "b-1": "0.028mg",
+      "b-3": "0.026mg",
+      "b-6": "0.029mg",
+      "b-9": "5mcg",
+      "b-12": " -",
+      "c": "9.5mg",
+      "d": " -",
+      "e": "0.26mg",
+
+      "calcium": "6mg",
+      "iron": "0.17mg",
+      "magnesium": "7mg",
+      "phosphorus": "16mg",
+      "omega-3": " -",
+      "sodium": "0.001mg",
+      "zinc": "0.1mg"
+    },
+
+    {
+      "name": "Pomegranate|Гранат|Гранат",
+      "description": "Pomegranates are unique in appearance and taste. Nowadays, pomegranate cultivation is prevalent throughout dry and hot regions in the world. This interesting variety of fruit has a thick and firm red skin.|Гранаты уникальны по внешнему виду и вкусу. В настоящее время выращивание граната распространено в сухих и горячих регионах мира. Это интересное разнообразие фруктов имеет толстую и твердую красную кожу.|Гранати унікальні за зовнішнім виглядом та смаком.На сьогоднішній день вирощування граната є поширеним у сухих та гарячих регіонах у світі. Цей цікавий різноманітність фруктів має товсту і міцну червону шкіру.",
+
+      "calories": "83kcal",
+      "carbs": "18.7g",
+      "sugar": "13.67g",
+      "fiber": "4g",
+      "fat": "1.17g",
+      "protein": "1.67g",
+
+      "a": " -",
+      "b-1": "0.067mg",
+      "b-3": "0.293mg",
+      "b-6": "0.075g",
+      "b-9": "38mcg",
+      "b-12": " -",
+      "c": "10.2mg",
+      "d": " -",
+      "e": "0.6mg",
+
+      "calcium": "10mg",
+      "iron": "0.3mg",
+      "magnesium": "12mg",
+      "phosphorus": "36mg",
+      "omega-3": " -",
+      "sodium": "3mg",
+      "zinc": "0.35mg"
+    },
+
+    {
+      "name": "Raspberry|Малина|Малина",
+      "description": "Raspberries are one of the most commonly cultivated fruits in the world and they grow in temperate regions. Raspberries grow on raspberry bushes and the fruit itself is composed of dozens of small drups. The raspberry has a soft flesh with a slightly sweet and juicy taste.|Малина - один из наиболее часто культивируемых фруктов в мире, и они растут в умеренных регионах.Малика растут на малиновых кустах, а сам фрукты состоит из десятков небольших сопутствующих.Малину имеет мягкую мякоть со слегка сладким и сочным вкусом.|Момаса - одна з найпоширеніших культивованих фруктів у світі, і вони ростуть у помірних регіонах.Улона росте на малинові кущі, а сам фрукти складаються з десятків малих друпів.У малини є м’яка м’якоть з трохи солодким і соковитим смаком.",
+
+      "calories": "kcal",
+      "carbs": "11.94g",
+      "sugar": "4.42g",
+      "fiber": "6.5g",
+      "fat": "0.65g",
+      "protein": "1.2g",
+
+      "a": " -",
+      "b-1": "0.032mg",
+      "b-3": "0.598mg",
+      "b-6": "0.055mg",
+      "b-9": "21mcg",
+      "b-12": " -",
+      "c": "26.2mg",
+      "d": " -",
+      "e": "0.87mg",
+
+      "calcium": "25mg",
+      "iron": "0.69mg",
+      "magnesium": "22mg",
+      "phosphorus": "29mg",
+      "omega-3": " -",
+      "sodium": " -",
+      "zinc": "0.42mg"
+    },
+
+    {
+      "name": "Strawberry|Клубника|Полуниця",
+      "description": "The strawberry is one of the most common (and beloved) fruits in the world. Strawberries are thought to be berries, but this is not botanically true, and they are an accessory fruit. Commonly eaten fresh, with cream, or in a range of desserts, strawberries are a soft and sweet-tasting fruit.|Клубника является одним из наиболее распространенных (и любимых) фруктов в мире. Считается, что клубника - это ягоды, но это не ботанически верно, и они являются фруктом вспомогательного. Клубника, обычно съеденная в свежем виде, со сливками или в ряде десертов, представляет собой мягкий и сладкий фрукт.|Полуниця - одна з найпоширеніших (і улюблених) фруктів у світі. Вважається, що полуниця є ягодами, але це не ботанічно правдиво, і вони є аксесуарним плідом. Зазвичай їсти свіжим, з вершками або в різних десертах, полуниця-це м’який і солодкий смак.",
+
+      "calories": "33kcal",
+      "carbs": "7.68g",
+      "sugar": "4.89g",
+      "fiber": "2g",
+      "fat": "0.3g",
+      "protein": "0.67g",
+
+      "a": " -",
+      "b-1": "0.024mg",
+      "b-3": "0.386mg",
+      "b-6": "0.047mg",
+      "b-9": "24mcg",
+      "b-12": " -",
+      "c": "58.8mg",
+      "d": " -",
+      "e": "0.29mg",
+
+      "calcium": "16mg",
+      "iron": "0.41mg",
+      "magnesium": "13mg",
+      "phosphorus": "24mg",
+      "omega-3": " -",
+      "sodium": "1mg",
+      "zinc": "0.14mg"
+    },
+
+    {
+      "name": "Tangerine|Мандарин|Мандарин",
+      "description": "While sharing a similar taste, tangerines are a smaller size than oranges, and they are less round (flatter) in shape. However, they have a bigger taste – tangerines are sweeter and more flavorful than regular oranges. The tangerine also has a softer skin which is easier to peel, and this makes them an easy snack for when you're out of the house.|Разделяя аналогичный вкус, мандарины имеют меньший размер, чем апельсины, и они менее круглые (более плоские) в форме. Тем не менее, они имеют больший вкус - мандарины слаще и ароматны, чем обычные апельсины. У мандарина также есть более мягкая кожа, которую легче очистить, и это делает их легкой закуской, когда вы выходите из дома.|Розміщуючись аналогічним смаком, мандарини мають менший розмір, ніж апельсини, і вони менш круглі (більш плоскі) у формі.Однак у них більший смак - мандарини солодші та ароматніші, ніж звичайні апельсини.У мандарину також є більш м'яка шкіра, яку легше очистити, і це робить їх легкою закускою, коли ти поза домом.",
+
+      "calories": "53kcal",
+      "carbs": "13.34g",
+      "sugar": "10.58g",
+      "fiber": "1.8g",
+      "fat": "0.31g",
+      "protein": "0.81g",
+
+      "a": "34mcg",
+      "b-1": "0.058mg",
+      "b-3": "0.376mg",
+      "b-6": "0.078mg",
+      "b-9": "16mcg",
+      "b-12": " -",
+      "c": "26.7mg",
+      "d": " -",
+      "e": "0.2mg",
+
+      "calcium": "37mg",
+      "iron": "0.15mg",
+      "magnesium": "12mg",
+      "phosphorus": "20mg",
+      "omega-3": " -",
+      "sodium": "2mg",
+      "zinc": "0.07mg"
+    },
+
+    {
+      "name": "Watermelon|Арбуз|Кавун",
+      "description": "The origin of watermelons is Southern Africa, and it is a large fruit that grows in tropical and subtropical regions. As you might guess from the name, watermelons are another fruit with a high water content; 91.5% to be exact. The fruit can wildly vary in size, with some fruit being a few kilograms in weight, but others reaching gigantic proportions.|Происхождение арбузов - южная Африка, и это большой фрукт, который растет в тропических и субтропических регионах. Как вы можете догадаться, арбузы являются еще одним фруктом с высоким содержанием воды. 91,5%, если быть точным. Фрукты могут дико различаться по размеру, причем некоторые фрукты имеют вес в несколько килограммов, но другие достигают гигантских пропорций.|Походження кавунів є південною Африкою, і це великий плід, який росте в тропічних та субтропічних областях.Як ви могли здогадатися, з назви, кавуни - це ще один плід з високим вмістом води. 91,5%, якщо бути точним. Плід може дико змінюватись за розміром, при цьому деякі плоди мають вагу в декількох кілограмах, але інші досягають гігантських пропорцій.",
+
+      "calories": "30kcal",
+      "carbs": "7.55g",
+      "sugar": "6.2g",
+      "fiber": "0.4g",
+      "fat": "0.15g",
+      "protein": "0.61g",
+
+      "a": "28mcg",
+      "b-1": "0.033mg",
+      "b-3": "0.178mg",
+      "b-6": "0.045mg",
+      "b-9": " -",
+      "b-12": " -",
+      "c": "8.1mg",
+      "d": " -",
+      "e": " -",
+
+      "calcium": "7mg",
+      "iron": "0.24mg",
+      "magnesium": "10mg",
+      "phosphorus": "11g",
+      "omega-3": " -",
+      "sodium": "1mg",
+      "zinc": "0.1mg"
+    }
+
+  ]
 }

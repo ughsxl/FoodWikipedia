@@ -5,9 +5,11 @@ import android.bignerdranch.foodwikipedia.databinding.CategoryItemFragmentBindin
 import android.bignerdranch.foodwikipedia.model.ItemModel
 import android.bignerdranch.foodwikipedia.ui.repository.navigator
 import android.content.Context
+import android.content.Context.MODE_PRIVATE
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import kotlin.system.exitProcess
 
 
 class CategoryItemScreen : Fragment(R.layout.category_item_fragment) {
@@ -33,8 +35,18 @@ class CategoryItemScreen : Fragment(R.layout.category_item_fragment) {
 
 
     private fun setupUI() {
-        binding?.itemName?.text = item?.name
-        binding?.itemDescription?.text = item?.description
+        val preferences = activity?.getSharedPreferences(Settings.LANG_PREFERENCES, MODE_PRIVATE)
+        val currentLanguage = preferences?.getString(Settings.LANG_STATE, "en") ?: "en"
+
+        val langSeparator = when (currentLanguage) {
+            "en" -> 0
+            "ru" -> 1
+            "uk" -> 2
+            else -> exitProcess(0)
+        }
+
+        binding?.itemName?.text = item?.name?.split('|')?.get(langSeparator)
+        binding?.itemDescription?.text = item?.description?.split('|')?.get(langSeparator)
 
         binding?.caloriesValue?.text = getString(R.string.calories_value, item?.calories)
         binding?.carbsValue?.text = getString(R.string.carbs_value, item?.carbs)

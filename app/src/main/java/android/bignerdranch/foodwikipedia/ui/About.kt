@@ -35,6 +35,7 @@ class About: Fragment(R.layout.about_fragment) {
     private fun sendFeedback() {
         Intent(Intent.ACTION_SEND).also {
             it.type = "text/plain"
+            it.`package` = "com.google.android.gm"
             it.putExtra(Intent.EXTRA_EMAIL, arrayOf(getString(R.string.gmail)))
             it.putExtra(Intent.EXTRA_SUBJECT, "Feedback")
             startActivity(it)

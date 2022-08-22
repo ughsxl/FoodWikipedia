@@ -7,10 +7,12 @@ import android.bignerdranch.foodwikipedia.model.CategoryModel
 import android.bignerdranch.foodwikipedia.model.ItemModel
 import android.bignerdranch.foodwikipedia.ui.repository.navigator
 import android.content.Context
+import android.content.Context.MODE_PRIVATE
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.google.gson.Gson
+import kotlin.system.exitProcess
 
 class CategoryScreen: Fragment(R.layout.category_fragment) {
     private lateinit var binding: CategoryFragmentBinding
@@ -29,6 +31,8 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
     private var pickedItem = ""
     private var pickedItemIndex = 0
 
+    private var langSeparator = -1
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -38,7 +42,6 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
             category = arguments?.getString(CATEGORY_KEY) ?: ""
             categoryIcon = arguments?.getInt(CATEGORY_ICON_KEY) ?: 0
             categoryJsonString = arguments?.getString(CATEGORY_JSONSTRING_KEY) ?: ""
-            categoryItemName = arguments?.getString(CATEGORY_ITEM_NAME_KEY) ?: ""
         }
 
         representativesNames = ArrayList<String>()
@@ -66,15 +69,26 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
 
 
     private fun fetchCategoryInfo() {
+        val preferences = activity?.getSharedPreferences(Settings.LANG_PREFERENCES, MODE_PRIVATE)
+        val currentLanguage = preferences?.getString(Settings.LANG_STATE, "en") ?: "en"
+
+        langSeparator = when (currentLanguage) {
+            "en" -> 0
+            "ru" -> 1
+            "uk" -> 2
+            else -> exitProcess(0)
+        }
+
         if (categoryJsonString.isNotEmpty()) {
             val categoryObject = Gson().fromJson(categoryJsonString, CategoryModel::class.java)
 
-            categoryDescription = categoryObject.description
-            categoryMainRepresentatives = categoryObject.main_representatives
+            categoryDescription = categoryObject.description.split('|')[langSeparator]
+            categoryMainRepresentatives = categoryObject.main_representatives.split('|')[langSeparator]
+            categoryItemName = categoryObject.product_name.split('|')[langSeparator]
             categoryRepresentatives = categoryObject.representatives
 
             for (item in categoryRepresentatives) {
-                val itemName = item.name
+                val itemName = item.name.split('|')[langSeparator]
                 representativesNames += itemName
             }
         }
@@ -94,7 +108,7 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
                 pickedItem = items[pickedItemIndex]
 
                 for (item in categoryRepresentatives) {
-                    if (pickedItem == item.name) {
+                    if (pickedItem == item.name.split('|')[langSeparator]) {
                         navigator().launchFragment(parentFragmentManager,
                             CategoryItemScreen.newInstance(category, item))
                     }
@@ -122,14 +136,12 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
         private const val CATEGORY_KEY = "category_key"
         private const val CATEGORY_ICON_KEY = "category_icon_key"
         const val CATEGORY_JSONSTRING_KEY = "category_jsonstring_key"
-        private const val CATEGORY_ITEM_NAME_KEY = "category_item_name_key"
 
-        fun newInstance(category: String, categoryIcon: Int, jsonString: String, itemName: String): CategoryScreen {
+        fun newInstance(category: String, categoryIcon: Int, jsonString: String): CategoryScreen {
             val args = Bundle().apply {
                 putString(CATEGORY_KEY, category)
                 putInt(CATEGORY_ICON_KEY, categoryIcon)
                 putString(CATEGORY_JSONSTRING_KEY, jsonString)
-                putString(CATEGORY_ITEM_NAME_KEY, itemName)
             }
 
             val fragment = CategoryScreen()

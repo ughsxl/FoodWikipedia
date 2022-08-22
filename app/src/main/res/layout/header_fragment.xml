@@ -28,7 +28,7 @@
     <Button
         android:id="@+id/launchCategoryButton"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:layout_marginTop="16dp"
         android:text="@string/launch_category"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/pickCategoryButton"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:text="@string/pick_category"
         app:layout_constraintEnd_toEndOf="@+id/launchCategoryButton"
         app:layout_constraintStart_toStartOf="@+id/launchCategoryButton"
@@ -47,7 +47,7 @@
     <Button
         android:id="@+id/aboutButton"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="33dp"
         android:text="@string/about_label"
         app:layout_constraintBottom_toBottomOf="parent"

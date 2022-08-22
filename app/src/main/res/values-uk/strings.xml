@@ -70,15 +70,15 @@
 
     <!-- Food categories list -->
     <string-array name="categories_list">
-        <item>Vegetables</item>
-        <item>Fruits</item>
-        <item>Meat &amp; Freshwater Fish</item>
-        <item>Dairy</item>
-        <item>Grains</item>
-        <item>Legumes</item>
-        <item>Seafood</item>
-        <item>Nuts</item>
-        <item>Herbs &amp; Spices</item>
+        <item>Овочі</item>
+        <item>Фрукти</item>
+        <item>М\'ясо та Річкова Риба</item>
+        <item>Молочні продукти</item>
+        <item>Зерно</item>
+        <item>Боби</item>
+        <item>Морепродукти</item>
+        <item>Горіхи</item>
+        <item>Трави та Спеції</item>
     </string-array>
 
     <string name="fats_value">Жири: %s</string>

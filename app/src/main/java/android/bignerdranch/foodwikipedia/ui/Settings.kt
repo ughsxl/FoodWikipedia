@@ -3,6 +3,7 @@ package android.bignerdranch.foodwikipedia.ui
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.SettingsFragmentBinding
 import android.bignerdranch.foodwikipedia.model.LanguageModel
+import android.bignerdranch.foodwikipedia.ui.adapter.LanguageAdapter
 import android.bignerdranch.foodwikipedia.ui.repository.navigator
 import android.content.Context.MODE_PRIVATE
 import android.os.Bundle

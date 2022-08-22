@@ -21,7 +21,6 @@ class Header : Fragment(R.layout.header_fragment) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        selectedCategory = savedInstanceState?.getString("selected_category") ?: ""
     }
 
 
@@ -91,85 +90,87 @@ class Header : Fragment(R.layout.header_fragment) {
 
         if (binding.launchCategoryButton.text != getString(R.string.launch_category))
             when (selectedCategory) {
-                "Fruits", "Фрукты" -> {
+                "Fruits", "Фрукты", "Фрукти" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.fruits_icon,
-                            categoryJsonStrings["fruits"]!!,
-                            "fruit"))
+                            categoryJsonStrings["fruits"]!!
+                        ))
                 }
 
-                "Vegetables", "Овощи" -> {
+                "Vegetables", "Овощи", "Овочі" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.vegetables_icon,
-                            categoryJsonStrings["vegetables"]!!,
-                            "vegetable"))
+                            categoryJsonStrings["vegetables"]!!
+                        )
+                    )
                 }
 
-                "Meat & Freshwater Fish", "Мясо и Речная Рыба" -> {
+                "Meat & Freshwater Fish", "Мясо и Речная Рыба", "М'ясо та Річкова Риба" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.meat_and_fish_icon,
-                            categoryJsonStrings["meat_and_freshwater_fish"]!!,
-                            "meat or fish"))
+                            categoryJsonStrings["meat_and_freshwater_fish"]!!
+                        )
+                    )
                 }
 
-                "Dairy", "Молочные продукты" -> {
+                "Dairy", "Молочные продукты", "Молочні продукти" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.dairy_icon,
-                            categoryJsonStrings["dairy"]!!,
-                            "dairy"))
+                            categoryJsonStrings["dairy"]!!
+                        )
+                    )
                 }
 
-                "Grains", "Крупи" -> {
+                "Grains", "Крупы", "Крупи" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.grains_icon,
-                            categoryJsonStrings["grains"]!!,
-                            "grain"))
+                            categoryJsonStrings["grains"]!!
+                        )
+                    )
                 }
 
-                "Legumes", "Бобовые" -> {
+                "Legumes", "Бобовые", "Боби" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.legumes_icon,
-                            categoryJsonStrings["legumes"]!!,
-                            "legume"))
+                            categoryJsonStrings["legumes"]!!
+                        )
+                    )
                 }
 
-                "Seafood", "Морская еда" -> {
+                "Seafood", "Морепродукты", "Морепродукти" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.seafood_icon,
-                            categoryJsonStrings["seafood"]!!,
-                            "seafood"))
+                            categoryJsonStrings["seafood"]!!
+                        )
+                    )
                 }
 
-                "Nuts", "Орехи" -> {
+                "Nuts", "Орехи", "Горіхи" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.nuts_icon,
-                            categoryJsonStrings["nuts"]!!,
-                            "nuts"))
+                            categoryJsonStrings["nuts"]!!
+                         )
+                    )
                 }
 
-                "Herbs & Spices", "Травы и Специи" -> {
+                "Herbs & Spices", "Травы и Специи", "Трави та Спеції" -> {
                     navigator().launchFragment(parentFragmentManager,
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.herbs_and_spices_icon,
-                            categoryJsonStrings["herbs_and_spices"]!!,
-                            "herb or spice"))
+                            categoryJsonStrings["herbs_and_spices"]!!
+                        )
+                    )
                 }
             }
         else Toast.makeText(requireContext(), getString(R.string.first_pick_category_toast), Toast.LENGTH_SHORT).show()
-    }
-
-
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        outState.putString("selected_category", selectedCategory)
     }
 
 

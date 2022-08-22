@@ -1,4 +1,4 @@
-package android.bignerdranch.foodwikipedia.ui
+package android.bignerdranch.foodwikipedia.ui.adapter
 
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.model.LanguageModel
