@@ -15,7 +15,7 @@
     <string name="about_app_name">Ім\'я додатку: %s</string>
     <string name="about_version_code">Версія: %s</string>
     <string name="github_link">Проєкт: <a href="https://github.com/ughsxl/FoodWikipedia">https://github.com/ughsxl/FoodWikipedia</a></string>
-    <string name="thanks_to_label">Вдячність</string>
+    <string name="privacy_policy">Політика конфіденційності</string>
 
 
     <!-- Settings screen's strings -->

@@ -5,6 +5,7 @@ import android.bignerdranch.foodwikipedia.databinding.AboutFragmentBinding
 import android.bignerdranch.foodwikipedia.ui.repository.navigator
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
@@ -19,9 +20,9 @@ class About: Fragment(R.layout.about_fragment) {
         navigator().setAppTheme()
 
         binding.sendFeedbackButton.setOnClickListener { sendFeedback() }
+        binding.PrivacyPolicyLink.setOnClickListener { openPrivacyPolicy(getString(R.string.privacy_policy_link)) }
 
         binding.includedActionBar.arrowBack.setOnClickListener { activity?.onBackPressed() }
-
     }
 
 
@@ -40,6 +41,11 @@ class About: Fragment(R.layout.about_fragment) {
             it.putExtra(Intent.EXTRA_SUBJECT, "Feedback")
             startActivity(it)
         }
+    }
+
+    private fun openPrivacyPolicy(link: String) {
+        val uri = Uri.parse(link)
+        startActivity(Intent(Intent.ACTION_VIEW, uri))
     }
 
     override fun onResume() {

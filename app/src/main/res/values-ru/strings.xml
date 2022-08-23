@@ -15,7 +15,7 @@
     <string name="about_version_code">Версия: %s</string>
     <string name="github_link">Проект: <a href="https://github.com/ughsxl/FoodWikipedia">https://github.com/ughsxl/FoodWikipedia</a></string>
     <string name="send_feedback">Написать отзыв</string>
-    <string name="thanks_to_label">Благодарность</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
 
 
     <!-- Settings screen's strings -->

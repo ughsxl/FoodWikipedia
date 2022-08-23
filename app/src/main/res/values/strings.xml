@@ -4,6 +4,7 @@
     <string name="version_code" translatable="false">1.0</string>
 
     <string name="gmail" translatable="false">krupkoilla4@gmail.com</string>
+    <string name="privacy_policy_link" translatable="false">http://food-wikipedia-privacy-policy.tilda.ws/</string>
 
 
     <!-- Label strings -->
@@ -23,7 +24,7 @@
     <string name="about_version_code">Version: %s</string>
     <string name="github_link">Project link: <a href="https://github.com/ughsxl/FoodWikipedia">https://github.com/ughsxl/FoodWikipedia</a></string>
     <string name="send_feedback">Send feedback</string>
-    <string name="thanks_to_label">Thanks to</string>
+    <string name="privacy_policy">Privacy policy</string>
 
 
     <!-- Settings screen's strings -->
@@ -52,6 +53,8 @@
     <string name="calories_value">Calories: %s</string>
     <string name="fiber_value">Fiber: %s</string>
     <string name="sugar_value">Sugar: %s</string>
+    <string name="fats_value">Fats: %s</string>
+
 
     <string name="a_value">Vitamin A: %s</string>
     <string name="b1_value">Vitamin B-1: %s</string>
@@ -91,7 +94,4 @@
         <item>Nuts</item>
         <item>Herbs &amp; Spices</item>
     </string-array>
-
-    <string name="fats_value">Fats: %s</string>
-
 </resources>

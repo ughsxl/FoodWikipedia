@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color">
+
+    <include
+        android:id="@+id/includedActionBar"
+        layout="@layout/actionbar"/>
+
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="62sp"
+        tools:text="Fruits"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="14dp"
+        app:layout_constraintBottom_toTopOf="@id/category_description"
+        app:layout_constraintTop_toBottomOf="@id/includedActionBar"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/category_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/category_name"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@id/category_name"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/mainRepresentationsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/main_representatives_label"
+        android:textSize="46sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/category_name"
+        app:layout_constraintTop_toBottomOf="@id/category_description" />
+
+    <TextView
+        android:id="@+id/main_representations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@id/mainRepresentationsTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainRepresentationsTextView"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/pickItemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/pick_any_item_label"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_representations" />
+
+    <Button
+        android:id="@+id/pickItemButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/pickItemTextView"
+        app:layout_constraintStart_toStartOf="@+id/pickItemTextView"
+        app:layout_constraintTop_toBottomOf="@+id/pickItemTextView"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:text="@string/pick_label"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

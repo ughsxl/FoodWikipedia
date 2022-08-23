@@ -20,21 +20,39 @@
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/radio_text.xml" value="0.1505" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/thumb.xml" value="0.1845" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/drawable/track.xml" value="0.1845" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-large/about_fragment.xml" value="0.4189453125" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-large/actionbar.xml" value="0.4189453125" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-large/category_fragment.xml" value="0.4189453125" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-large/category_item_fragment.xml" value="0.4189453125" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-large/custom_languages_spinner.xml" value="0.4189453125" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-large/fragment_container.xml" value="0.4189453125" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-large/header_fragment.xml" value="0.4189453125" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-large/settings_fragment.xml" value="0.4" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-normal/category_item_fragment.xml" value="0.815625" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-normal/settings_fragment.xml" value="0.1834117144078666" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-small/about_fragment.xml" value="0.5748898678414097" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-small/actionbar.xml" value="0.5748898678414097" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-small/category_fragment.xml" value="0.5748898678414097" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-small/category_item_fragment.xml" value="0.5748898678414097" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-small/custom_languages_spinner.xml" value="0.5748898678414097" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-small/fragment_container.xml" value="0.5748898678414097" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-small/header_fragment.xml" value="0.5748898678414097" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-small/settings_fragment.xml" value="0.8" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout-v26/settings_fragment.xml" value="0.22239583333333332" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/about.xml" value="0.22239583333333332" />
-        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/about_fragment.xml" value="0.16" />
-        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/actionbar.xml" value="0.22239583333333332" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/about_fragment.xml" value="0.264" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/actionbar.xml" value="0.72" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/actionbar_dark_theme.xml" value="0.22239583333333332" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/actionbar_light_theme.xml" value="0.21807967313585291" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/category_fragment.xml" value="0.22239583333333332" />
-        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/category_item_fragment.xml" value="0.14285714285714285" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/category_item_fragment.xml" value="0.264" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/custom_languages_spinner.xml" value="0.22135416666666666" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/fragment_blank.xml" value="0.22239583333333332" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/fragment_container.xml" value="0.22239583333333332" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/fragment_fullscreen.xml" value="0.22239583333333332" />
-        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/header_fragment.xml" value="0.2" />
-        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/settings_fragment.xml" value="0.166796875" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/header_fragment.xml" value="0.6" />
+        <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/settings_fragment.xml" value="0.2" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/layout/settings_fragment_.xml" value="0.22239583333333332" />
         <entry key="..\:/Not System/Programming/FoodWikipedia/app/src/main/res/xml/root_preferences.xml" value="0.22239583333333332" />
       </map>
