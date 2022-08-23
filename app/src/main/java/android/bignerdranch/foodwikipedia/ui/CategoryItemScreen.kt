@@ -92,11 +92,11 @@ class CategoryItemScreen : Fragment(R.layout.category_item_fragment) {
         val theme = preferences?.getString(Settings.THEME_STATE, "none")
 
         when (theme) {
-            "Light" -> {
+            "Light", "Светлая", "Світла" -> {
                 binding?.includedActionBar?.arrowBack?.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
                 binding?.includedActionBar?.toSettingsImageButton?.setImageResource(R.drawable.ic_baseline_home_light_24)
             }
-            "Dark" -> {
+            "Dark", "Тёмная", "Темна" -> {
                 binding?.includedActionBar?.arrowBack?.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
                 binding?.includedActionBar?.toSettingsImageButton?.setImageResource(R.drawable.ic_baseline_home_dark_24)
             }

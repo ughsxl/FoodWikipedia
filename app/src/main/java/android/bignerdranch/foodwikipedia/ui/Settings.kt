@@ -10,7 +10,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.RadioButton
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 
 class Settings : Fragment(R.layout.settings_fragment) {
@@ -34,9 +33,9 @@ class Settings : Fragment(R.layout.settings_fragment) {
             ?.getString(THEME_STATE, "none")
 
         when (pickedTheme) {
-            "Light", "none" -> binding.lightThemeRadio.isChecked = true
-            "Dark" -> binding.darkThemeRadio.isChecked = true
-            else -> Toast.makeText(requireContext(), getString(R.string.an_error_occurred_toast), Toast.LENGTH_SHORT).show()
+            "Light", "Светлая", "Світла", "none" -> binding.lightThemeRadio.isChecked = true
+            "Dark", "Тёмная", "Темна" -> binding.darkThemeRadio.isChecked = true
+            else -> Unit
         }
 
         navigator().setAppTheme()
@@ -51,13 +50,13 @@ class Settings : Fragment(R.layout.settings_fragment) {
             val preferences = activity?.getSharedPreferences(THEME_PREFERENCES, MODE_PRIVATE)
             val theme = preferences?.getString(THEME_STATE, "none")
 
-            if (theme == "Light") {
+            if (theme == "Light" || theme == "Светлая" || theme == "Світла") {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
                 binding.musicState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
                 binding.themeState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
                 binding.languageState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
             }
-            else if (theme == "Dark") {
+            else if (theme == "Dark" || theme == "Тёмная" || theme ==  "Темна") {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
                 binding.musicState.setTextColor(activity?.resources?.getColor(R.color.white)!!)
                 binding.themeState.setTextColor(activity?.resources?.getColor(R.color.white)!!)
@@ -73,7 +72,7 @@ class Settings : Fragment(R.layout.settings_fragment) {
         binding.languageSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 val currentItem = parent?.selectedItem
-                val languageCode = (parent?.selectedItem as LanguageModel).languageCode
+                val languageCode = (currentItem as LanguageModel).languageCode
 
                 val currentLanguageCode = activity?.getSharedPreferences(LANG_PREFERENCES, MODE_PRIVATE)?.getString(LANG_STATE, "en") ?: "en"
                 if (languageCode != currentLanguageCode) {
@@ -140,12 +139,12 @@ class Settings : Fragment(R.layout.settings_fragment) {
         val preferences = activity?.getSharedPreferences(THEME_PREFERENCES, MODE_PRIVATE)
         val theme = preferences?.getString(THEME_STATE, "none")
 
-        if (theme == "Dark") {
+        if (theme == "Dark" || theme == "Тёмная" || theme ==  "Темна") {
             binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
             binding.musicState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
             binding.themeState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
             binding.languageState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
-        } else if (theme == "Light") {
+        } else if (theme == "Light" || theme == "Светлая" || theme == "Світла") {
             binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
             binding.musicState.setTextColor(activity?.resources?.getColor(R.color.white)!!)
             binding.themeState.setTextColor(activity?.resources?.getColor(R.color.white)!!)

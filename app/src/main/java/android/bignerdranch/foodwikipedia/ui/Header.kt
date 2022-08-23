@@ -204,12 +204,12 @@ class Header : Fragment(R.layout.header_fragment) {
         val theme = preferences?.getString(Settings.THEME_STATE, "none")
 
         when (theme) {
-            "Light" -> {
+            "Light", "Светлая", "Світла" -> {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_exit_to_app_light_24)
                 binding.includedActionBar.screenLabel.setTextColor(activity?.resources?.getColor(R.color.white)!!)
                 binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_settings_light_24)
             }
-            "Dark" -> {
+            "Dark", "Тёмная", "Темна" -> {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_exit_to_app_dark_24)
                 binding.includedActionBar.screenLabel.setTextColor(activity?.resources?.getColor(R.color.black)!!)
                 binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_settings_dark_24)

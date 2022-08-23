@@ -9,12 +9,10 @@ import android.media.MediaPlayer
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.commit
-import kotlin.system.exitProcess
 
 class FragmentContainer: AppCompatActivity(), Repository {
     private val binding by lazy {
@@ -93,10 +91,7 @@ class FragmentContainer: AppCompatActivity(), Repository {
 
             }
             "none" -> Unit
-            else ->{
-                Toast.makeText(this, getString(R.string.an_error_occurred_toast), Toast.LENGTH_SHORT).show()
-                exitProcess(0)
-            }
+            else -> Unit
         }
     }
 
