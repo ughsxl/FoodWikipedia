@@ -34,8 +34,8 @@ class Settings : Fragment(R.layout.settings_fragment) {
             ?.getString(THEME_STATE, "none")
 
         when (pickedTheme) {
-            "Light", "none" -> binding.lightThemeRadio.isChecked = true
-            "Dark" -> binding.darkThemeRadio.isChecked = true
+            getString(R.string.light_theme_radio_button), "none"  -> binding.lightThemeRadio.isChecked = true
+            getString(R.string.dark_theme_radio_button) -> binding.darkThemeRadio.isChecked = true
             else -> Toast.makeText(requireContext(), getString(R.string.an_error_occurred_toast), Toast.LENGTH_SHORT).show()
         }
 
@@ -51,13 +51,13 @@ class Settings : Fragment(R.layout.settings_fragment) {
             val preferences = activity?.getSharedPreferences(THEME_PREFERENCES, MODE_PRIVATE)
             val theme = preferences?.getString(THEME_STATE, "none")
 
-            if (theme == "Light") {
+            if (theme == getString(R.string.light_theme_radio_button)) {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
                 binding.musicState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
                 binding.themeState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
                 binding.languageState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
             }
-            else if (theme == "Dark") {
+            else if (theme == getString(R.string.dark_theme_radio_button)) {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
                 binding.musicState.setTextColor(activity?.resources?.getColor(R.color.white)!!)
                 binding.themeState.setTextColor(activity?.resources?.getColor(R.color.white)!!)
@@ -140,12 +140,12 @@ class Settings : Fragment(R.layout.settings_fragment) {
         val preferences = activity?.getSharedPreferences(THEME_PREFERENCES, MODE_PRIVATE)
         val theme = preferences?.getString(THEME_STATE, "none")
 
-        if (theme == "Dark") {
+        if (theme == getString(R.string.dark_theme_radio_button)) {
             binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
             binding.musicState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
             binding.themeState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
             binding.languageState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
-        } else if (theme == "Light") {
+        } else if (theme == getString(R.string.light_theme_radio_button)) {
             binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
             binding.musicState.setTextColor(activity?.resources?.getColor(R.color.white)!!)
             binding.themeState.setTextColor(activity?.resources?.getColor(R.color.white)!!)

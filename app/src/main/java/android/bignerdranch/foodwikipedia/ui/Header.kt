@@ -19,15 +19,10 @@ class Header : Fragment(R.layout.header_fragment) {
     private var selectedCategory = ""
     private var selectedCategoryIndex = 0
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = HeaderFragmentBinding.bind(view)
-
 
         setupUI()
     }
@@ -204,12 +199,12 @@ class Header : Fragment(R.layout.header_fragment) {
         val theme = preferences?.getString(Settings.THEME_STATE, "none")
 
         when (theme) {
-            "Light" -> {
+            getString(R.string.light_theme_radio_button) -> {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_exit_to_app_light_24)
                 binding.includedActionBar.screenLabel.setTextColor(activity?.resources?.getColor(R.color.white)!!)
                 binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_settings_light_24)
             }
-            "Dark" -> {
+            getString(R.string.dark_theme_radio_button) -> {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_exit_to_app_dark_24)
                 binding.includedActionBar.screenLabel.setTextColor(activity?.resources?.getColor(R.color.black)!!)
                 binding.includedActionBar.toSettingsImageButton.setImageResource(R.drawable.ic_baseline_settings_dark_24)

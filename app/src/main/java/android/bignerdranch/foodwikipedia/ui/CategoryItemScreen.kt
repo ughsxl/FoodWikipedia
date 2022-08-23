@@ -92,11 +92,11 @@ class CategoryItemScreen : Fragment(R.layout.category_item_fragment) {
         val theme = preferences?.getString(Settings.THEME_STATE, "none")
 
         when (theme) {
-            "Light" -> {
+            getString(R.string.light_theme_radio_button) -> {
                 binding?.includedActionBar?.arrowBack?.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
                 binding?.includedActionBar?.toSettingsImageButton?.setImageResource(R.drawable.ic_baseline_home_light_24)
             }
-            "Dark" -> {
+            getString(R.string.dark_theme_radio_button) -> {
                 binding?.includedActionBar?.arrowBack?.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
                 binding?.includedActionBar?.toSettingsImageButton?.setImageResource(R.drawable.ic_baseline_home_dark_24)
             }

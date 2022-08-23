@@ -96,7 +96,7 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
 
 
     private fun showCategoryItemDialog() {
-        val items = representativesNames.toTypedArray()
+        val items = representativesNames.sorted().toTypedArray()
 
         AlertDialog.Builder(requireContext())
             .setTitle("Pick item")
@@ -125,8 +125,8 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
         val theme = preferences?.getString(Settings.THEME_STATE, "none")
 
         when (theme) {
-            "Light" -> binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
-            "Dark" -> binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
+            getString(R.string.light_theme_radio_button) -> binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
+            getString(R.string.dark_theme_radio_button) -> binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
             else -> Unit
         }
     }
