@@ -1,4 +1,4 @@
-package android.bignerdranch.foodwikipedia.ui
+package android.bignerdranch.foodwikipedia.ui.screen
 
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.SettingsFragmentBinding
@@ -74,7 +74,8 @@ class Settings : Fragment(R.layout.settings_fragment) {
                 val currentItem = parent?.selectedItem
                 val languageCode = (currentItem as LanguageModel).languageCode
 
-                val currentLanguageCode = activity?.getSharedPreferences(LANG_PREFERENCES, MODE_PRIVATE)?.getString(LANG_STATE, "en") ?: "en"
+                val currentLanguageCode = activity?.getSharedPreferences(LANG_PREFERENCES, MODE_PRIVATE)?.getString(
+                    LANG_STATE, "en") ?: "en"
                 if (languageCode != currentLanguageCode) {
                     view?.isSelected = true
                     setLanguagePreferences(languageCode)

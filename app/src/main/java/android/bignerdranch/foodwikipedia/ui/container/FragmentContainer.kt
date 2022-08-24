@@ -1,8 +1,10 @@
-package android.bignerdranch.foodwikipedia.ui
+package android.bignerdranch.foodwikipedia.ui.container
 
 import android.bignerdranch.foodwikipedia.R
 import android.bignerdranch.foodwikipedia.databinding.FragmentContainerBinding
 import android.bignerdranch.foodwikipedia.ui.repository.Repository
+import android.bignerdranch.foodwikipedia.ui.screen.Header
+import android.bignerdranch.foodwikipedia.ui.screen.Settings
 import android.bignerdranch.foodwikipedia.utils.LanguageConfig
 import android.content.Context
 import android.media.MediaPlayer

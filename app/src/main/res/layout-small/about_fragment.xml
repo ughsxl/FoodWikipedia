@@ -8,7 +8,7 @@
     android:background="@color/background_color"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.About" >
+    tools:context=".ui.screen.About" >
 
     <include layout="@layout/actionbar"
         android:id="@+id/includedActionBar"/>

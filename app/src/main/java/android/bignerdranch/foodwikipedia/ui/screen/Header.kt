@@ -1,4 +1,4 @@
-package android.bignerdranch.foodwikipedia.ui
+package android.bignerdranch.foodwikipedia.ui.screen
 
 import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.R
@@ -157,7 +157,7 @@ class Header : Fragment(R.layout.header_fragment) {
                         CategoryScreen.newInstance(selectedCategory,
                             R.drawable.nuts_icon,
                             categoryJsonStrings["nuts"]!!
-                         )
+                        )
                     )
                 }
 

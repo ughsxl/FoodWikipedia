@@ -8,7 +8,7 @@
     android:background="@color/background_color"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.About" >
+    tools:context=".ui.screen.About" >
 
     <include layout="@layout/actionbar"
         android:id="@+id/includedActionBar"/>
@@ -74,6 +74,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="16dp"
         android:text="@string/privacy_policy"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

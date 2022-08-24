@@ -18,7 +18,7 @@
         tools:targetApi="31">
         <activity
             android:screenOrientation="portrait"
-            android:name="android.bignerdranch.foodwikipedia.ui.FragmentContainer"
+            android:name="android.bignerdranch.foodwikipedia.ui.container.FragmentContainer"
             android:exported="true" >
 
             <intent-filter>

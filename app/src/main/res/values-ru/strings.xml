@@ -68,15 +68,15 @@
 
     <!-- Food categories list -->
     <string-array name="categories_list">
-        <item>Овощи</item>
-        <item>Фрукты</item>
-        <item>Мясо и Речная Рыба</item>
-        <item>Молочные продукты</item>
-        <item>Крупы</item>
         <item>Бобовые</item>
+        <item>Крупы</item>
+        <item>Молочные продукты</item>
         <item>Морепродукты</item>
+        <item>Мясо и Речная Рыба</item>
+        <item>Овощи</item>
         <item>Орехи</item>
         <item>Травы и Специи</item>
+        <item>Фрукты</item>
     </string-array>
 
     <string name="about_label">О приложении</string>

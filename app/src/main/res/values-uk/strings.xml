@@ -70,15 +70,15 @@
 
     <!-- Food categories list -->
     <string-array name="categories_list">
-        <item>Овочі</item>
-        <item>Фрукти</item>
+        <item>Боби</item>
+        <item>Горіхи</item>
+        <item>Крупи</item>
         <item>М\'ясо та Річкова Риба</item>
         <item>Молочні продукти</item>
-        <item>Зерно</item>
-        <item>Боби</item>
         <item>Морепродукти</item>
-        <item>Горіхи</item>
+        <item>Овочі</item>
         <item>Трави та Спеції</item>
+        <item>Фрукти</item>
     </string-array>
 
     <string name="fats_value">Жири: %s</string>

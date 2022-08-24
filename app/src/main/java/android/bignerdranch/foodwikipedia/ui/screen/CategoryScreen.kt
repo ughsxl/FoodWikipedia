@@ -1,4 +1,4 @@
-package android.bignerdranch.foodwikipedia.ui
+package android.bignerdranch.foodwikipedia.ui.screen
 
 import android.app.AlertDialog
 import android.bignerdranch.foodwikipedia.R
@@ -96,7 +96,7 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
 
 
     private fun showCategoryItemDialog() {
-        val items = representativesNames.toTypedArray()
+        val items = representativesNames.sorted().toTypedArray()
 
         AlertDialog.Builder(requireContext())
             .setTitle("Pick item")
