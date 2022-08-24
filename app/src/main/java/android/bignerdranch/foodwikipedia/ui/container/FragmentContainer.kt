@@ -61,7 +61,7 @@ class FragmentContainer: AppCompatActivity(), Repository {
         val pickedTheme = preferences.getString(Settings.THEME_STATE, "none")
 
         when (pickedTheme) {
-            getString(R.string.light_theme_radio_button) ->  {
+            "Light", "Светлая", "Світла" ->  {
                 setTheme(R.style.Theme_FoodWikipedia_Light)
 
                 try {
@@ -77,7 +77,7 @@ class FragmentContainer: AppCompatActivity(), Repository {
                 } catch (e: Exception) {}
 
             }
-            getString(R.string.dark_theme_radio_button) -> {
+            "Dark", "Тёмная", "Темна" -> {
                 setTheme(R.style.Theme_FoodWikipedia_Night)
 
                 try {

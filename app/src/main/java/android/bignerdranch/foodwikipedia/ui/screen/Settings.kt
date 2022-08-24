@@ -47,25 +47,26 @@ class Settings : Fragment(R.layout.settings_fragment) {
 
 
         binding.themeRadioGroup.setOnCheckedChangeListener { group, checkedId ->
+            val checkedRadio = group.findViewById(checkedId) as RadioButton
+            setThemePreferences(checkedRadio)
+            binding.includedActionBar.toSettingsImageButton.visibility = View.INVISIBLE
+
             val preferences = activity?.getSharedPreferences(THEME_PREFERENCES, MODE_PRIVATE)
             val theme = preferences?.getString(THEME_STATE, "none")
 
-            if (theme == "Light" || theme == "Светлая" || theme == "Світла") {
+            if (theme == "Dark" || theme == "Тёмная" || theme ==  "Темна") {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_dark_24)
                 binding.musicState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
                 binding.themeState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
                 binding.languageState.setTextColor(activity?.resources?.getColor(R.color.black)!!)
             }
-            else if (theme == "Dark" || theme == "Тёмная" || theme ==  "Темна") {
+            else if (theme == "Light" || theme == "Светлая" || theme == "Світла") {
                 binding.includedActionBar.arrowBack.setImageResource(R.drawable.ic_baseline_arrow_back_light_24)
                 binding.musicState.setTextColor(activity?.resources?.getColor(R.color.white)!!)
                 binding.themeState.setTextColor(activity?.resources?.getColor(R.color.white)!!)
                 binding.languageState.setTextColor(activity?.resources?.getColor(R.color.white)!!)
             }
 
-            val checkedRadio = group.findViewById(checkedId) as RadioButton
-            setThemePreferences(checkedRadio)
-            binding.includedActionBar.toSettingsImageButton.visibility = View.INVISIBLE
 
         }
 

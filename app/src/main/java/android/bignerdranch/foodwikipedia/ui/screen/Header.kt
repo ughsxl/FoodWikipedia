@@ -19,10 +19,6 @@ class Header : Fragment(R.layout.header_fragment) {
     private var selectedCategory = ""
     private var selectedCategoryIndex = 0
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
