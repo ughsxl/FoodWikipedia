@@ -38,7 +38,7 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
     private var langSeparator = -1
 
     private lateinit var mInterstitionalAd: InterstitialAd
-    val AD_UNIT_ID = getString(R.string.admob_interstitial_ad_id)
+    private val AD_UNIT_ID = "ca-app-pub-3467896291108690/8190985944"
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
