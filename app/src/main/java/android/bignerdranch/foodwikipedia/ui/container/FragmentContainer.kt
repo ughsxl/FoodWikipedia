@@ -16,6 +16,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.commit
 
+
 class FragmentContainer: AppCompatActivity(), Repository {
     private val binding by lazy {
         FragmentContainerBinding.inflate(layoutInflater)
@@ -28,13 +29,13 @@ class FragmentContainer: AppCompatActivity(), Repository {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+
         setMusic()
         setAppTheme()
 
         if (savedInstanceState == null) {
             replaceFragments(supportFragmentManager, Header.newInstance())
         }
-
     }
 
      override fun setMusic() {
@@ -147,4 +148,5 @@ class FragmentContainer: AppCompatActivity(), Repository {
         mediaPlayer?.stop()
         mediaPlayer?.release()
     }
+
 }

@@ -81,6 +81,7 @@
 
     <string name="about_label">О приложении</string>
     <string name="launch_category">Узнать</string>
+    <string name="cancel_label">Отмена</string>
     <string name="main_representatives_label">Основные продукты</string>
     <string name="fats_value">Жиры: %s</string>
     <string name="confirm_button_label">Подтвердить</string>

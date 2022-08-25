@@ -186,6 +186,8 @@ class Header : Fragment(R.layout.header_fragment) {
                 selectedCategoryIndex = (dialog as AlertDialog).listView.checkedItemPosition
             }
 
+            .setNeutralButton(getString(R.string.cancel_label), null)
+
             .setPositiveButton(R.string.pick_label) { dialog, _ ->
                 selectedCategoryIndex = (dialog as AlertDialog).listView.checkedItemPosition
                 selectedCategory = categories?.get(selectedCategoryIndex) ?: ""

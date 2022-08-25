@@ -11,6 +11,10 @@ import android.content.Context.MODE_PRIVATE
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import com.google.android.gms.ads.AdListener
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.InterstitialAd
+import com.google.android.gms.ads.MobileAds
 import com.google.gson.Gson
 import kotlin.system.exitProcess
 
@@ -33,10 +37,29 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
 
     private var langSeparator = -1
 
+    private lateinit var mInterstitionalAd: InterstitialAd
+    val AD_UNIT_ID = "ca-app-pub-3467896291108690/8190985944"
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding = CategoryFragmentBinding.bind(view)
+
+
+        MobileAds.initialize(requireActivity()) {}
+
+        mInterstitionalAd = InterstitialAd(requireActivity())
+        mInterstitionalAd.adUnitId = AD_UNIT_ID
+
+        mInterstitionalAd.loadAd(AdRequest.Builder().build())
+
+        mInterstitionalAd.adListener = object : AdListener() {
+            override fun onAdClosed() {
+                mInterstitionalAd.loadAd(AdRequest.Builder().build())
+                launchCategoryItem()
+            }
+        }
+
 
         if (arguments != null) {
             category = arguments?.getString(CATEGORY_KEY) ?: ""
@@ -94,25 +117,39 @@ class CategoryScreen: Fragment(R.layout.category_fragment) {
         }
     }
 
+    private fun launchInterstitionalAd() {
+        if (mInterstitionalAd.isLoaded) {
+            mInterstitionalAd.show()
+        } else {
+            launchCategoryItem()
+        }
+    }
+
+    private fun launchCategoryItem() {
+        for (item in categoryRepresentatives) {
+            if (pickedItem == item.name.split('|')[langSeparator]) {
+                navigator().launchFragment(parentFragmentManager,
+                    CategoryItemScreen.newInstance(category, item))
+            }
+        }
+    }
+
 
     private fun showCategoryItemDialog() {
         val items = representativesNames.sorted().toTypedArray()
 
-        AlertDialog.Builder(requireContext())
-            .setTitle("Pick item")
+        AlertDialog.Builder(requireActivity())
+            .setTitle(getString(R.string.pick_label))
             .setSingleChoiceItems(items, pickedItemIndex) { dialog, _ ->
                 pickedItemIndex = (dialog as AlertDialog).listView.checkedItemPosition
             }
-            .setPositiveButton("Discover") { dialog, _ ->
+
+            .setNeutralButton(getString(R.string.cancel_label), null)
+
+            .setPositiveButton(getString(R.string.launch_category)) { dialog, _ ->
                 pickedItemIndex = (dialog as AlertDialog).listView.checkedItemPosition
                 pickedItem = items[pickedItemIndex]
-
-                for (item in categoryRepresentatives) {
-                    if (pickedItem == item.name.split('|')[langSeparator]) {
-                        navigator().launchFragment(parentFragmentManager,
-                            CategoryItemScreen.newInstance(category, item))
-                    }
-                }
+                launchInterstitionalAd()
             }
             .create()
             .show()

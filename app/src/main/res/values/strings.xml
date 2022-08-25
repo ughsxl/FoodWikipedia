@@ -78,6 +78,7 @@
     <!-- Core strings -->
     <string name="confirm_button_label">Confirm</string>
     <string name="pick_label">Pick</string>
+    <string name="cancel_label">Cancel</string>
     <string name="first_pick_category_toast">First pick a category</string>
     <string name="an_error_occurred_toast">An error occurred</string>
 

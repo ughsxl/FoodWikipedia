@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="android.bignerdranch.foodwikipedia">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:configChanges="locale"
@@ -16,6 +18,15 @@
         android:theme="@style/Theme.FoodWikipedia.Light"
         tools:ignore="LockedOrientationActivity"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3467896291108690~7480539506" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
             android:screenOrientation="portrait"
             android:name="android.bignerdranch.foodwikipedia.ui.container.FragmentContainer"
@@ -28,6 +39,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        
     </application>
 
 </manifest>

@@ -83,5 +83,6 @@
 
     <string name="fats_value">Жири: %s</string>
     <string name="launch_category">Дізнатись</string>
+    <string name="cancel_label">Вийти</string>
     <string name="send_feedback">Надіслати відгук</string>
 </resources>
