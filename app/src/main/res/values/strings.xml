@@ -95,4 +95,9 @@
         <item>Seafood</item>
         <item>Vegetables</item>
     </string-array>
+
+    <!-- ad id's -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3467896291108690~7480539506</string>
+    <string name="admob_interstitial_ad_id" translatable="false">ca-app-pub-3467896291108690/8190985944</string>
+    <string name="admob_start_ad_id" translatable="false">ca-app-pub-3467896291108690/5015309649</string>
 </resources>

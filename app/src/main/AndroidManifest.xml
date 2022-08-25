@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
+        android:name="android.bignerdranch.foodwikipedia.ui.application.App"
         android:configChanges="locale"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,11 +18,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodWikipedia.Light"
         tools:ignore="LockedOrientationActivity"
-        tools:targetApi="31">
+        tools:targetApi="32">
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3467896291108690~7480539506" />
+            android:value="@string/admob_app_id" />
 
         <meta-data
             android:name="com.google.android.gms.version"
